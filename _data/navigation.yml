@@ -1,0 +1,106 @@
+# main links
+main:
+  - title: "Schedule"
+    url: /schedule/00-overview
+  - title: "Assessments"
+    url: /assessments/01-overview
+  - title: "Policies"
+    url: /policies
+  - title: "Resources"
+    url: /materials/intro-ai-cli/01-course-ai-tools
+
+assessments:
+  - title: Assessments
+    children:
+      - title: "Overview"
+        url: /assessments/01-overview
+      - title: "Weekly Assignments"
+        url: /assessments/02-weekly-assessments
+      - title: "Semester Long Project"
+        url: /assessments/03-semester-project
+
+materials:
+  - title: Introductions & Installations
+    children:
+      - title: "Course Software & Tools"
+        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Introduction to the Command Line"
+        url: /materials/introducing-humanities-computing/02-intro-to-cli
+      - title: "Introduction to Git & GitHub"
+        url: /materials/introducing-humanities-computing/03-intro-to-git
+      - title: "Introduction to File Formats"
+        url: /materials/introducing-humanities-computing/04-intro-to-file-formats
+
+schedule:
+  - title: Overview
+    children:
+      - title: "Schedule Overview"
+        url: /schedule/00-overview
+  - title: January Detailed Activities
+    children:
+      - title: "<b>January 16</b><br> Introducing Computing in the Humanities"
+        url: /schedule/01-introducing-computing-in-the-humanities/
+      - title: "<b>January 18</b><br> Programming and Processing"
+        url: /schedule/02-programming-and-processing/
+      - title: "<b>January 23</b><br> Change over Time & Histories of Computing"
+        url: /schedule/03-change-over-time-histories-of-computing/
+      - title: "<b>January 25</b><br> Version & File Histories"
+        url: /schedule/04-version-file-histories/
+      - title: "<b>January 30</b><br> Power Hierarchies & Histories of Data"
+        url: /schedule/05-power-hierachies-and-histories-of-data
+  - title: February Detailed Activities
+    children:
+      - title: "<b>February 1</b><br> Markup & Scrape Off"
+        url: /schedule/06-markup-and-scrape-off
+      - title:  "<b>February 6</b><br> Culture as Data & Data Cultures"
+        url:  /schedule/07-culture-as-data-and-data-cultures
+      - title:  "<b>February 8</b><br> GETting Data"
+        url: /schedule/08-getting-data
+      - title:  "<b>February 13</b><br> Culture at Scale & Digital Collections"
+        url: /schedule/09-culture-at-scale-and-digital-collections
+      - title:  "<b>February 15</b><br> Structuring Data"
+        url: /schedule/10-structuring-data
+      - title:  "<b>February 20</b><br> T(r)ending & Cleaning"
+        url:  /schedule/11-trending-and-cleaning
+      - title:  "<b>February 22</b><br> Curate & Collect"
+        url: /schedule/12-curate-and-collect
+      - title:  "<b>February 27</b><br> Making A Point"
+        url:  /schedule/13-making-a-point
+      - title:  "<b>February 29</b><br> Making A Point, Again"
+        url: /schedule/14-making-a-point-again
+  - title: March Detailed Activities
+    children:
+      - title: "<b>March 5</b><br> Patterns & Outliers"
+        url: /schedule/15-patterns-and-outliers
+      - title: "<b>March 7</b><br> Making It Count"
+        url: /schedule/16-making-it-count
+      - title: "<b>March 12 & 14</b><br> SPRING BREAK"
+        url: /schedule/00-overview
+      - title: "<b>March 19</b><br> Names & Topics"
+        url: /schedule/17-names-and-topics
+      - title: "<b>March 21</b><br> Places & Spaces"
+        url: /schedule/18-places-and-spaces
+      - title: "<b>March 26</b><br> Connecting the Dots"
+        url: /schedule/19-connecting-the-dots
+      - title: "<b>March 28</b><br> Nodes & Edges"
+        url: /schedule/20-nodes-and-edges
+  - title: April Detailed Activities
+    children:
+      - title: "<b>April 2</b><br> Seeing Like A Computer"
+        url: /schedule/21-seeing-like-a-computer
+      - title: "<b>April 4</b><br> A Thousand Pictures"
+        url: /schedule/22-a-thousand-pictures
+      - title: "<b>April 9</b><br> Predicting the Past"
+        url: /schedule/23-predicting-the-past
+      - title: "<b>April 11</b><br> Modeling the Future"
+        url: /schedule/24-modeling-the-future
+      - title: "<b>April 16</b><br> Preservation & Publications"
+        url: /schedule/25-preservation-and-publications
+      - title: "<b>April 18</b><br> Serving Looks"
+        url: /schedule/26-serving-looks
+      - title: "<b>April 23</b><br> TBD: Open Topic"
+        url: /schedule/27-tbd-open-topic
+      - title: "<b>April 25</b><br> Review & Reflect"
+        url: /schedule/28-review-and-reflect
+      - title: "<b>April 30</b><br> Future Horizons & Final Projects"
+        url: /schedule/29-future-horizons-and-final-projects
