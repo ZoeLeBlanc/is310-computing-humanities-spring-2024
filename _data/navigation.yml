@@ -7,7 +7,7 @@ main:
   - title: "Policies"
     url: /policies
   - title: "Resources"
-    url: /materials/intro-ai-cli/01-course-ai-tools
+    url: /materials/introducing-humanities-computing/01-course-tools
 
 assessments:
   - title: Assessments

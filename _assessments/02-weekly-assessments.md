@@ -25,7 +25,7 @@ Overall, remember the goal is not to detail everything the author or creator say
 
 One way to demonstrate your engagement with the weekly materials is to participate in our weekly seminar discussions. Your contributions could be in the form of questions about complex or confusing concepts in the readings, connections that you want to share across the assigned materials, or feedback and responding to peer contributions. More than simply talking as much as possible though, our goal with seminar discussions is to create a thoughtful and respectful intellectual community. 
 
-The other way to demonstrate engagement is through asynchronous annotations. We will be using the Hypothesis annotation platform, with an introductory session in the first week of class. These annotations are a space for you to share your thoughts on the week’s materials and engage with your peers, and you will occasionally be asked to expand on your annotations during our discussions.
+The other way to demonstrate engagement is through asynchronous annotations. We will be using the Hypothesis annotation platform, with an introductory session in the first week of class. These annotations are a space for you to share your thoughts on the week’s materials and engage with your peers, and you will occasionally be asked to expand on your annotations during our discussions. You can sign up for Hypothesis here [https://web.hypothes.is/start/](https://web.hypothes.is/start/) and join our collective group at the link in our syllabus or via Canvas. You will need to install the Hypothesis Browser Extension for your preferred browser as well.
 
 ## Weekly Coding Assignments 25%
 
