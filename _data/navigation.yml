@@ -24,12 +24,12 @@ materials:
     children:
       - title: "Course Software & Tools"
         url: /materials/introducing-humanities-computing/01-course-tools
-      - title: "Introduction to the Command Line"
-        url: /materials/introducing-humanities-computing/02-intro-to-cli
-      - title: "Introduction to Git & GitHub"
-        url: /materials/introducing-humanities-computing/03-intro-to-git
-      - title: "Introduction to File Formats"
-        url: /materials/introducing-humanities-computing/04-intro-to-file-formats
+      - title: "Introduction to the Command Line (To Be Posted)"
+        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Introduction to Git & GitHub (To Be Posted)"
+        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Introduction to File Formats (To Be Posted)"
+        url: /materials/introducing-humanities-computing/01-course-tools
 
 schedule:
   - title: Overview

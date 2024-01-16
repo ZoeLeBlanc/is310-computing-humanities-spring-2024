@@ -10,3 +10,4 @@ class_date: 2024-01-16
 - Overview and review the syllabus
 - Discuss "What is computing in the humanities?" 
   - Visit [https://whatisdigitalhumanities.com/](https://whatisdigitalhumanities.com/) and refresh a few times and we might also visit [https://opensyllabus.org/](https://whatisdigitalhumanities.com/)
+
