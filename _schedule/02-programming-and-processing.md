@@ -14,3 +14,7 @@ class_date: 2024-01-18
 ## Additional Materials
 
 - Chiang, Ted. “ChatGPT Is a Blurry JPEG of the Web.” *The New Yorker*, February 9, 2023. [https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web).
+
+## Assignments
+
+- [ ] Complete to the best of your ability the installations for the course tools, available [here]({{site.baseurl}}//materials/introducing-humanities-computing/01-course-tools/).

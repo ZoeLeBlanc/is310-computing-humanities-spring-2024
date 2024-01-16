@@ -8,7 +8,7 @@ toc: true
 In this course, we will be utilizing a number of different software platforms and tools. Some of the tools are optional, but are highly recommended. Setting up some of these tools will be easy, but others will expose you to some of the more frustrating aspects of working with computers. The best representation of what I'm talking about is this [xkcd comic, entitled Dependency](https://xkcd.com/2347/).
 
 <figure>
-   <img src="https://imgs.xkcd.com/comics/dependency.png" alt="Dependency" style="width:100%" class="image-popup">
+   <img src="https://imgs.xkcd.com/comics/dependency.png" alt="Dependency" class="image-popup">
    <figcaption>Dependency by Randall Munroe</figcaption>
 </figure>
 
