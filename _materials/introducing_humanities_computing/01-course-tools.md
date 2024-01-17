@@ -8,7 +8,9 @@ toc: true
 In this course, we will be utilizing a number of different software platforms and tools. Some of the tools are optional, but are highly recommended. Setting up some of these tools will be easy, but others will expose you to some of the more frustrating aspects of working with computers. The best representation of what I'm talking about is this [xkcd comic, entitled Dependency](https://xkcd.com/2347/).
 
 <figure>
-   <img src="https://imgs.xkcd.com/comics/dependency.png" alt="Dependency" class="image-popup">
+   <a href="https://imgs.xkcd.com/comics/dependency.png">
+      <img src="https://imgs.xkcd.com/comics/dependency.png" alt="Dependency" class="image-popup">
+   </a>
    <figcaption>Dependency by Randall Munroe</figcaption>
 </figure>
 
@@ -22,7 +24,9 @@ You should do your best to get through the majority of the installation instruct
 ## Slack
 
 <figure>
-   <img src="{{site.baseurl}}/assets/images/dh_slack.png" alt="Our Slack Channel on DH@UIUC Slack Team" style="width:100%" class="image-popup">
+   <a href="{{site.baseurl}}/assets/images/dh_slack.png">
+      <img src="{{site.baseurl}}/assets/images/dh_slack.png" alt="Our Slack Channel on DH@UIUC Slack Team" style="width:100%" class="image-popup">
+   </a>
    <figcaption>Our Slack Channel on DH@UIUC Slack Team</figcaption>
 </figure>
 
@@ -39,7 +43,9 @@ For our collective annotations, we will be using the Hypothesis platform. You ca
 You are welcome to make your username whatever you choose, but please share your username with the instructor. And please be sure to make your annotations in our hypothes.is group `is310-2024` and that these annotations are public. For more about using Hypothesis groups, see this guide [https://web.hypothes.is/help/annotating-with-groups/](https://web.hypothes.is/help/annotating-with-groups/).
 
 <figure>
-   <img src="https://d242fdlp0qlcia.cloudfront.net/uploads/2018/03/21135305/scopeselector-groupname-1024x585.png" alt="Hypothesis Annotation" style="width:100%" class="image-popup">
+   <a href="https://d242fdlp0qlcia.cloudfront.net/uploads/2018/03/21135305/scopeselector-groupname-1024x585.png">
+      <img src="https://d242fdlp0qlcia.cloudfront.net/uploads/2018/03/21135305/scopeselector-groupname-1024x585.png" alt="Hypothesis Annotation" style="width:100%" class="image-popup">
+   </a>
    <figcaption>Hypothesis Annotation</figcaption>
 </figure>
 
@@ -48,13 +54,17 @@ You are welcome to make your username whatever you choose, but please share your
 If you do not already have a GitHub account, you will need to sign up for an account for this course. For those unfamiliar, GitHub is a a collaborative version control platform that was first founded in 2007 and since then has begun the defacto platform for writing and sharing code; though other platforms do exist, like [GitLab](https://about.gitlab.com/) or [Bitbucket](https://bitbucket.org/product). Nonetheless, we will be using GitHub in this course, in part because it is also very popular for digital humanities research. As a perhaps crude search option, I would actually recommend searching for `digital humanities` on the platform [https://github.com/search?q=digital%20humanities&type=repositories](https://github.com/search?q=digital%20humanities&type=repositories) or taking a look at the number of repositories on Github tagged as `digital-humanities` [https://github.com/topics/digital-humanities](https://github.com/topics/digital-humanities). 
 
 <figure>
-   <img src="{{site.baseurl}}/assets/images/dh_github.png" alt="Digital Humanities Repositories on GitHub" style="width:100%" class="image-popup">
+   <a href="{{site.baseurl}}/assets/images/dh_github.png">
+      <img src="{{site.baseurl}}/assets/images/dh_github.png" alt="Digital Humanities Repositories on GitHub" style="width:100%" class="image-popup">
+   </a>
    <figcaption>Digital Humanities Repositories on GitHub</figcaption>
 </figure>
 
 GitHub is free to use (part of its popularity) and once you have an account you can store code and related materials (like datasets, for example) remotely, while also working collaboratively on these materials. The platform primarily consists of users, organizations (which users can join), and repositories (often called “repos” that are akin to folders or directories) for storing materials. In many ways, GitHub is similar to Google Drive, allowing users to both upload, organize, and keep versioned histories of their files. However, unlike Google Drive or other research management platforms, GitHub is also a platform for social coding, where users can publicly work on projects together, follow one another, comment on each other’s work, and view each other’s activity (somewhat like Twitter, Mastodon, Bluesky, etc…). 
 
 We will be delving into GitHub's functionality in the next few weeks, but first you will need to sign up for an account. You can sign up for an account here [https://github.com/join](https://github.com/join). GitHub provides additional documentation on [signing up for an account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account). In terms of selecting a username, I would recommend choosing something that you plan to use professionally.
+
+<div class="notice--info">⚡️ As of Wednesday January 17 at 5pm, GitHub Education is not working correctly, so we cannot currently signup for the benefits. I'm hoping GitHub gets this fixed ASAP and there's currently a discussion thread about the issues here <a href="https://github.com/orgs/community/discussions/88611">https://github.com/orgs/community/discussions/88611</a> that you can also check. If it's been a few hours, I would recommend trying again but for now, hold off until this is fixed.</div>
 
 Once you have an account, you will also need to sign up for the GitHub Education Global Campus account [https://education.github.com/benefits](https://education.github.com/benefits). You can find step-by-step instructions on how to sign up here [https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student), but you will need to use your `@illinois.edu` email and show proof of your student status (either ID or academic record).
 
@@ -79,7 +89,9 @@ Like GitHub and Co-Pilot, VS Code is also owned by Microsoft, which is why all t
 
 
 <figure>
-   <img src="https://i.stack.imgur.com/2xI4w.png" alt="Visual Studio Code" style="width:100%" class="image-popup">
+   <a href="https://i.stack.imgur.com/2xI4w.png">
+      <img src="https://i.stack.imgur.com/2xI4w.png" alt="Visual Studio Code" style="width:100%" class="image-popup">
+   </a>
    <figcaption>Visual Studio Code</figcaption>
 </figure>
 
@@ -127,14 +139,16 @@ You can read more about Python here [https://en.wikipedia.org/wiki/Python_(progr
 | [Jake VanderPlas Tweet](https://twitter.com/jakevdp/status/994934052091318272?lang=en) |[Stack Overflow's Annual Survey](https://insights.stackoverflow.com/survey/2019)|
 
 
-In this course, you'll be writing code in a few different programming languages, but we'll primarily be using Python. The choice of Python is for a few different reasons. First, Python is well suited to both web development and data analysis -- two of the core activities of this course. Second, Python is increasingly becoming a standard in a number of industries and academic disciplines, though other languages like R are also popular. Third is that many of the programming concepts you will learn in Python can transfer relatively well to other programming langauges. And finally, Python is a popular language for Digital Humanities research and is used by a number of different DH projects and platforms.
+In this course, you'll be writing code in a few different programming languages, but we'll primarily be using Python. The choice of Python is for a few different reasons. First, Python is well suited to both web development and data analysis -- two of the core activities of this course. Second, Python is increasingly becoming a standard in a number of industries and academic disciplines, though other languages like R are also popular. Third is that many of the programming concepts you will learn in Python can transfer relatively well to other programming languages. And finally, Python is a popular language for Digital Humanities research and is used by a number of different DH projects and platforms.
 
 ### Installing Python
 
 Installing Python and getting it correctly configured is increasingly a very challenging and time consuming task, but I believe it is worthwhile since you will ideally keep coding after this course ends. But I want to forewarn you that this process can be frustrating and time consuming, so please reach out to the instructor if you get stuck or if you are feeling unsure or nervous about this task. To give you a sense of what I mean, here is a comic from xkcd about the Python Environment.
 
 <figure>
-   <img src="https://imgs.xkcd.com/comics/python_environment.png" alt="Python Environment" style="width:100%" class="image-popup">
+   <a href="https://imgs.xkcd.com/comics/python_environment.png">
+      <img src="https://imgs.xkcd.com/comics/python_environment.png" alt="Python Environment" style="width:100%" class="image-popup">
+   </a>
    <figcaption>Python Environment by Russell Monroe</figcaption>
 </figure>
 

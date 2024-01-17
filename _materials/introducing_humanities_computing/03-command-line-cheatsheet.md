@@ -1,6 +1,6 @@
 ---
 title: "Command Line Cheatsheet"
-permalink: /materials/getting-started/03-command-line-cheatsheet
+permalink: /materials/introducing-humanities-computing/04-command-line-cheatsheet
 excerpt: "A resource to help with command line syntax"
 toc: true
 ---

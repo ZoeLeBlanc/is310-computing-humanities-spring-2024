@@ -10,6 +10,8 @@ class_date: 2024-01-23
 - Ding, Jennifer, Jan Diehm, and Michelle McGhee. “Can Data Die? Tracking the Lenna Image.” *The Pudding*, October 2021. [https://pudding.cool/2021/10/lenna](https://pudding.cool/2021/10/lenna).
 - Section 2 Libraries and Database, Milligan, Ian. “The Transformation of Historical Research in the Digital Age.” *Cambridge Elements in Historical Theory and Practice*, August 2022. [https://doi.org/10.1017/9781009026055](https://doi.org/10.1017/9781009026055).
 - Milic, Louis T. “The Next Step.” *Computers and the Humanities* 1, no. 1 (1966): 3–6. [http://www.jstor.org/stable/30199191](http://www.jstor.org/stable/30199191).
+- Watch "Computer History: Punch Cards Historical Overview -IBM Remington Rand UNIVAC - History 1900’s-1960’s", 2016. [https://www.youtube.com/watch?v=kKJxzay85Vk](https://www.youtube.com/watch?v=kKJxzay85Vk) (Feel free to watch at a faster playback speed).
+
 
 ## Additional Materials
 

@@ -24,11 +24,9 @@ materials:
     children:
       - title: "Course Software & Tools"
         url: /materials/introducing-humanities-computing/01-course-tools
-      - title: "Introduction to the Command Line (To Be Posted)"
-        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Introduction to the Command Line & File Formats"
+        url: /materials/introducing-humanities-computing/02-intro-cli-file-formats
       - title: "Introduction to Git & GitHub (To Be Posted)"
-        url: /materials/introducing-humanities-computing/01-course-tools
-      - title: "Introduction to File Formats (To Be Posted)"
         url: /materials/introducing-humanities-computing/01-course-tools
 
 schedule:
