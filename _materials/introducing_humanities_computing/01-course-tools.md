@@ -370,11 +370,15 @@ OR you can open VS Code and follow these instructions:
 
 ![VS Code Remote Options](https://docs.microsoft.com/en-us/windows/wsl/media/vscode-remote-command-palette.png)
 
-#### Break In Case of Emergency (Google Colab)
+#### Break In Case of Emergency (Google Colab or Anaconda)
 
-If, after consulting with the Instructor, you still cannot get Python installed, you do have the option of using Google Colab for this course. Google Colab is a free cloud service that allows you to write and execute Python in your browser. You can read more about it here [https://colab.research.google.com/notebooks/intro.ipynb](https://colab.research.google.com/notebooks/intro.ipynb). You will need a Google account to use Colab, but you can use your @illinois.edu email.
+If, after consulting with the Instructor, you still cannot get Python installed, you do have installing Python via Anaconda or using Google Colab for this course. 
 
-I would prefer that we only use this option in the most extreme circumstances, but wanted to share that it is available and an option.
+Anaconda is a free and open-source distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment. You can read more about it here [https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)). You can download Anaconda here [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual). You should be able to use the link above to download Anaconda for Windows, Mac, and Linux.
+
+Google Colab is a free cloud service that allows you to write and execute Python in your browser. You can read more about it here [https://colab.research.google.com/notebooks/intro.ipynb](https://colab.research.google.com/notebooks/intro.ipynb). You will need a Google account to use Colab, but you can use your @illinois.edu email.
+
+I would prefer that we only use these options in the most extreme circumstances, but wanted to share that it is available and an option.
 
 ## Terminals and Oh-My-Zsh (Optional)
 

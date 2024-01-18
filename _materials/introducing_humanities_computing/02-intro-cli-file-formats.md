@@ -321,6 +321,12 @@ wget https://www.gutenberg.org/files/1342/1342-0.txt > pride-and-prejudice.txt
 
 `wget` stands for "web get" and is a similar command line tool for retrieving and downloading files from the web.
 
+If you are using PowerShell and not WSL (again WSL is recommended!), the command looks slightly different:
+
+```sh
+wget https://www.gutenberg.org/files/1342/1342-0.txt -OutFile pride-and-prejudice.txt 
+```
+
 ----
 
 Now that we have downloaded this file, we can use the command line to display some of the text:
@@ -379,7 +385,7 @@ We can see that the word "pride" appears 43 times in this file. How many times d
 
 Your first assignment, which you are welcome to work in pairs, is to solve an existing command line maze. You can find the maze here: as a [zip file]({{site.baseurl}}/assets/files/cli_exerises/gutenberg_maze.zip) or via our [GitHub repo](https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/blob/gh-pages/course_data/cli_exerises/gutenberg_maze.zip). You should download the zip file, and use the command line to unzip the file and then solve the maze.
 
-To unzip the file, you can use the command `unzip gutenberg_maze.zip`. Your goal with this maze is to use both the command line cheatsheet and your preferred AI chatbot to solve the maze. You should be able to solve the maze in 10-20 minutes, but if you are struggling, please reach out to the instructor for help.
+To unzip the file, you can use the command `unzip path/to/your/zip/file -d path/to/your/desired/directory` if you are running Unix/Linux (so Macs, Linux, and the Window Subsystems for Linux -- all of which are recommended). If you are using PowerShell, you will need to use the command `Expand-Archive -Path "path\to\your\zip\file" -DestinationPath "path\to\your\desired\directory`.  Your goal with this maze is to use both the command line cheatsheet and your preferred AI chatbot to solve the maze. You should be able to solve the maze in ~30 minutes, but if you are struggling, please reach out to the instructors via Slack for help.
 
 ### Assignment 2: Time To Get Lost: Create A Command-Line ~~Corn~~ Maze
 
