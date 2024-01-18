@@ -377,81 +377,30 @@ We can see that the word "pride" appears 43 times in this file. How many times d
 
 ### Assignment 1: Find Your Way: Solve A Command-Line ~~Corn~~ Maze
 
+Your first assignment, which you are welcome to work in pairs, is to solve an existing command line maze. You can find the maze here: as a [zip file]({{site.baseurl}}/assets/files/cli_exerises/gutenberg_maze.zip) or via our [GitHub repo](https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/blob/gh-pages/course_data/cli_exerises/gutenberg_maze.zip). You should download the zip file, and use the command line to unzip the file and then solve the maze.
+
+To unzip the file, you can use the command `unzip gutenberg_maze.zip`. Your goal with this maze is to use both the command line cheatsheet and your preferred AI chatbot to solve the maze. You should be able to solve the maze in 10-20 minutes, but if you are struggling, please reach out to the instructor for help.
+
 ### Assignment 2: Time To Get Lost: Create A Command-Line ~~Corn~~ Maze
 
-1. Create a directory called `workspace` in your home directory.
+For our Tuesday class next week, your goal is to create your own command line maze, which we will try to solve in class. You should work individually on this, though you are welcome to brainstorm ideas.
 
-```sh
-mkdir ~/workspace
-```
+Your maze should have the following components:
 
-3. Create the following directory structure in your `workspace` directory, using `mkdir`.
+- [ ] An entrance and a solution
+- [ ] At least 5 directories (these can be nested)
+- [ ] At least 5 files (these can be nested)
+- [ ] One hidden file or directory
+- [ ] Clues to help us solve the maze
 
-    ```sh
-    workspace
-    +-- cli
-        +-- practice
-            +-- create
-    ```
+You are welcome to use Project Gutenberg [https://www.gutenberg.org/](https://www.gutenberg.org/) for your files, but you can also use other files if you prefer. You can also use the command line to create your files, but you can also use a text editor if you prefer.
 
-4. Enter (change) into the `create` directory, using `cd`. Remember to use tab completion.
-2. While in this directory, create a new file named `is310`.
-
-    ```sh
-    touch is310
-    ```
-
-3. Put some simple content in the file using the `echo` command.
-
-    ```sh
-    echo 'Coding is ...' > is310
-    ```
-
-4. Now use the `cat` command to read those contents.
-
-    ```sh
-    cat is310
-    ```
-
-5. Remove the `is310` file you created earlier with the `rm` command.
-6. `cd` back up to the `cli` directory.
-7. Remove the `practice` directory and all of its contents.
-
-Let's dive further through the following tutorials developed by [Melanie Walsh](https://melaniewalsh.org/):
-
-- [https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#command-line-cheatsheet](https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#command-line-cheatsheet)
-
-## Command Line Assignment
-
-### Time to get lost in the Command Line
-
-*In Class Assignment:*
-
-1. First, using the command line commands and your terminal create a series of nested directories and files.
-
-- At least one your directories needs to have nothing in it.
-- At least one of your directories needs to have a file with the text, "You're lost" on it.
-- At least one your directories, needs to have a file with the text "You've made it to the center of the maze!"
-
-2. Once you've completed your corn maze, pair up with another student and have them try and navigate to the center of your maze using command line commands.
-   - Since we're virtual, feel free to share your via ~~discord~~ [google drive folder](https://drive.google.com/drive/folders/1JF2viPdcFmQUDcTmsx_K7cEsTdXIKHgS?usp=sharing) with your classmates.
-
-
-
-
-3. Select a book from [Project Gutenberg](https://www.gutenberg.org/ebooks/search/) and download a text file version using the command line (you can use the [wget](https://www.gnu.org/software/wget/manual/wget.html) command or [curl](https://curl.se/docs/manpage.html) command).
-4. Using the command line, rename your downloaded file to be the title of the book.
-5. Count the number of words in your book file and print the result to the screen.
-6. Search for a word (would recommend not using "the") in your book file and print the number of times it appears.
-7. Take a 📸 screenshot of your output and send it to the instructor in discord.
-
-
-### Resources
+## Additional Resources
 
 In addition to the resources, I linked at the beginning of this lesson, I would recommend the following:
 
-1. Ian Milligan and James Baker, "Introduction to the Bash Command Line," *The Programming Historian* 3 (2014), [https://programminghistorian.org/en/lessons/intro-to-bash]. This is an introduction to the Bash shell, which will serve well enough as an introduction to other shells like Zsh as well.
-2. [Bash Basics Part 1 of 8 | Access and Navigation](https://youtu.be/eH8Z9zeywq0?t=885)
+1. Ian Milligan and James Baker, "Introduction to the Bash Command Line," *The Programming Historian* 3 (2014), [https://programminghistorian.org/en/lessons/intro-to-bash](https://programminghistorian.org/en/lessons/intro-to-bash). This is an introduction to the Bash shell, which will serve well enough as an introduction to other shells like Zsh as well.
+2. [Bash Basics Part 1 of 8 Access and Navigation](https://youtu.be/eH8Z9zeywq0?t=885)
 3. [Beginner's Guide to the Bash Terminal](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
 4. [The Most Important Thing You'll Learn in the Command Line](https://www.youtube.com/watch?v=q7-aEspwwEI)
 5. Go through the CodeAcademy [command line course](https://www.codecademy.com/learn/learn-the-command-line).
