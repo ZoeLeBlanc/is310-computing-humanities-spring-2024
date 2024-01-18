@@ -1,0 +1,5 @@
+Try to find which is a greater nemesis to the protagonist, Ahab, in this book, Moby Dick or the whale?
+
+door_1 is for Moby Dick
+door_2 is for the whale
+door_3 is for both

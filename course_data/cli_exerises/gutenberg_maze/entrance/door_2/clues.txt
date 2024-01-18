@@ -1,0 +1,3 @@
+For this clue, you'll need to use the open command to see what the Queen of Hearts says in Alice in Wonderland and then count the frequency of her famous phrase. Here's a clue to what that phrase is:
+
+"In a world of wonder, count the queen's favorite decree. Off with their..."
