@@ -5,6 +5,13 @@ toc: true
 class_date: 2024-01-18
 ---
 
+## Agenda
+
+- [ ] Complete the Installation Progress form [https://forms.gle/3513nM7qdFXe1xgc9](https://forms.gle/3513nM7qdFXe1xgc9).
+- [ ] Discuss the assigned readings.
+- [ ] Work through the Introduction to [Command Line and Files]({{site.baseurl}}/materials/introducing-humanities-computing/02-cli-file-formats) tutorial.
+- [ ] Start working on the assigned [homework]({{site.baseurl}}/materials/introducing-humanities-computing/02-intro-cli-file-formats/#homework-exercises).
+
 ## Assigned Materials
 
 - Schaul, Kevin, Szu Yu Chen, and Nitasha Tiku. “Inside the Secret List of Websites That Make AI like ChatGPT Sound Smart.” *Washington Post*, April 19, 2023. [https://www.washingtonpost.com/technology/interactive/2023/ai-chatbot-learning/](https://www.washingtonpost.com/technology/interactive/2023/ai-chatbot-learning/).

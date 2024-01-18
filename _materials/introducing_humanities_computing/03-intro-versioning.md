@@ -5,7 +5,7 @@ excerpt: "An introduction to version histories, version control, and collaborati
 toc: true
 ---
 
-So far, we have been using GitHub Co-Pilot and we have installed `git` but we have yet to use either for their main purpose: version control and collaborative coding. In this lesson, we will explore what version control is and how it works, as well as how to use GitHub to collaborate with others.
+So far, we have been using GitHub Co-Pilot and we have installed `git` but we have yet to use either for their main purpose: version control and collaborative coding. In this lesson, we will explore what version control is and how it works, as well as how to use GitHub to collaborate with others and share our code and datasets.
 
 ## What is Git?
 
@@ -100,6 +100,30 @@ These activities are the core features of git. The next step is to connect our l
 
 ## Working with GitHub
 
+By now you should have your git configured and have a GitHub account. If you don't, please go back to the previous lesson and follow the instructions for setting up git and GitHub.
+
+### Creating a New Repository
+
+The first thing we need to do is create a new repository on GitHub. To do this, we need to go to the GitHub website and click on the `New` button in the top right-hand corner of the screen. This will take us to a page where we can create a new repository.
+
+<figure>
+  <a href="https://docs.github.com/assets/cb-34248/mw-1440/images/help/repository/repo-create-global-nav-update.webp"><img src="https://docs.github.com/assets/cb-34248/mw-1440/images/help/repository/repo-create-global-nav-update.webp"></a>
+  <figcaption>Creating a new repository on GitHub</figcaption>
+</figure>
+
+#### Repositories
+
+Repositories are the core of GitHub, and are essentially like folders in Google Drive. They are where all the files, code, and data for a project is stored, along with version histories of them. Repositories can be public or private. Public repositories are visible to anyone, while private repositories are only visible to the owner and collaborators.
+
+You can view the activity on a repository by clicking on the `Insights` tab. This will show you a graph of the activity on the repository, including activity by contributors, under the `Contributors` tab.
+
+<figure>
+  <a href="{{site.baseurl}}/assets/images/contributors_jekyll.png"><img src="{{site.baseurl}}/assets/images/contributors_jekyll.png"></a>
+  <figcaption>Contributors to the Programming Historian Jekyll repository <a href="https://github.com/programminghistorian/jekyll">https://github.com/programminghistorian/jekyll</a></figcaption>
+</figure>
+
+
+
 ### Editing Files in GitHub
 
 So far, we have already tried to edit a file in GitHub. This is a great way to make quick changes to a file, but it's limiting to working with one file at a time. For more complex projects, we will need to use either the command line with git or GitHub in the broswer.
@@ -192,11 +216,6 @@ So far, we have only updated our README.md file, but we can also add other files
 
 ### Repositories
 
-Repositories are the core of GitHub, and are essentially like folders in Google Drive. They are where all the files, code, and data for a project is stored, along with version histories of them. Repositories can be public or private. Public repositories are visible to anyone, while private repositories are only visible to the owner and collaborators.
-
-You can view the activity on a repository by clicking on the `Insights` tab. This will show you a graph of the activity on the repository, including activity by contributors, under the `Contributors` tab.
-
-[![contributors jekyll]({{site.baseurl}}/assets/images/contributors_jekyll.png)](https://github.com/programminghistorian/jekyll/graphs/contributors)
 
 ### Issues
 
