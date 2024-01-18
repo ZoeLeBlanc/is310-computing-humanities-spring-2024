@@ -160,6 +160,11 @@ pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
 }
 
+pre,
+code {
+  white-space: pre-wrap;
+}
+
 p > code,
 a > code,
 li > code,

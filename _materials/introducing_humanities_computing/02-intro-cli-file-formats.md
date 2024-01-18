@@ -1,38 +1,9 @@
 ---
 title: "Introduction to the Command Line and File Formats"
-permalink: /materials/introducing-humanities-computing/05-intro-cli-file-formats/
+permalink: /materials/introducing-humanities-computing/02-intro-cli-file-formats/
 excerpt: "An introduction to the Command Line and File Formats"
 toc: true
 ---
-
-
-- why work with the command line
-  - example of commands
-    - Command Line Cheatsheet
-- coding with GitHub CoPilot
-  - in class exercise
-    - creating folders
-      - creating files
-    - adding text to a file
-    - searching for text in a file
-    - counting words in a file
-    - deleting a file
-- Tips
-  - tab auto-complete
-  - up arrow to scroll through previous commands
-  - ctrl + a to go to the beginning of the line you are currently typing on
-  - ctrl + e to go to the end of the line you are currently typing on
-  - ctrl + r to search through previously used commands
-  - ctrl + c to kill whatever you are running
-  - exit to exit the current shell
-- intro to file formats
-  - proprietary vs open source
-  - Markdown and plain text
-
-- Homework
-  - command line assignment
-  - file format assignment
-
 <div class="notice--info">⚡️ This lesson has been adapted from and inspired by Melanie Walsh's Textbook <i>Introduction to Cultural Analytics & Python</i> <a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html">https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html</a> and the Digital Humanities Research Institute's Workshop on the Command Line <a href="https://github.com/DHRI-Curriculum/command-line">https://github.com/DHRI-Curriculum/command-line</a>. Many thanks to all authors for sharing their materials!</div>
 
 ## Introducing the Command Line
@@ -69,6 +40,8 @@ The term *terminal* then refers to the device that allowed operators to interact
 
 Today when we use **terminals**, we are not just using the terminal but also using often using something called a **shell**. A "shell" is a program within a terminal that interprets user commands and processes computer output. Originating from the Unix operating system, the term "shell" signifies a user-friendly interface that encapsulates the complexities of various computer systems. Popular shell programs include **bash** (Bourne Again SHell), which is the default shell for most Linux distributions and MacOS; **PowerShell**, which is Windows default option, and **zsh** (Z Shell) -- the optional configuration from our course tools. Each shell has its own set of commands and syntax, but they all share the same basic functionality.
 
+For more on this history, I would highly recommend watching "Computer History: Punch Cards Historical Overview -IBM Remington Rand UNIVAC - History 1900’s-1960’s", 2016. [https://www.youtube.com/watch?v=kKJxzay85Vk](https://www.youtube.com/watch?v=kKJxzay85Vk).
+
 **The most important thing to understand is that the terminal is how you interface with the computer, the shell is the program that interprets your commands, and the command line is the text-based interface that allows you to input commands to the shell.**
 
 To help make this more concrete, compare these two images from Melanie Walsh's textbook:
@@ -91,13 +64,13 @@ In the second image, we see that Melanie is using the terminal and typing comman
 
 These images give you a sense of how the command line works, and how we use it. So let's start learning some commands!
 
-### Working With The Command Line
+## Working With The Command Line
 
 From Melanie's example, we can see that the command to create a directory is `mkdir`. Let's try it out!
 
 First, we need to open our terminal, which we can do through VS Code. To do this, click on the Terminal tab in the top menu bar and select New Terminal. This will open a new terminal window at the bottom of your screen.
 
-Then we need to figure out the correct syntax or wording to use the `mkdir` command. We can see from Melanie's example that she types `mkdir` and then `Intro-CA-Notes`. 
+Then we need to figure out the correct syntax or wording to use the `mkdir` command. We can see from Melanie's example that she types `mkdir` and then `Intro-CA-Notes`.
 
 ```sh
 mkdir Intro-CA-Notes
@@ -109,19 +82,304 @@ mkdir Intro-CA-Notes
   </a>
 </figure>
 
-If we press enter, it should seem like this works but how do we know for sure? 
+If we press enter, it should seem like this works but how do we know for sure?
 
-We have two options. First, we should take a look at the Command Line cheatsheet that contains a number of these commands
+We have two options. First, we should take a look at the [Command Line cheatsheet]({{site.baseurl}}/materials/introducing-humanities-computing/04-command-line-cheatsheet) that contains a number of these commands and see what would be the best option to help us check if this worked.
 
+----
 
+Our other option is to try and start testing out these AI Chatbots, and specifically GitHub Co-Pilot (though again you are welcome to use any AI tool that is free and helps you understand these materials).
 
+To use these tools, though we first have to discuss their interface and how they work.
 
+### Prompt Engineering
+
+So far we have been doing a form of prompting, called **Command Prompt**, which refers to where we write the text commands in the terminal. Often times the command prompt is a symbol that indicates the start of a new command. For example, in Melanie's example, the command prompt is the `$` symbol. This symbol is called a **prompt** because it prompts you to enter a command. The prompt is followed by a **cursor**, which is the blinking vertical line that indicates where your next character will appear. Other symbols you might see include `#`, `%`, and `>`.
+
+Now, the term prompt has become incredibly popular in the last few years, beginning with the release of GPT-3 by OpenAI in Summer 2020 and their use of *prompt engineering* to describe giving commands or prompts to chatbots for certain outputs or results.
+
+<figure>
+  <a href="https://github.com/Mooler0410/LLMsPracticalGuide/raw/main/imgs/tree.jpg">
+    <img src="https://github.com/Mooler0410/LLMsPracticalGuide/raw/main/imgs/tree.jpg" alt="GPT-3 example" class="image-popup">
+  </a>
+</figure>
+
+While there idea of prompt engineering has a longer history in natural language processing, the term has taken over, with the proliferation of new AI chatbots and models.
+
+In some ways our idea of giving text prompts to the terminal via the command line echoes how we do prompt engineering for AI chatbots, since both require writing text (something we'll discuss more later in this lesson).
+
+But while depending on your operating system, terminal, and shell, you have to give the command line certain set of commands that have been previously programmed, with AI chatbots you can write without those set structures.
+
+However, that doesn't mean there aren't some helpful guidelines for prompt engineering, even if the process often requires lots of trial and error, and is rarely reproducible or transparent.
+
+If you search for tips on prompt engineering, you'll find lots of infographics like this one:
+
+<figure>
+  <a href="https://miro.medium.com/v2/resize:fit:1170/1*97Rixvja91FR6-q6kdPIaA.jpeg">
+    <img src="https://miro.medium.com/v2/resize:fit:1170/1*97Rixvja91FR6-q6kdPIaA.jpeg" alt="Prompt Engineering" class="image-popup">
+  </a>
+</figure>
+
+These outline some of the core ways to think about prompt engineering (concepts like defining a role, chained prompting, and so on). But Microsoft actually provides more detailed guidelines for Co-Pilot, since it has been trained primarily for coding tasks, [https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/2-prompt-engineering-foundations-best-practices).
+
+<figure>
+<a href="{{site.baseurl}}/assets/images/4s_copilot.png">
+    <img src="{{site.baseurl}}/assets/images/4s_copilot.png" alt="4S of Prompt Engineering" class="image-popup">
+  </a>
+</figure>
+
+In this overview, they propose the 4S of Prompt Engineering: **Single** (keeping your prompt to one task or question), **Specific** (having detailed requests and specifications), **Short** (concise), and **Surround** (keep relevant files open in Co-Pilot).
+
+While these are general guidelines, the final one is particularly important for Co-Pilot, since it works best when it has code examples to learn from (something called *few-shot learning*, for those that are interested).
+
+<figure>
+  <a href="https://learn.microsoft.com/en-us/training/github/introduction-prompt-engineering-with-github-copilot/media/3-prompt-processing-flow-diagram.png">
+    <img src="https://learn.microsoft.com/en-us/training/github/introduction-prompt-engineering-with-github-copilot/media/3-prompt-processing-flow-diagram.png" alt="Prompt Engineering" class="image-popup">
+  </a>
+</figure>
+
+This very complex diagram details what GitHub Co-Pilot does with your prompt, and how it processes it. The key thing to understand is that it is looking for patterns in the prompt and then trying to match those patterns to code examples it has seen before. So the more specific and detailed your prompt is, the more likely it is to find a match.
+
+The other key thing to know is that even though it claims to be secure, there's a lot of potential for personal data to be leaked through this process. So it's important to be careful about what you prompt Co-Pilot with, and to be aware of the potential risks (i.e. **don't share sensitive information in a prompt!!**).
+
+As we've hopefully discussed a bit by now, the legality of Co-Pilot remains hazy (not to mention the ethics or politics of it). You'll likely see why as we continue to work with it, as it autocompletes file names and other information from GitHub that it has scraped. Again, I want to stress the use of this tool is optional, but also encourage you to see your use of it in a critical lens: what helps us critique these tools is often using them and understanding not only how they work, but whether the hype and their claims live up to the reality of using them.[^1]
+
+### Directories and File Paths
+
+So returning to our original question, hopefully by now we have discovered some of the commands we can use to check if our directory was created, using the [Command Line cheatsheet]({{site.baseurl}}/materials/introducing-humanities-computing/04-command-line-cheatsheet). But we could also try out generating a prompt for GitHub Co-Pilot and see what it suggests.
+
+*Click the button to see some potential answers.*
+
+{% capture toggle_content %}
+
+So looking at the cheatsheet, two promising commands include `ls` and `pwd`. We can try those out, and also try out a prompt for GitHub Co-Pilot.
+
+```sh
+How can I check if my directory was created in my terminal?
+```
+
+```sh
+Should I use the command ls or pwd to check if my directory was created? And what is the difference between these two commands?
+```
+
+```sh
+How can I create a directory named is310-computing-humanities in my terminal?
+```
+
+With the help of the cheatsheet and GitHub Co-Pilot, we should see that the command `ls` lists the contents of a directory, and `pwd` prints the full working path. So we can use these commands to check if our directory was created.
+
+And then we can use the command `mkdir` to create a directory named `is310-computing-humanities`.
+
+```sh
+mkdir is310-computing-humanities
+```
+
+{% endcapture %}
+{% include toggle.html content=toggle_content %}
+
+Using these commands, we can see that our directory was created. But what does this mean exactly?
+
+As we read this week, how we interact with computers has increasingly made it difficult to understand where our files are stored. While search functionality often takes care of this for us in GUI applications, in the command line we have to be more explicit about where we want to store our files and we have to know where we are located.
+
+<figure>
+  <a href="https://heardlibrary.github.io/digital-scholarship/computer/images-2-pc/file-tree.png">
+    <img src="https://heardlibrary.github.io/digital-scholarship/computer/images-2-pc/file-tree.png" alt="Current Directory" class="image-popup">
+  </a>
+</figure>
+
+In this figure, we see a representation of how folders and files are organized on a Windows computer. The top level is the **root directory**, which on Windows is the `C:` drive. On Macs and Linux machines, we have a similar root directory, but it is represented by a `/` symbol. This root directory contains all of the files and folders on your computer. The root directory is also called the **parent directory** because it is the parent of all the other directories on your computer.
+
+**Important to know: directory is the same as folder, and the two are often used interchangeably.** Directory is the original term, but with GUIs we often use the term folder.
+
+In this diagram, we can see that there is a Users folder or directory. This is where most of your files that you download or create are stored: under your user account and in the `Documents`, `Downloads`, and `Desktop` folders.
+
+If I use the `pwd` command, I can start to see this structure.
+
+<figure>
+  <a href="{{site.baseurl}}/assets/images/pwd_example.png">
+    <img src="{{site.baseurl}}/assets/images/pwd_example.png" alt="Current Directory" class="image-popup">
+  </a>
+</figure>
+
+You'll notice the command prints out a long string that has names like `Users`, followed by a series of names separated by a forward slash `/` (in PowerShell, you'll see backslashes `\`). Each of these are my folders or directories, and this represents the **absolute file path** from my root directory to my current directory -- that is the current location of my terminal. I realize this might be a bit confusing initially, but eventually as you use the command line more, you'll start to get a sense of how this works.
+
+Each file path is unique to your computer, and so if you are following along with this lesson, you'll see a different file path, though there should be a `Users` folder as your root or home directory.
+
+You'll also notice I did the command `cd ~`. What do you think this command does? What does `cd` stand for do you think?
+
+A core distinction with how I used this final command is the fact that I used a tilde `~` symbol. This symbol is a **relative file path**, meaning it is relative to my current directory. So if I am in the `Documents` folder, `cd ~` will take me to my home directory, but if I am in the `Downloads` folder, `cd ~` will take me to the `Documents` folder. You can also use `cd ..` to go up one directory, and `cd ../..` to go up two directories, and so on.
+
+----
+Beyond creating directories (which again is just a fancy term for file folders), we often use the command line to create files. To do this, we use the command `touch`. Let's try it out!
+
+```sh
+touch is310-computing-humanities.txt
+```
+
+Now we should see both our folder and our file in the terminal. But ideally, we would have the file in the folder. So how do we do that?
+
+We can use the command `mv` to move the file into the folder. Let's try it out!
+
+```sh
+mv is310-computing-humanities.txt is310-computing-humanities
+```
+
+Now we should just see our folder if we do `ls` in the terminal. But how do we check if our file is in the folder?
+
+We can again use the command `cd` to change into the folder, and then use `ls` to list the contents of the folder. Let's try it out!
+
+```sh
+cd is310-computing-humanities
+ls
+```
+
+Finally, let me try leaving my directory and deleting it. To do this, I can use the command `cd ..` to go up one directory, and then `rmdir` to remove the directory. Let's try it out!
+
+```sh
+cd ..
+rmdir is310-computing-humanities
+```
+
+Now if I do `ls` I should see that my folder is gone.Success!!
 
 ### In Class Exercise
 
-1. Open the [cheatsheet](command-line-cheatsheet). Copying is encouraged in coding, so make sure you use the cheatsheet!
+Now it's time for you to try out some of these commands on your own. Using a combination of our cheatsheet and your preferred AI chatbot, try to complete the following tasks:
 
-2. Create a directory called `workspace` in your home directory.
+- Create a new directory called `is310-computing-humanities` in your `Desktop` folder
+- In your `is310-computing-humanities` folder, create a new file called `is310-computing-humanities.txt`
+- Try adding some text to your file using the command line (this is a new command, so you'll have to look it up!)
+- Try displaying the contents of your file using the command line (again a new command, so you'll have to look it up!)
+- Finally, try leaving your folder and returning to your home directory.
+
+**Optional Advanced Option**:
+
+- Try copying your folder and then deleting the copy. Remember to ask for help from the Instructors, if you need it!
+
+----
+
+So now we are starting to see how we can use the command line to create directories and files, and move them around. It seems like we're doing a lot of work to do something that we could do with a GUI, but the command line is actually much more powerful than a GUI. For example, we can use the command line to do things like search for text in a file, count the number of words in a file, and even delete a file.
+
+Before we try that though, let's learn a bit more about what files are exactly.
+
+## Introducing File Formats
+
+What constitutes a document or a file might seem obvious, but is actually a robust and ongoing scholarly debate in Library and Information Sciences (LIS) and Computer Science (CS). To put it a bit simply, a file is a collection of data stored in a single unit, identified by a filename. It can be a document, an image, a video, a sound, or any other collection of data. The file extension is the part of the file name after the period. The file extension tells the computer what type of file it is and what program to use to open it.
+
+<figure>
+  <a href="https://www.filecenter.com/blog/wp-content/uploads/2022/04/The-Giant-List-of-Document-File-Types-and-Extensions.jpg">
+    <img src="https://www.filecenter.com/blog/wp-content/uploads/2022/04/The-Giant-List-of-Document-File-Types-and-Extensions.jpg" alt="File Formats" class="image-popup">
+  </a>
+</figure>
+
+There are many different file formats and each one has its own purpose. For example, a `.docx` file is a Microsoft Word document, a `.jpg` file is an image, and a `.mp3` file is an audio file. Some file formats are proprietary, meaning they are owned by a company and can only be opened by certain programs. For example, `.docx` files can only be opened by Microsoft Word. So if you try to open up a word document in a PDF Viewer you might see what looks like a bunch of gibberish.
+
+<figure>
+  <a href="https://www.fonelab.com/images/data-retriever/fonelab-data-retriever-how-to-corrupt-a-word-file-doc-text-only.jpg">
+    <img src="https://www.fonelab.com/images/data-retriever/fonelab-data-retriever-how-to-corrupt-a-word-file-doc-text-only.jpg" alt="Corrupted Word Doc" class="image-popup">
+  </a>
+</figure>
+
+This gibberish is actually the code that makes up the file, but since the PDF Viewer doesn't know how to read the code it just shows you the code itself rather than the data stored in the files.
+
+Other file formats are open source, meaning they are not owned by a company and can be opened by many different programs. For example, `.txt` files are plain text files that can be opened by any text editor. When we used the `touch` command, we told the terminal to create a `.txt` file. This is because `.txt` files are the simplest file format and only contain text. They do not contain any formatting like bold, italics, or images.
+
+### What is Plain Text?
+
+Today, we have been talking a lot about *text*, from text commands to text files. But the core concept with both of these is the idea of plain text.
+
+As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. While a Word Document ant .txt file might look the same to us, the Word Document actually contains a lot of hidden formatting that the .txt file does not. In programming, we want to be explicit in our communications with computers and so plain text is preferable, but what is it exactly?
+
+According to the [Unicode Standard](https://unicode.org/versions/Unicode13.0.0/),
+
+> Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes.
+
+This is a bit technical, but the key concept is that plain text shows if it is formatted or not (we call this markup), and usually contains no formatting. Plain text can be moved between programs more fluidly and can respond to programmatic manipulations. It is often manipulated in something called a *text editor* (like VS Code), which is a program that allows you to edit plain text files.
+
+We can see an example of a plain txt file, via Project Gutenberg - a website that hosts public domain books in plain text format.
+
+<figure>
+  <a href="{{site.baseurl}}/assets/images/pride_prejudice_gutenberg.png">
+    <img src="{{site.baseurl}}/assets/images/pride_prejudice_gutenberg.png" alt="Pride and Prejudice" class="image-popup">
+  </a>
+  <figcaption><i>Pride and Prejudice</i> by Jane Austen <a href="https://www.gutenberg.org/ebooks/1342">https://www.gutenberg.org/ebooks/1342</a></figcaption>
+</figure>
+
+I can download this file directly from my terminal using the command line:
+
+```sh
+curl https://www.gutenberg.org/files/1342/1342-0.txt > pride-and-prejudice.txt
+```
+
+In this example, I'm using the command `curl` to download the file from the internet. The `>` symbol tells the terminal to create a new file, store this data in the file, and save the file as `pride-and-prejudice.txt`. We can see that this file is a `.txt` file, meaning it is a plain text file. `curl` stands for "client URL" and is a command line tool for transferring data and downloading files from the internet. We can also use it to upload files to the internet.
+
+If you are on a Windows computer, you can instead use the command `wget` to download the file from the internet. The syntax is the same, but the command is different.
+
+```sh
+wget https://www.gutenberg.org/files/1342/1342-0.txt > pride-and-prejudice.txt
+```
+
+`wget` stands for "web get" and is a similar command line tool for retrieving and downloading files from the web.
+
+----
+
+Now that we have downloaded this file, we can use the command line to display some of the text:
+
+```sh
+cat pride-and-prejudice.txt
+```
+
+`cat` stands for concatenate, and is a command line tool for displaying the contents of a file. We can see that this file contains the text of *Pride and Prejudice* by Jane Austen (though you'll likely only see the end of the text since it is so long, without scrolling for ages).
+
+We can start to interact with this file in a number of ways.
+
+First, let's count how many words are in this file. To do this, we can use the command `wc -w`. Let's try it out!
+
+```sh
+wc -w pride-and-prejudice.txt
+```
+
+`wc` stands for word count, and the `-w` flag tells the terminal to count the number of words in the file. You'll often notice that commands have flags like this, which are additional instructions for the command.
+
+We can also use the command `wc` to count the number of lines in a file with the `-l` flag. Let's try it out!
+
+```sh
+wc -l pride-and-prejudice.txt
+```
+
+We should see that there are `14911` lines in this file. 
+
+We can also search for a specific word in a file using the command `grep`. Let's try to find out how often the word "pride" appears in this file. To do this, we can use the command `grep pride pride-and-prejudice.txt`. Let's try it out!
+
+```sh
+grep pride pride-and-prejudice.txt
+```
+
+This should give us the following output:
+
+<figure>
+  <a href="{{site.baseurl}}/assets/images/grep_pride.png">
+    <img src="{{site.baseurl}}/assets/images/grep_pride.png" alt="Pride and Prejudice" class="image-popup">
+  </a>
+</figure>
+
+How could we count the number of times the word "pride" appears in this file? We could use the command `wc -w` to count the number of words, but that would include the word "pride" in the title of the book. We could also use the command `wc -l` to count the number of lines, but that would include the line numbers. Instead, we can use the command `grep -c pride pride-and-prejudice.txt`.
+
+We can see that the word "pride" appears 43 times in this file. How many times does the word "prejudice" appear?
+
+## Homework Exercises
+
+<figure>
+  <a href="https://media.giphy.com/media/Xbn2CXq5u2Wc0/giphy.gif">
+    <img src="https://media.giphy.com/media/Xbn2CXq5u2Wc0/giphy.gif" alt="maze" class="image-popup">
+  </a>
+</figure>
+
+### Assignment 1: Find Your Way: Solve A Command-Line ~~Corn~~ Maze
+
+### Assignment 2: Time To Get Lost: Create A Command-Line ~~Corn~~ Maze
+
+1. Create a directory called `workspace` in your home directory.
 
 ```sh
 mkdir ~/workspace
@@ -163,99 +421,6 @@ Let's dive further through the following tutorials developed by [Melanie Walsh](
 
 - [https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#command-line-cheatsheet](https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#command-line-cheatsheet)
 
-## Introducing File Formats
-
-This is a huge topic in LIS and CS but to put it simply a file is a collection of data stored in a single unit, identified by a filename. It can be a document, an image, a video, a sound, or any other collection of data. The file extension is the part of the file name after the period. For example, in the file name `DH-Tool.md`, the file extension is `.md`. The file extension tells the computer what type of file it is and what program to use to open it.
-
-![file formats](https://www.filecenter.com/blog/wp-content/uploads/2022/04/The-Giant-List-of-Document-File-Types-and-Extensions.jpg)
-
-There are many different file formats and each one has its own purpose. For example, a `.docx` file is a Microsoft Word document, a `.jpg` file is an image, and a `.mp3` file is an audio file. Some file formats are proprietary, meaning they are owned by a company and can only be opened by certain programs. For example, `.docx` files can only be opened by Microsoft Word. So if you try to open up a word document in a PDF Viewer you might see what looks like a bunch of gibberish.
-
-![corrupted word doc](https://www.fonelab.com/images/data-retriever/fonelab-data-retriever-how-to-corrupt-a-word-file-doc-text-only.jpg)
-
-This gibberish is actually the code that makes up the file, but since the PDF Viewer doesn't know how to read the code it just shows you the code itself rather than the data stored in the files.
-
-Other file formats are open source, meaning they are not owned by a company and can be opened by many different programs. For example, `.txt` files are plain text files that can be opened by any text editor. 
-
-### What is plain text and Markdown?
-
-Plain text is a file format that only contains text and no formatting. It is the simplest file format and can be opened by any text editor. Markdown is a plain text file format that uses symbols to add formatting to the text. For example, if you want to make a word bold you would put two asterisks on either side of the word.
-
-```
-**bold**
-```
-
-If you want to make a word italic you would put one asterisk on either side of the word.
-
-```
-*italic*
-```
-
-If you want to make a list you would put a dash in front of each item.
-
-```
-- item 1
-- item 2
-- item 3
-```
-
-If you want to make a heading you would put a hashtag in front of the heading.
-
-```
-# heading 1
-## heading 2
-### heading 3
-```
-
-These types of file formats are incredibly popular in DH for a few reasons. First, they are free to use and are more sustainable long term since they do not require specialized software to open. Second, this interoperability makes them easier to share and collaborate on, as well as use in a variety of DH Tools. Finally, the use of such file formats also preserves this data for future use. For example, if you have a `.docx` file and Microsoft Word goes out of business, you will no longer be able to open that file. However, if you have a `.txt` file you will always be able to open it in any text editor. 
-
-The key thing to understand is that every file format has a history and is the product of multiple decisions and communities. In the case of Markdown, it was created by John Gruber with help from Aaron Swartz in 2004. The goal was to create a file format that was easy to read and write, and could be converted into HTML. They also wanted to create a file format that was easy to use and could be used by anyone. You can read more about the history of Markdown, in Bednarski, Dawid. “The History of Markdown: A Prelude to the No-Code Movement.” Taskade Blog, March 25, 2022. [https://www.taskade.com/blog/markdown-history/](https://www.taskade.com/blog/markdown-history/).
-
-It's important to understand that Markdown has this history because many flavors of Markdown exist, and standardization of Markdown has been an ongoing project. For example, GitHub Flavored Markdown (GFM) is a flavor of Markdown that was created by GitHub in 2009. It is a superset of Markdown, meaning it adds additional features to Markdown. For example, GFM allows you to create tables in Markdown, which is not possible in regular Markdown. You can read more about GFM in “GitHub Flavored Markdown Spec.” GitHub, 2022. [https://github.github.com/gfm/](https://github.github.com/gfm/).
-
-![markdown flavors](https://d11a6trkgmumsb.cloudfront.net/original/3X/c/b/cb7374a606a66c5b8e489afed76d93ed49dc7836.png)
-
-This figure shows some examples of how Markdown is written depending on the Platform and standards. You can also see some of the discussions that go on to help shape these standards through the various repositories on GitHub that host the standards. For example, CommonMark is another popular Markdown style and improvements to it are discussed in this repository [https://github.com/commonmark/commonmark-spec/issues](https://github.com/commonmark/commonmark-spec/issues).
-
-## Popular File Formats in DH
-
-Understanding some of the tradeoffs and histories of file formats helps us consider increasingly popular file formats in DH. We have already discussed Markdown, but we will also be looking at two others: `JSON` and `CSV`.
-
-### JSON
-
-![json example](https://www.softwaretestinghelp.com/wp-content/qa/uploads/2017/12/Including-Car-in-Employee-JSON.jpg)
-
-JSON stands for JavaScript Object Notation and is a file format that stores data in a key-value pair. For example, if you wanted to store our data from assignments this week you might write it like this:
-
-```
-{
-  "DH Tool": "GitHub",
-  "Found by": "Zoe LeBlanc"
-}
-```
-
-This file format is popular in DH because it is easy to read and write, and can be used in a variety of programming languages. It is also a popular file format for sharing data across the web. You can read more about JSON in “JSON: JavaScript Object Notation.” MDN Web Docs, 2022. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON).
-
-We won't be using this file format much in this course, but it's important to know it exists since many datasets are available as JSON files. These files will have the file ending of `.json` and will always have the curly brackets, and values separated by colons and listed with commas.
-
-### CSV
-
-![csv example](https://static.tildacdn.com/tild3262-3665-4232-b835-303031616463/Screenshot_2022-04-2.png)
-
-The other incredibly popular file format that you likely have already used before and that we will use a lot in this course is CSV. CSV stands for Comma Separated Values and is a file format that stores data in a table. For example, if you wanted to store our data from assignments this week you might write it like this:
-
-```
-DH Tool, Found by
-GitHub, Zoe LeBlanc
-```
-CSVs are a usually read by spreadsheet software, like Excel or Google Sheets and have the file ending of `.csv`. Unlike `.xlsx` files, which are proprietary to Microsoft Excel, CSVs are open source and can be opened by any spreadsheet software. 
-
-![excel vs csv](https://miro.medium.com/v2/resize:fit:1400/1*eGVQ8M6mgERo8WFMUjYjZA.jpeg)
-
-CSVs have a long history as well and the file format was first created in the 1970s. But as we we will discuss more next week, the act of putting data into tables has an even longer history.
-
-![punch card](https://imgur.com/V5mfB2w.jpg)
-
 ## Command Line Assignment
 
 ### Time to get lost in the Command Line
@@ -271,22 +436,19 @@ CSVs have a long history as well and the file format was first created in the 19
 2. Once you've completed your corn maze, pair up with another student and have them try and navigate to the center of your maze using command line commands.
    - Since we're virtual, feel free to share your via ~~discord~~ [google drive folder](https://drive.google.com/drive/folders/1JF2viPdcFmQUDcTmsx_K7cEsTdXIKHgS?usp=sharing) with your classmates.
 
-![maze](https://media.giphy.com/media/Xbn2CXq5u2Wc0/giphy.gif)
 
-*Additional/Homework Assignment:*
-Following [Melanie Walsh's working with Text Files in the command line tutorial](https://melaniewalsh.github.io/Intro-Cultural-Analytics/01-Command-Line/01-The-Command-Line.html#working-with-files-and-texts), complete the following steps:
 
-1. Select a book from [Project Gutenberg](https://www.gutenberg.org/ebooks/search/) and download a text file version using the command line (you can use the [wget](https://www.gnu.org/software/wget/manual/wget.html) command or [curl](https://curl.se/docs/manpage.html) command).
-2. Using the command line, rename your downloaded file to be the title of the book.
-3. Count the number of words in your book file and print the result to the screen.
-4. Search for a word (would recommend not using "the") in your book file and print the number of times it appears.
-5. Take a 📸 screenshot of your output and send it to the instructor in discord.
 
-### More Information
-
+3. Select a book from [Project Gutenberg](https://www.gutenberg.org/ebooks/search/) and download a text file version using the command line (you can use the [wget](https://www.gnu.org/software/wget/manual/wget.html) command or [curl](https://curl.se/docs/manpage.html) command).
+4. Using the command line, rename your downloaded file to be the title of the book.
+5. Count the number of words in your book file and print the result to the screen.
+6. Search for a word (would recommend not using "the") in your book file and print the number of times it appears.
+7. Take a 📸 screenshot of your output and send it to the instructor in discord.
 
 
 ### Resources
+
+In addition to the resources, I linked at the beginning of this lesson, I would recommend the following:
 
 1. Ian Milligan and James Baker, "Introduction to the Bash Command Line," *The Programming Historian* 3 (2014), [https://programminghistorian.org/en/lessons/intro-to-bash]. This is an introduction to the Bash shell, which will serve well enough as an introduction to other shells like Zsh as well.
 2. [Bash Basics Part 1 of 8 | Access and Navigation](https://youtu.be/eH8Z9zeywq0?t=885)
@@ -295,7 +457,4 @@ Following [Melanie Walsh's working with Text Files in the command line tutorial]
 5. Go through the CodeAcademy [command line course](https://www.codecademy.com/learn/learn-the-command-line).
 6. [Shell Scripting Tutorial](https://www.youtube.com/watch?v=hwrnmQumtPw)
 
-- Command Line might sounds a bit intimidating
-- But ask yourself, how do you find files and manipulate files on your computer? Probably using Windows Explorer or Mac Finder, right?
-- Command Line is a text-based way of doing the same thing you do with your files
-- Command Line is used a lot in coding because we manipulate our code files and run them all in the terminal
+[^1]: If you have serious concerns over GitHub Co-Pilot, I've just learned of Privy, a private and locally run version of a coding assistant [https://github.com/srikanth235/privy](https://github.com/srikanth235/privy). I haven't had a chance to try it yet, but seems like a promising alternative. Another option is [gpt4all](https://gpt4all.io/index.html) which let's you run a number of models locally (though anecdotally some of my previous students struggled to install it on their computers, so ymmv).

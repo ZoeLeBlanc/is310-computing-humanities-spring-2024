@@ -51,16 +51,15 @@ You are welcome to make your username whatever you choose, but please share your
 
 ## GitHub
 
-If you do not already have a GitHub account, you will need to sign up for an account for this course. For those unfamiliar, GitHub is a a collaborative version control platform that was first founded in 2007 and since then has begun the defacto platform for writing and sharing code; though other platforms do exist, like [GitLab](https://about.gitlab.com/) or [Bitbucket](https://bitbucket.org/product). Nonetheless, we will be using GitHub in this course, in part because it is also very popular for digital humanities research. As a perhaps crude search option, I would actually recommend searching for `digital humanities` on the platform [https://github.com/search?q=digital%20humanities&type=repositories](https://github.com/search?q=digital%20humanities&type=repositories) or taking a look at the number of repositories on Github tagged as `digital-humanities` [https://github.com/topics/digital-humanities](https://github.com/topics/digital-humanities). 
-
 <figure>
-   <a href="{{site.baseurl}}/assets/images/dh_github.png">
-      <img src="{{site.baseurl}}/assets/images/dh_github.png" alt="Digital Humanities Repositories on GitHub" style="width:100%" class="image-popup">
-   </a>
-   <figcaption>Digital Humanities Repositories on GitHub</figcaption>
+    <a href="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="image-popup">
+    </a>
 </figure>
 
-GitHub is free to use (part of its popularity) and once you have an account you can store code and related materials (like datasets, for example) remotely, while also working collaboratively on these materials. The platform primarily consists of users, organizations (which users can join), and repositories (often called “repos” that are akin to folders or directories) for storing materials. In many ways, GitHub is similar to Google Drive, allowing users to both upload, organize, and keep versioned histories of their files. However, unlike Google Drive or other research management platforms, GitHub is also a platform for social coding, where users can publicly work on projects together, follow one another, comment on each other’s work, and view each other’s activity (somewhat like Twitter, Mastodon, Bluesky, etc…). 
+If you do not already have a GitHub account, you will need to sign up for an account for this course. For those unfamiliar, GitHub [https://github.com/](https://github.com/) is a web-based platform that allows you to host and version code-related projects, while also working collaboratively. The best analogy is to imagine a blend of a data management and collaborative work platform like Google Drive with a social media platform like Twitter. It uses Git, a version control system, which is somewhat confusingly different from GitHub, to manage the history of a project.
+
+GitHub is free to use (part of its popularity) and once you have an account you can store code and related materials (like datasets, for example) remotely, while also working collaboratively on these materials. The platform primarily consists of users, organizations (which users can join), and repositories (often called “repos” that are akin to folders or directories) for storing materials. In many ways, GitHub is similar to Google Drive, allowing users to both upload, organize, and keep versioned histories of their files. However, unlike Google Drive or other research management platforms, GitHub is also a platform for social coding, where users can publicly work on projects together, follow one another, comment on each other’s work, and view each other’s activity (somewhat like Twitter, Mastodon, Bluesky, etc…).
 
 We will be delving into GitHub's functionality in the next few weeks, but first you will need to sign up for an account. You can sign up for an account here [https://github.com/join](https://github.com/join). GitHub provides additional documentation on [signing up for an account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account). In terms of selecting a username, I would recommend choosing something that you plan to use professionally.
 
@@ -68,10 +67,49 @@ We will be delving into GitHub's functionality in the next few weeks, but first 
 
 Once you have an account, you will also need to sign up for the GitHub Education Global Campus account [https://education.github.com/benefits](https://education.github.com/benefits). You can find step-by-step instructions on how to sign up here [https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student), but you will need to use your `@illinois.edu` email and show proof of your student status (either ID or academic record).
 
-Getting approved might take a few days, but once you are approved, you will be able to not only create private repositories for free (we will get into what repositories are soon), but also use GitHub's AI coding tool called Co-Pilot. Both GitHub and Co-Pilot are owned by Microsoft, which acquired the platform in 2018 for 7.5 Billion dollars. While these platforms and tools are useful, they are also political and you can read more about the critiques of GitHub here:
+Getting approved might take a few days, but once you are approved, you will be able to not only create private repositories for free (we will get into what repositories are soon), but also use GitHub's AI coding tool called Co-Pilot. 
+
+Both GitHub and Co-Pilot are owned by Microsoft, which acquired the platform in 2018 for 7.5 Billion dollars[^1], and the platform has become the de facto platform for hosting code, with the platform recently announcing that they had over 100 million of users.[^2]
+
+### Considerations and Criticisms of GitHub
+
+<figure>
+   <a href="https://github.blog/wp-content/uploads/2023/01/100million-header.png?resize=1200%2C627">
+      <img src="https://github.blog/wp-content/uploads/2023/01/100million-header.png?resize=1200%2C627" alt="100 million users" style="width:100%" class="image-popup">
+   </a>
+   <figcaption>100 million users</figcaption>
+</figure>
+
+These numbers sound impressive, but should also be concerning. The consolidation of code and data on a single platform raises questions about the centralization of knowledge and the power of a single company to control the future of software development, if not all technology writ large.
+
+While alternatives to GitHub exist (primarily [GitLab](https://about.gitlab.com/) or [Bitbucket](https://bitbucket.org/product)), it is hard to overstate how much in the last decade GitHub has become **the** platform for this type of work. Such a centralization is truly a double-edged sword. For example, GitHub has created what amounts to the largest code archive in the world through their GitHub Arctic Code Vault, an initiative to take a snapshot of all code hosted on their platform on February 2, 2020 and store it in the Svalbard Global Seed Vault. Such an initiative is impressive and was done in partnership with some academic institutions (the exact partners were the Long Now Foundation, the Internet Archive, the Software Heritage Foundation, Arctic World Archive, Microsoft Research, the Bodleian Library, and Stanford Libraries). But it also raises a number of ethical, archival, and political questions.
+
+<figure>
+   <a href="{{site.baseurl}}/assets/images/artic_code_vault.png">
+      <img src="{{site.baseurl}}/assets/images/artic_code_vault.png" alt="GitHub Arctic Code Vault" style="width:100%" class="image-popup">
+   </a>
+   <figcaption>GitHub Arctic Code Vault</figcaption>
+</figure>
+
+For example, this Arctic Code Vault has been criticized for its erasure of the indigenous Sami people who live on Svalbard and its performative approach to archives.[^3] GitHub also has contracts with U.S. Immigrations and Customs Enforcement (ICE) led to protests and boycotts from some sectors of the developer community.[^4] While we plan to use this platform, it's important to do so with these issues in mind. For more on these criticisms, see:
 
 - Fussell, Sidney. “The Schism at the Heart of the Open-Source Movement.” *The Atlantic*, January 3, 2020. [https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/).
 - Mackenzie, Adrian. “48 Million Configurations and Counting: Platform Numbers and Their Capitalization.” *Journal of Cultural Economy* 11, no. 1 (January 2, 2018): 36–53. [https://doi.org/10.1080/17530350.2017.1393443](https://doi.org/10.1080/17530350.2017.1393443). 
+
+### Why Use GitHub for Digital Humanities/Computing in the Humanities?
+
+While primarily marketed towards software developers, GitHub is also incredibly popular for digital humanities. It is widely used for hosting data sets, text corpora, and other scholarly research assets. It provides a central place to publish, discover, and collaborate on such resources.
+
+For instance, academic journals like the *Programming Historian* use GitHub for the entire publishing life cycle (you can explore for yourself [https://github.com/programminghistorian/jekyll](https://github.com/programminghistorian/jekyll)). You can get a sense of how popular GitHub is for digital humanities through searching for `digital-humanities` on the platform [https://github.com/search?q=digital%20humanities&type=repositories](https://github.com/search?q=digital%20humanities&type=repositories) or taking a look at the number of repositories on Github tagged as `digital-humanities` [https://github.com/topics/digital-humanities](https://github.com/topics/digital-humanities).
+
+<figure>
+   <a href="{{site.baseurl}}/assets/images/dh_github_popularity.png">
+      <img src="{{site.baseurl}}/assets/images/dh_github_popularity.png" alt="Digital Humanities Repositories on GitHub" style="width:100%" class="image-popup">
+   </a>
+   <figcaption>Digital Humanities Repositories on GitHub</figcaption>
+</figure>
+
+Though this platform is very popular and useful for this course, we will do our best to use it critically and thoughtfully (a mindset we will hopefully bring to our various infrastructures and tools!).
 
 ## AI Coding with GitHub Co-Pilot
 
@@ -447,3 +485,8 @@ git config --list
 ```
 
 **CONGRATS YOU'VE SETUP YOUR COMPUTER 🎉**
+
+[^1]: For more about this acquistion see Warren, Tom. “Microsoft Confirms It Will Acquire GitHub for $7.5 Billion.” *The Verge*, June 4, 2018. [https://www.theverge.com/2018/6/4/17422788/microsoft-github-acquisition-official-deal](https://www.theverge.com/2018/6/4/17422788/microsoft-github-acquisition-official-deal).
+[^2]: Dohmke, Thomas. “100 Million Developers and Counting.” The GitHub Blog (blog), January 25, 2023. [https://github.blog/2023-01-25-100-million-developers-and-counting/](https://github.blog/2023-01-25-100-million-developers-and-counting/).
+[^3]: David., “Seeds Or Code?,” accessed April 5, 2023, [https://blog.dshr.org/2019/11/seeds-or-code.html](https://blog.dshr.org/2019/11/seeds-or-code.html).
+[^4]: For more information on this topic, you can read ["The Schism at the Heart of the Open-Source Movement"](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/) and [Dear GitHub](https://github.com/drop-ice/dear-github-2.0/blob/master/README.md).
