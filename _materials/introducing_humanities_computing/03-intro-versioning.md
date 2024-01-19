@@ -5,6 +5,11 @@ excerpt: "An introduction to version histories, version control, and collaborati
 toc: true
 ---
 
+- intro to working with git
+- intro to working with github
+  - github dev
+- adding folder to github repository
+
 So far, we have been using GitHub Co-Pilot and we have installed `git` but we have yet to use either for their main purpose: version control and collaborative coding. In this lesson, we will explore what version control is and how it works, as well as how to use GitHub to collaborate with others and share our code and datasets.
 
 ## What is Git?

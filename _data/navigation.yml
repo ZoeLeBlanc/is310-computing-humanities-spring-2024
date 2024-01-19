@@ -8,6 +8,8 @@ main:
     url: /policies
   - title: "Resources"
     url: /materials/introducing-humanities-computing/01-course-tools
+  - title: "Late Join"
+    url: /late-join
 
 assessments:
   - title: Assessments

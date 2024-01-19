@@ -1,6 +1,6 @@
 ---
 permalink: /schedule/00-overview
-title: ''
+title: 'Schedule & Assignments Overview'
 classes: wide
 layout: single
 read_time: false
@@ -8,13 +8,14 @@ author_profile: false
 share: false
 comments: false
 show_date: true
-toc: false
+toc: true
 sidebar:
     nav: "schedule"
 ---
 
-<h1> Schedule Overview </h1>
-<h3>(Subject to Change and Discussion)</h3>
+<div class="notice--info">⚡️ This schedule is subject to change depending on our collective progress this semester, so please treat this as a general guideline that is not set in stone. I will add assignments as we progress below, but you should generally expect to have both assigned materials and assignments each week.</div>
+
+## Weekly Schedule
 
 This overview gives a top level view of the topics for each of our meetings. You can either use the side navigation or click on a topic to jump to that section.
 
