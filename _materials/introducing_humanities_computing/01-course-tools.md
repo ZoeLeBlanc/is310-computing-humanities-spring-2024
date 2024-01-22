@@ -159,6 +159,25 @@ Once you have VS Code installed, you will need to install a few extensions. Exte
 
 Once you click install, you will need to reload VS Code and then you should be able to use Co-Pilot. We will be learning how to use Co-Pilot with VS Code in the next few weeks, but you can read more about it here [https://code.visualstudio.com/docs/editor/github-copilot](https://code.visualstudio.com/docs/editor/github-copilot).
 
+#### Disabling GitHub Co-Pilot
+
+While this class allows you to use AI tools, some of your other coding classes will not. So, if you need to disable Co-Pilot, all you need to do is click the Extensions icon in the left sidebar of VS Code, search for `GitHub Copilot`, and then click `Disable`.
+
+<figure>
+   <a href="{{site.baseurl}}/assets/images/vscode_disable_copilot.png">
+      <img src="{{site.baseurl}}/assets/images/vscode_disable_copilot.png" alt="Disable GitHub Copilot" style="width:100%" class="image-popup">
+   </a>
+   <figcaption>Disable GitHub Copilot</figcaption>
+</figure>
+
+Once it is disabled, you will need to reload VS Code. And then you can re-enable it by clicking `Enable` in the same location.
+
+<figure>
+   <a href="{{site.baseurl}}/assets/images/vscode_enable_copilot.png">
+      <img src="{{site.baseurl}}/assets/images/vscode_enable_copilot.png" alt="Enable GitHub Copilot" style="width:100%" class="image-popup">
+   </a>
+   <figcaption>Enable GitHub Copilot</figcaption>
+</figure>
 
 ## Python
 
@@ -311,7 +330,9 @@ Python 3.9.7
 
 While your version number might be different, you should see `Python 3` in the output.
 
-#### Windows Installation
+#### Windows Installation (Somewhat Optional)
+
+If you have a previous version of Python installed on your Windows machine, you are welcome to use that rather than following the instructions below. I would highly recommend the setup described below if you have long term plans to use Python, but if you are not sure, then you can use your previous version of Python. However, even those this installation choice is optional, **you must be able to run Python.** So please reach out to the instructor if you are having trouble.
 
 We'll be following the instructions for using Python for web development on Windows [https://docs.microsoft.com/en-us/windows/python/web-frameworks](https://docs.microsoft.com/en-us/windows/python/web-frameworks) and [https://learn.microsoft.com/en-us/windows/python/beginners](https://learn.microsoft.com/en-us/windows/python/beginners).
 
@@ -427,6 +448,18 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ![install zsh](https://res.cloudinary.com/practicaldev/image/fetch/s--HnDFRLC1--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5qpu02quwb9iwo6gguxg.png)
 
 You can find more in depth instructions here [https://dev.to/hannahgooding/how-i-customise-my-terminal-with-oh-my-zsh-macos-427i](https://dev.to/hannahgooding/how-i-customise-my-terminal-with-oh-my-zsh-macos-427i)
+
+### PowerShell Alternative
+
+If you decided not to install WSL and our instead using PowerShell, rather than using `oh-my-zsh` which only works on unix/linux operating systems, you can instead install `oh-my-posh`, following these instructions [https://ohmyposh.dev/docs/installation/windows](https://ohmyposh.dev/docs/installation/windows). Again this step is optional but as you can see in the image below, these types of configurations do help make your terminal more human readable.
+
+<figure>
+   <a href="https://zimmergren.net/content/images/2021/03/terminal-oh-alien.png">
+      <img src="https://zimmergren.net/content/images/2021/03/terminal-oh-alien.png" alt="oh-my-posh" style="width:100%" class="image-popup">
+   </a>
+   <figcaption>oh-my-posh</figcaption>
+</figure>
+
 
 ## Git
 
