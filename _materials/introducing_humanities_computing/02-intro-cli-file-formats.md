@@ -207,7 +207,7 @@ Each file path is unique to your computer, and so if you are following along wit
 
 You'll also notice I did the command `cd ~`. What do you think this command does? What does `cd` stand for do you think?
 
-A core distinction with how I used this final command is the fact that I used a tilde `~` symbol. This symbol is a **relative file path**, meaning it is relative to my current directory. So if I am in the `Documents` folder, `cd ~` will take me to my home directory, but if I am in the `Downloads` folder, `cd ~` will take me to the `Documents` folder. You can also use `cd ..` to go up one directory, and `cd ../..` to go up two directories, and so on.
+A core distinction with how I used this final command is the fact that I used a tilde `~` symbol. This symbol is a **relative file path**, meaning it is relative to my current directory. So if I am in the `Documents` folder, `cd ~` will take me to my home directory. You can also use `cd ..` to go up one directory, and `cd ../..` to go up two directories, and so on.
 
 ----
 Beyond creating directories (which again is just a fancy term for file folders), we often use the command line to create files. To do this, we use the command `touch`. Let's try it out!
