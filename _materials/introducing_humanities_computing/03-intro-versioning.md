@@ -103,7 +103,7 @@ You should see the following output:
 Initialized empty Git repository in /Users/YOU/is310-first-repo/.git/
 ```
 
-Now if we type `ls -a` we will see a new folder called `.git`. This is the folder that contains all of the information about our git repository. The `.git` folder is hidden by default, so we need to use the `-a` flag to see it. This means that if you try looking at your folder either in a file explorer or in the terminal with just `ls`, or even in the VS Code Explorer, you won't see the `.git` folder.
+Now if we type `ls -a` of `Get-ChildItem -Force` we will see a new folder called `.git`. This is the folder that contains all of the information about our git repository. The `.git` folder is hidden by default, so we need to use the `-a` or `-Force` flag to see it. This means that if you try looking at your folder either in a file explorer or in the terminal with just `ls`, or even in the VS Code Explorer, you won't see the `.git` folder.
 
 With our git repository initialized, we can now start tracking changes to our file, but this is **not automatic**. Instead, we have to tell git which files to pay attention to and track, and also when to take a snapshot of our changes.
 
