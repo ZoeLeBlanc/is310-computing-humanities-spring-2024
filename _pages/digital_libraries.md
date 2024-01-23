@@ -10,7 +10,9 @@ This week you have read about the history of mass digitization, the early days o
 
 ## Group Activity (~20 minutes)
 
-Each group should first create a Google Doc and share it with the class in our Slack channel. Then, the group should assign each member should try to find an example for the following prompts (more than one member can do the same prompt, but you should try to find different examples and you'll likely need to divide up the work given the time constraints):
+Each group should first create a Google Doc and share it with the class in our Slack channel. Then, the group should assign each member should try to find an example for the prompts below. Use screenshots and links to show us what you found.
+
+Also, more than one member can do the same prompt, but you should try to find different examples, and you'll likely need to divide up the work given the time constraints. Also please indicate with your name which example you found.
 
 - [ ] A digital library or archive that was created before 2000 and is still maintained today.
 - [ ] A digitized version of microfilm or microfiche.
