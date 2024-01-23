@@ -28,8 +28,8 @@ materials:
         url: /materials/introducing-humanities-computing/01-course-tools
       - title: "Introduction to the Command Line & File Formats"
         url: /materials/introducing-humanities-computing/02-intro-cli-file-formats
-      - title: "Introduction to Git & GitHub (To Be Posted)"
-        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Introduction to Git & GitHub"
+        url: /materials/introducing-humanities-computing/03-intro-versioning
 
 schedule:
   - title: Overview
