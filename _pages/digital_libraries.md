@@ -15,16 +15,13 @@ Each group should first create a Google Doc and share it with the class in our S
 Also, more than one member can do the same prompt, but you should try to find different examples, and you'll likely need to divide up the work given the time constraints. Also please indicate with your name which example you found.
 
 - [ ] A digital library or archive that was created before 2000 and is still maintained today.
-- [ ] A digitized version of microfilm or microfiche.
-- [ ] A digitized cultural object that has text in it, and either has bad OCR (Optical Character Recognition) or none at all.
+- [ ] A digitized version of microfilm or microfiche. Bonus points if you can connect this to to Milligan chapter, whether through finding a digitized version of a microfilm or microfiche that is not in English, or that has either bad OCR (Optical Character Recognition) or none at all.
 - [ ] A digital library or project that uses transcriptions or annotations to digitize cultural objects.
 - [ ] A digital library or collection that has *born-digital* materials (i.e. materials that were created digitally and never existed in analog form).
 - [ ] A digital library that has in-copyright or proprietary materials.
-- [ ] A tool or unique interface for exploring a digital library or archive.
-
-*Bonus Prompt*
-
+- [ ] A tool or unique interface for exploring a digital library or archive. Bonus points if you can connect it to some of the ideas that Louis Milic talks about in his article.
 - [ ] A digital library or archive that has been abandoned or is no longer maintained.
+- [ ] A digital cultural object that has gone viral similar to the Lenna image. Bonus points if you can connect it to the Ding, Diehm, and McGhee article.
 
 Some of these examples are in our readings from this week, but others will require you to do some searching. Once you have found an example for each prompt, add it to your group's Google Doc. We will then discuss these examples as a class.
 
