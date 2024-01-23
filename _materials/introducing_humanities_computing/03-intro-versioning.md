@@ -344,7 +344,7 @@ To generate a new SSH key, we need to use the `ssh-keygen` command and then the 
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-You should replace `your_email@example.com` with the email you use for your GitHub account. If you get an error, you might be working with an older version of SSH. In that case, you can use the following command.
+You should replace `your_email@example.com` with the email you use for your GitHub account. Be sure to wrap your email in quotations, like in the example. If you get an error, you might be working with an older version of SSH. In that case, you can use the following command.
 
 ```sh
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -352,13 +352,13 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 Both `rsa` and `ed25519` are types of encryption, which is a way to secure your data. You can read more about encryption [https://www.cloudflare.com/learning/ssl/what-is-encryption/](https://www.cloudflare.com/learning/ssl/what-is-encryption/).
 
-You'll be prompted to save your SSH key into a file. You can just press enter to save it in the default location, which is your home directory. 
+You'll be prompted to save your SSH key into a file. You can just press enter to save it in the default location, which is your home directory.
 
 ```sh
 > Enter a file in which to save the key (/Users/YOU/.ssh/id_ALGORITHM): [Press enter]
 ```
 
-You'll then be prompted to enter a passphrase. You can enter a passphrase or leave it blank. If you enter a passphrase, you'll have to enter it every time you use your SSH key. If you leave it blank, you won't have to enter it every time you use your SSH key (I would recommend leaving it blank, but it's up to you!).
+You'll then be prompted to enter a passphrase. You can enter a passphrase or leave it blank. If you enter a passphrase, you'll have to enter it every time you use your SSH key. If you leave it blank, you won't have to enter it every time you use your SSH key (I would recommend leaving it blank unless you're very good at remembering/storing pass phrases, but it's up to you!).
 
 ----
 
@@ -370,7 +370,7 @@ For *Unix/Linux/WSL*:
 eval "$(ssh-agent -s)"
 ```
 
-For *PowerShell*:
+For *PowerShell*, make sure you are running PowerShell as an administrator and then run the following command:
 
 ```sh
 Start-Service ssh-agent
@@ -386,7 +386,7 @@ If you are getting errors, you might need to use a slightly different command de
 
 ##### Mac Users Configuration
 
-If you are on a MacBook running Sierra 10.12.2 or later, you will need to do some manual configuration.
+If you are on a MacBook running Sierra 10.12.2 or later, you will need to do some manual configuration (you can check operating system version by clicking on the Apple icon in the top left-hand corner of your screen and then clicking on `About This Mac`).
 
 First, you'll need to check if this file exists with this command:
 
@@ -414,7 +414,7 @@ Host *
   IdentityFile  ~/.ssh/id_ed25519
 ```
 
-If you added a passcode, you'll need to add `UseKeychain yes` underneath `AddKeysToAgent yes`.
+If you added a passcode, you'll need to add `UseKeychain yes` underneath the `AddKeysToAgent yes`.
 
 Then you need to save the file and exit the text editor. You can do this by pressing `Command + S` and then `Command + Q`.
 
@@ -434,16 +434,16 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 
 Finally, we need to add our SSH key to our GitHub account. To do this, we need to copy our SSH key to our clipboard.
 
-If you are running either *Unix or Linux*, we can use the `pbcopy` command and then the name of the file we want to copy. 
+If you are running either *Unix/Linux/WSL*, we can use the `pbcopy` command and then the name of the file we want to copy.
 
 ```sh
-pbcopy < ~/.ssh/id_rsa.pub
+pbcopy < ~/.ssh/id_ed25519.pub
 ```
 
 If you are running *PowerShell*, we can use the `clip` command and then the name of the file we want to copy.
 
 ```sh
-cat ~/.ssh/id_rsa.pub | clip
+cat ~/.ssh/id_ed25519.pub | clip
 ```
 
 And now we can add our SSH key to our GitHub account. To do this, we need to go to our GitHub account and click on the `Settings` tab. Then we need to click on the `SSH and GPG keys` tab. Finally, we need to click on the `New SSH key` button and then paste our SSH key into the `Key` box. We can also add a title for our SSH key. Let's call it `My SSH Key`.
@@ -471,9 +471,9 @@ We can do this through the web browser interface, by clicking the `add file` but
 Then we need to give our file a name. Let's call it `README.md`. The `.md` extension stands for markdown, which is a way to format text. We'll be discussing this more later, but for now just know that `.md` files are used to format text. For now, let's just add some text to our file. We can do this by typing in the text box. Let's add the following text:
 
 ```md
-# IS 310: Computing in the Humanities Coding Assignments
+# IS 310 Test Repository
 
-This is my repository for my coding materials.
+This is my first repository.
 ```
 
 We can see what this looks like by clicking on the `Preview` tab. This will show us a preview of our file.
@@ -562,111 +562,47 @@ So far we have been creating new repositories on GitHub and then pulling them to
 
 ### Cloning a Repository
 
+Cloning is GitHub's term for downloading a repository from GitHub to your local computer. To clone a repository, we need to use the `git clone` command and then the URL of the remote repository. Let's clone the Programming Historian Jekyll repository.
 
+```sh
+git clone https://github.com/USERNAME/REPOSITORY
+```
 
-## GitHub Features
-
-### Advanced Git
-
-#### Branches
-
-#### Merging
+You can find the correct URL of a repository by clicking on the green `Code` button and then copying the URL.
 
 <figure>
-  <a href="https://www.nobledesktop.com/image/gitresources/git-branches-merge.png"><img src="https://www.nobledesktop.com/image/gitresources/git-branches-merge.png" alt="Git Branching" class="image-popup"></a>
+  <a href="https://docs.github.com/assets/cb-69468/mw-1440/images/help/repository/https-url-clone-cli.webp"><img src="https://docs.github.com/assets/cb-69468/mw-1440/images/help/repository/https-url-clone-cli.webp" class="image-popup"></a>
 </figure>
 
+If you setup `SSH`, you should select the `Use SSH` button, but otherwise you can use `HTTPS` and then copy the URL.
 
+Now we can clone the repository by using the `git clone` command and then the URL of the remote repository. Let's clone our `is310-test-repo`.
 
-A branch is a copy of your project that you can make changes to without affecting the main project. You can create as many branches as you want and then merge them back into the main project when you're ready.
+```sh
+git clone git@github.com:ZoeLeBlanc/is310-test-repo.git
+```
 
-![git branch](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
+You should see something that looks like the following:
 
-While we won't use much branching in this course, it's important to know it exists. For example, in our repository we have been *committing* to the `main` branch. But we could create new branches if we wanted to try something new.
+```sh
+$ git clone https://github.com/ZoeLeBlanc/is310-test-repo.git
+> Cloning into `is310-test-repo`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
+Now if we type `ls` we will see that we have a new directory called `is310-test-repo`. If we navigate into that directory, we will see that it has all the files from our remote repository.
 
+## Homework Exercises
 
+### Solve the Cloned Corn Maze
 
-#### Repositories
+Your assignment before our next class meeting (so this upcoming Thursday) is to clone two of your peers' repositories and solve their mazes. You can find the links to their repositories in the discussion forum [https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/1](https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/1), and you should try solving the mazes that have yet to be solved based on replies.
 
-Repositories are the core of GitHub and git, and are essentially like folders in Google Drive. They are where all the files, code, and data for a project is stored, along with version histories of them. On GitHub, as you've seen now, repositories can be either public or private. Public repositories are visible to anyone, while private repositories are only visible to the owner and collaborators.
-
-You can view the activity on a repository by clicking on the `Insights` tab. This will show you a graph of the activity on the repository, including activity by contributors, under the `Contributors` tab.
-
-<figure>
-  <a href="{{site.baseurl}}/assets/images/contributors_jekyll.png"><img src="{{site.baseurl}}/assets/images/contributors_jekyll.png"></a>
-  <figcaption>Contributors to the Programming Historian Jekyll repository <a href="https://github.com/programminghistorian/jekyll">https://github.com/programminghistorian/jekyll</a></figcaption>
-</figure>
-
-For example, this image is of the insights page on GitHub one of the most popular Computing in the Humanities projects, *The Programming Historian*. Highly worth checking out if you're interested in learning about more advanced programming topics and how they relate to the humanities!
-
-### Issues
-
-Issues are a way to track bugs, feature requests, or other tasks related to a project. They are a way to track the development of a project and can be used to coordinate work between collaborators. Issues can be assigned to specific users, labeled, and commented on. They can also be closed when the issue is resolved.
-
-![issue](https://docs.github.com/assets/cb-119863/mw-1440/images/help/issues/issue-assignees.webp)
-
-### Discussions
-
-You have all tried out discussions already! Discussions are a way to have threaded conversations about a project. They are similar to issues, but are more open-ended and can be used for general questions or conversations. They are a way to build community around a project.
-
-![discussions](https://github.githubassets.com/images/modules/site/discussions/overview.png)
-
-### Topics
-
-While GitHub's search engine is powerful, one way to make your projects for findable is to add topics, which allows you to tag a repository with keywords.  For example, if you search for `digital-humanities` and then click on the `Topics` tab, you'll see a list of topics that are associated with repositories that have been tagged with `digital-humanities`. You can also see how many repositories have been tagged with each topic.
-
-![dh topics]({{site.baseurl}}/assets/images/dh_topics.png)
-
-### Users
-
-You are all also familiar now with users, since you all have accounts on GitHub. While user profiles are somewhat self-explanatory, there's a number of features for users that are worth highlighting.
-
-#### Profile
-
-User profiles are where you can see all of a user's repositories, issues, and discussions. It's also where you can see their followers and who they are following. You can also see their activity on GitHub, including their contributions to repositories, issues, and discussions.
-
-We can explore some of these features through my profile as an example.
-
-[![leblanc profile]({{site.baseurl}}/assets/images/leblanc_github_profile.png)](https://github.com/ZoeLeBlanc)
-
-#### Followers and Following
-
-You can follow other users on GitHub, which allows you to see their activity on the platform. You can also see who is following you. This is a way to build community and find other users who are working on similar projects.
-
-## In Class Lab Activity
-
-### Creating Your First Repository
-
-Now that we've explored some of the features of GitHub, let's create a repository. Again, remember repository is essentially a term for folder.
-
-The folder or repository we are going to create today is going to be a place where you can store your work for this course. We'll be using this repository throughout the course, so it's important that you create it now.
-
-To do this, click on the `New` button in the top right-hand corner of the screen. This will take you to a page where you can create a new repository.
-
-
-
-*Any questions or problems?*
+Once you have solved the maze, you should reply to their post in the discussion, letting them know that you were successful and posting a screenshot of your solved maze in your terminal. If you have any issues with the maze, you're welcome to request help on their post, but please try to solve it on your own first.
 
 ----
-
-So far what we have is pretty basic, but we can quickly start editing. Let's click on the little pencil icon to edit the README file. This will take us to a text editor where we can edit the file. Let's add some text to the file. For example, let's add the following text:
-
-```
-# Introduction to Digital Humanities
-
-This is my repository for IS 578: Introduction to Digital Humanities.
-```
-
-Now let's scroll down to the bottom of the page and click on the `Commit changes` button. This will save our changes to the repository. You'll notice that we have to add a commit message. This is a message that describes the changes we made to the repository. For example, we could write `Added text to README file`.
-
-But what exactly did we just do? We just made our first commit and worked with git, so time for the next lesson!
-
-
-
-
-
-
-We just created our first repository and updated our file. But how exactly did we do that and what were we even doing exactly? This is where git comes in!
 
 - [^1]: Before Git, there were several generations of version control systems that evolved to meet the changing demands of software development. The first generation, represented by tools like Source Code Control System (SCCS) developed in 1972 by Marc Rochkind at Bell Labs, was centralized and relied on simple single-file locking-based concurrency. The Revision Control System (RCS), developed a decade later in 1982, followed the same lines but became widely popular due to its open-source nature. The second generation included the Concurrent Versions System (CVS), which allowed for more networked, collaborative work by introducing a merging-based approach instead of a file-locking approach. However, CVS had limitations that were addressed by its successor, Subversion, released in 2000, which allowed for more robust file set operations with atomic commits. Git represents the third generation of version control, combining lessons from these previous systems with new features suited for modern, large-scale software development. For more information, see Shane Lin's [*Git for Humanists*](https://shane-et-al.github.io/git_slab/).
