@@ -401,7 +401,7 @@ Your maze should have the following components:
 
 You are welcome to use Project Gutenberg [https://www.gutenberg.org/](https://www.gutenberg.org/) for your files, but you can also use other files if you prefer. You can also use the command line to create your files, but you can also use a text editor if you prefer.
 
-<div class="notice--info">⚡️ You will not be submitting either assignment until we get through the lesson on git and GitHub on Tuesday, so please just bring your assignments with you to class.</div>
+<div class="notice--info">⚡️ You will not be submitting either assignment until we get through the lesson on git and GitHub on Tuesday, so please just bring your <strong>completed</strong> assignments with you to class.</div>
 
 ## Additional Resources
 
