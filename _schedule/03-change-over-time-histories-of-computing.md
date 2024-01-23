@@ -7,9 +7,9 @@ class_date: 2024-01-23
 
 ## Agenda (Zoom Class)
 
-- [ ] Discuss [solution to Instructor's Command Line Maze]({{site.baseurl}}/materials/introducing-humanities-computing/02-intro-cli-file-formats/#assignment-1-find-your-way-solve-a-command-line-corn-maze).
-- [ ] [Explore digital libraries and archives]({{site.baseurl}}/digital-libraries).
-- [ ] Discuss the assigned readings.
+- [x] Discuss [solution to Instructor's Command Line Maze]({{site.baseurl}}/materials/introducing-humanities-computing/02-intro-cli-file-formats/#assignment-1-find-your-way-solve-a-command-line-corn-maze).
+- [x] [Explore digital libraries and archives]({{site.baseurl}}/digital-libraries). You can find the link to the digital libraries page here.
+- [x] Discuss the assigned readings.
 - [ ] [Introduction to git and GitHub]({{site.baseurl}}/materials/introducing-humanities-computing/03-intro-versioning).
 
 ## Assigned Materials

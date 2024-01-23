@@ -46,4 +46,5 @@ This overview gives a top level view of the topics for each of our meetings. You
 |Assignment | Due Date (Subject to Change) |
 | -----------------: | --------------: |
 | [Command Line Maze Assignments]({{site.baseurl}}/materials/introducing-humanities-computing/02-intro-cli-file-formats/#homework-exercises)| [January 23]({{site.baseurl}}/schedule/03-change-over-time-histories-of-computing/) |
-| [GitHub Command Line Maze Assignments]({{site.baseurl}}/materials/introducing-humanities-computing/03-intro-versioning/#homework-exercises)| [January 25]({{site.baseurl}}/schedule/04-version-file-histories/) |
+| [Command Line Maze Assignment 2]({{site.baseurl}}/materials/introducing-humanities-computing/materials/introducing-humanities-computing/02-intro-cli-file-formats/#assignment-2-time-to-get-lost-create-a-command-line-corn-maze)| [January 25]({{site.baseurl}}/schedule/04-version-file-histories/) |
+
