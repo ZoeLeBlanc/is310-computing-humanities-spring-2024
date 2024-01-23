@@ -14,11 +14,15 @@ Each group should first create a Google Doc and share it with the class in our S
 
 - [ ] A digital library or archive that was created before 2000 and is still maintained today.
 - [ ] A digitized version of microfilm or microfiche.
-- [ ] A digitized cultural object that either has bad OCR (Optical Character Recognition) or none at all.
-- [ ] A digital library that uses transcriptions or annotations to digitize cultural objects.
-- [ ] A digital library that has *born-digital* materials (i.e. materials that were created digitally and never existed in analog form).
+- [ ] A digitized cultural object that has text in it, and either has bad OCR (Optical Character Recognition) or none at all.
+- [ ] A digital library or project that uses transcriptions or annotations to digitize cultural objects.
+- [ ] A digital library or collection that has *born-digital* materials (i.e. materials that were created digitally and never existed in analog form).
 - [ ] A digital library that has in-copyright or proprietary materials.
 - [ ] A tool or unique interface for exploring a digital library or archive.
+
+*Bonus Prompt*
+
+- [ ] A digital library or archive that has been abandoned or is no longer maintained.
 
 Some of these examples are in our readings from this week, but others will require you to do some searching. Once you have found an example for each prompt, add it to your group's Google Doc. We will then discuss these examples as a class.
 
