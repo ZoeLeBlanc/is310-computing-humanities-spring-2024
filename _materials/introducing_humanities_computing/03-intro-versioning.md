@@ -384,7 +384,7 @@ Which should output something that looks like the following:
 
 If you are getting errors, you might need to use a slightly different command depending on your operating system. You can read more about this [https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent).
 
-##### Mac Users Configuration
+##### Mac Users Configuration (Also for those running WSL on Windows)
 
 If you are on a MacBook running Sierra 10.12.2 or later, you will need to do some manual configuration (you can check operating system version by clicking on the Apple icon in the top left-hand corner of your screen and then clicking on `About This Mac`).
 
@@ -434,16 +434,16 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 
 Finally, we need to add our SSH key to our GitHub account. To do this, we need to copy our SSH key to our clipboard.
 
-If you are running either *Unix/Linux/WSL*, we can use the `pbcopy` command and then the name of the file we want to copy.
+If you are running either *Unix/Linux*, we can use the `pbcopy` command and then the name of the file we want to copy.
 
 ```sh
 pbcopy < ~/.ssh/id_ed25519.pub
 ```
 
-If you are running *PowerShell*, we can use the `clip` command and then the name of the file we want to copy.
+If you are running *WSL/PowerShell*, we can use the `clip` command and then the name of the file we want to copy.
 
 ```sh
-cat ~/.ssh/id_ed25519.pub | clip
+cat ~/.ssh/id_ed25519.pub | clip.exe
 ```
 
 And now we can add our SSH key to our GitHub account. To do this, we need to go to our GitHub account and click on the `Settings` tab. Then we need to click on the `SSH and GPG keys` tab. Finally, we need to click on the `New SSH key` button and then paste our SSH key into the `Key` box. We can also add a title for our SSH key. Let's call it `My SSH Key`.
@@ -454,7 +454,21 @@ Once we have add the SSH key, we can click on the `Add SSH key` button. Now we h
 git remote set-url origin git@github.com:OWNER/REPOSITORY.git
 ```
 
-We can now push to our GitHub repository without having to enter our username and password every time 🥳.
+Now you should try pushing to GitHub again. The first time you do this, you might see something like the following:
+
+```sh
+The authenticity of host 'github.com (IP ADDRESS)' can't be established.
+RSA key fingerprint is SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+
+This is just git asking you if you want to connect to GitHub. You can type `yes` and press enter. Then you should see something like the following:
+
+```sh
+Warning: Permanently added 'github.com,IP ADDRESS' (RSA) to the list of known hosts.
+```
+
+This is just git telling you that it has added GitHub and we can now push to our GitHub repository without having to enter our username and password every time 🥳.
 
 You can read more about managing remote repositories [here](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories) and managing SSH keys [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
 
@@ -564,13 +578,13 @@ So far we have been creating new repositories on GitHub and then pulling them to
 
 ### Cloning a Repository
 
-Cloning is GitHub's term for downloading a repository from GitHub to your local computer. To clone a repository, we need to use the `git clone` command and then the URL of the remote repository. Let's clone the Programming Historian Jekyll repository.
+Cloning is GitHub's term for downloading a repository from GitHub to your local computer. To clone a repository, we need to use the `git clone` command and then the URL of the remote repository.
 
 ```sh
 git clone https://github.com/USERNAME/REPOSITORY
 ```
 
-You can find the correct URL of a repository by clicking on the green `Code` button and then copying the URL.
+You can find the correct URL of a repository by clicking on the green `Code` button and then copying the URL. Do not copy the above example, since it's just a placeholder. You need to copy the URL of the repository you want to clone.
 
 <figure>
   <a href="https://docs.github.com/assets/cb-69468/mw-1440/images/help/repository/https-url-clone-cli.webp"><img src="https://docs.github.com/assets/cb-69468/mw-1440/images/help/repository/https-url-clone-cli.webp" class="image-popup"></a>
@@ -613,4 +627,4 @@ Once you have solved the maze, you should reply to their post in the discussion,
 
 ## Resources
 
-- Once you've worked through this lesson, feel free to read through our [Advanced git and GitHub resource]({{site.baseurl}}/materials/introducing-humanities-computing/05-advanced-git-github). In particular, it has a helpful section on [git cheatsheet]({{site.baseurl}}/materials/introducing-humanities-computing/05-advanced-git-github#git-commands-cheat-sheet) that you're welcome to refer to as you work through the course.
+- Once you've worked through this lesson, feel free to read through our [Advanced git and GitHub resource]({{site.baseurl}}/materials/introducing-humanities-computing/05-advanced-git-github). In particular, it has a helpful section on [git cheatsheet]({{site.baseurl}}/materials/introducing-humanities-computing/05-advanced-git-github#git-commands-cheat-sheet) that you're welcome to refer to as you work through the assignments/throughout the semester.
