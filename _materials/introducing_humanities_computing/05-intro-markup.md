@@ -234,9 +234,9 @@ In this example, the tag's name is div. The tag has two attributes: class, with 
 Tags can contain other tags, in a hierarchical relationship. For example, here's some HTML to make a bulleted list:
 
 <ul>
-  <li>Likes Coding</li>
-  <li>Likes History</li>
-  <li>Dislikes Math</li>
+  <li>Likes Coding and History</li>
+  <li>Likes "What We Do in the Shadows" TV show</li>
+  <li>Dislikes Mint Chocolate</li>
 </ul>
 
 The `<ul>` tag (ul stands for **unordered list**) in this example has three other `<li>` tags inside of it (li stands for **list item**). The `<ul>` tag is said to be the **parent** of the `<li>` tags, and the `<li>` tags are the **children** of the `<ul>` tag. All tags grouped under a particular parent tag are called **siblings.**
