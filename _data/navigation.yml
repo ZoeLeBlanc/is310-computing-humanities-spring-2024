@@ -34,8 +34,8 @@ materials:
         url: /materials/introducing-humanities-computing/03-intro-versioning
       - title: "Advanced Git & GitHub"
         url: /materials/introducing-humanities-computing/05-advanced-git-github
-      - title: "Introduction to Markup (To Be Posted)"
-        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Introduction to Markup & Styling Web Documents"
+        url: /materials/introducing-humanities-computing/06-intro-markup
 
 schedule:
   - title: Overview

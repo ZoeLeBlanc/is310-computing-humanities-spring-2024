@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Markup and Styling Documents"
-permalink: /materials/introducing-humanities-computing/05-intro-markup
+permalink: /materials/introducing-humanities-computing/06-intro-markup
 excerpt: "An introduction to markup languages and web styling of documents."
 toc: true
 ---
