@@ -30,6 +30,7 @@ If you are using the WSL (Windows Subsystem for Linux), a Mac, or a Linux, you c
 | `rmdir [directory]` | Remove directory ( only operates on empty directories ) |
 | `rmdir /s [directory name]` | Force remove a directory and all its contents |
 | `help` | Prints all possible commands |
+| `Get-ChildItem -Path [directory] -Recurse -Force -File` | List all files (including hidden ones) in a directory and subdirectories. All the flags are optional. You would use `-Path` if you wanted to specify a different directory than the one you're in. You would use `-Recurse` if you wanted to list all files in subdirectories. You would use `-Force` if you wanted to list hidden files. You would use `-File` if you wanted to list only files and not directories. |
 
 ### Advanced Commands
 
