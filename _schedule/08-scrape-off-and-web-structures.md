@@ -1,8 +1,8 @@
 ---
-title: "Markup and Scrape Off"
-permalink: /schedule/06-markup-and-scrape-off
+title: "Scraped Off & Web Structures"
+permalink: /schedule/08-scraped-off-and-web-structures
 toc: true
-class_date: 2024-02-01
+class_date: 2024-02-08
 ---
 
 ## Assigned Materials
@@ -13,4 +13,3 @@ class_date: 2024-02-01
 
 - “Which Dh Tools Are Actually Used In Research?” By Laure Barbot, Frank Fischer, Yoann Moranville And Ivan Pozdniakov, December 6 2019 [https://weltliteratur.net/dh-tools-used-in-research/](https://weltliteratur.net/dh-tools-used-in-research/)
 - Results from the StackOverflow Developer Survey [https://survey.stackoverflow.co/2023/](https://survey.stackoverflow.co/2023/) 
-

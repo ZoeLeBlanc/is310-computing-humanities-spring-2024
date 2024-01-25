@@ -1,8 +1,8 @@
 ---
 title: "Connecting The Dots"
-permalink: /schedule/19-connecting-the-dots
+permalink: /schedule/21-connecting-the-dots
 toc: true
-class_date: 2024-03-26
+class_date: 2024-04-02
 ---
 
 ## Assigned Materials

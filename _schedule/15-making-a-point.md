@@ -1,8 +1,8 @@
 ---
 title: "Making A Point"
-permalink: /schedule/13-making-a-point
+permalink: /schedule/15-making-a-point
 toc: true
-class_date: 2024-02-27
+class_date: 2024-03-05
 ---
 
 ## Assigned Materials

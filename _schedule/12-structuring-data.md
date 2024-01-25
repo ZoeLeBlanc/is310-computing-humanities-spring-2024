@@ -2,7 +2,7 @@
 title: "Structuring Data"
 permalink: /schedule/10-structuring-data
 toc: true
-class_date: 2024-02-15
+class_date: 2024-02-22
 ---
 
 ## Assigned Materials

@@ -1,8 +1,8 @@
 ---
 title: "Nodes & Edges"
-permalink: /schedule/20-nodes-and-edges
+permalink: /schedule/22-nodes-and-edges
 toc: true
-class_date: 2024-03-28
+class_date: 2024-04-04
 ---
 
 ## Assigned Materials

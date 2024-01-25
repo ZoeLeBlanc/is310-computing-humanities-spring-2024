@@ -1,8 +1,8 @@
 ---
 title: "Culture at Scale & Digital Collections"
-permalink: /schedule/09-culture-at-scale-and-digital-collections
+permalink: /schedule/11-culture-at-scale-and-digital-collections
 toc: true
-class_date: 2024-02-13
+class_date: 2024-02-20
 ---
 
 ## Assigned Materials

@@ -1,8 +1,8 @@
 ---
 title: "Seeing Like A Computer"
-permalink: /schedule/21-seeing-like-a-computer
+permalink: /schedule/23-seeing-like-a-computer
 toc: true
-class_date: 2024-04-02
+class_date: 2024-04-09
 ---
 
 ## Assigned Materials 

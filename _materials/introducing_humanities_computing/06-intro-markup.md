@@ -71,7 +71,7 @@ It's important to understand that Markdown has this history because many flavors
 
 This figure shows some examples of how Markdown is written depending on the platform and standards. You can also see some of the discussions that go on to help shape these standards through the various repositories on GitHub that host the standards. For example, CommonMark is another popular Markdown style and improvements to it are discussed in this repository [https://github.com/commonmark/commonmark-spec/issues](https://github.com/commonmark/commonmark-spec/issues).
 
-### In Class Exercise
+### First Exercise
 
 Now that you have a basic understanding of Markdown, let's try improving the `README.md` file in our `is310-coding-assignments` repository. To do this, we are going to use the Markdown Preview extension in VS Code.
 
@@ -251,7 +251,7 @@ HTML is a very powerful language and there are many more tags that we can use to
 
 For more information, read through this [introduction from Mozilla on HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML).
 
-### In Class Exercise
+### Second Exercise
 
 Now that you have a basic understanding of HTML, let's try implementing this understanding by creating a new HTML file, called `is310_website.htl` in our `is310-coding-assignments` repository in a new folder called `week_02`.
 

@@ -1,8 +1,8 @@
 ---
 title: "Culture as Data & Data Cultures"
-permalink: /schedule/07-culture-as-data-and-data-cultures
+permalink: /schedule/09-culture-as-data-and-data-cultures
 toc: true
-class_date: 2024-02-06
+class_date: 2024-02-13
 ---
 ## Assigned Materials
 

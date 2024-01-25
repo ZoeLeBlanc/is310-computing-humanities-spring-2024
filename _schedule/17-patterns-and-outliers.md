@@ -1,8 +1,8 @@
 ---
 title: "Patterns & Outliers"
-permalink: /schedule/15-patterns-and-outliers
+permalink: /schedule/17-patterns-and-outliers
 toc: true
-class_date: 2024-03-05
+class_date: 2024-03-19
 ---
 
 ## Assigned Materials

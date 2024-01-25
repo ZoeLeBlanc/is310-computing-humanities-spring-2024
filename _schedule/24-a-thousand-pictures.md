@@ -1,8 +1,8 @@
 ---
 title: "A Thousand Pictures"
-permalink: /schedule/22-a-thousand-pictures
+permalink: /schedule/24-a-thousand-pictures
 toc: true
-class_date: 2024-04-04
+class_date: 2024-04-11
 ---
 
 ## Assigned Materials

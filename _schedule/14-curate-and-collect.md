@@ -1,8 +1,8 @@
 ---
 title: "Curate & Collect"
-permalink: /schedule/12-curate-and-collect
+permalink: /schedule/14-curate-and-collect
 toc: true
-class_date: 2024-02-22
+class_date: 2024-02-29
 ---
 
 ## Assigned Materials

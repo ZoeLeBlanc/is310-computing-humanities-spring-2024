@@ -1,8 +1,8 @@
 ---
 title: "Names & Topics"
-permalink: /schedule/17-names-and-topics
+permalink: /schedule/19-names-and-topics
 toc: true
-class_date: 2024-03-19
+class_date: 2024-03-26
 ---
 
 ## Assigned Materials

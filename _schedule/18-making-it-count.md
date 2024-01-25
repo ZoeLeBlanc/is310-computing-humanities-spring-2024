@@ -1,8 +1,8 @@
 ---
 title: "Making It Count"
-permalink: /schedule/16-making-it-count
+permalink: /schedule/18-making-it-count
 toc: true
-class_date: 2024-03-07
+class_date: 2024-03-21
 ---
 
 ## Assigned Materials

@@ -1,8 +1,8 @@
 ---
 title: "GETting Data"
-permalink: /schedule/08-getting-data
+permalink: /schedule/10-getting-data
 toc: true
-class_date: 2024-02-08
+class_date: 2024-02-15
 ---
 ## Assigned Materials
 
