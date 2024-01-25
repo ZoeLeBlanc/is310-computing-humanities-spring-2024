@@ -2,7 +2,7 @@
 title: "T(r)ending and Cleaning"
 permalink: /schedule/11-trending-and-cleaning
 toc: true
-class_date: 2024-02-20
+class_date: 2024-02-27
 ---
 
 ## Assigned Materials
