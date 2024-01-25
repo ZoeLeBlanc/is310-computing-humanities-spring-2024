@@ -250,7 +250,7 @@ Once you create your repository it should like the photo above. If you selected 
   <a href="https://material.bits.vib.be/topics/git-introduction/images/02-3-create-readme-repository.PNG"><img src="https://material.bits.vib.be/topics/git-introduction/images/02-3-create-readme-repository.PNG" alt="First Commit With README" class="image-popup"></a>
 </figure>
 
-We'll be discussing what this repository consists of, but first let's try to get our local repository onto GitHub.
+To understand what each button does feel free to browse through our [advanced git and GitHub resource]({{site.baseurl}}/materials/introducing-humanities-computing/05-advanced-git-github), but first let's try to get our local repository onto GitHub.
 
 ### Pushing to GitHub
 
@@ -548,11 +548,13 @@ We've officially closed the loop between our local and remote repositories. We c
 
 This is the core workflow for using git and GitHub.
 
-## In Class Exercise
+## First Exercise
+
+Initially this was an in-class exercise, but now try doing this at home! If you get stuck, feel free to reach out to the instructors or your peers. We will be going over this in class though too.
 
 Now it's your turn to try this out! Trying following the steps above to create a new repository called `is310-coding-assignments`. This repository should have a `README.md` file and be public.
 
-Then try to create this directory in your local computer and move your command line maze into it, into a folder called `week1-cli-assignment`. Then try to push your local repository to your remote repository on GitHub. You can have your maze zipped or unzipped, that's up to you! But make sure you have instructions for how to run your maze.
+Then try to create this directory in your local computer and **move your command line maze** into a folder called `week1-cli-assignment` that exists within `is310-coding-assignments`. Then try to push your local repository to your remote repository on GitHub. You can have your maze zipped or unzipped, that's up to you! But make sure you have instructions for how to run your maze.
 
 Once you have completed this assignment, post the link to your GitHub repository in our first discussion forum [https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/1](https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/1).
 
@@ -597,6 +599,8 @@ Now if we type `ls` we will see that we have a new directory called `is310-test-
 
 ## Homework Exercises
 
+You can either complete this exercise prior to our next class meeting or during our next class meeting, but regardless should come to class with any questions or issues you have.
+
 ### Solve the Cloned Corn Maze
 
 Your assignment before our next class meeting (so this upcoming Thursday) is to clone two of your peers' repositories and solve their mazes. You can find the links to their repositories in the discussion forum [https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/1](https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/1), and you should try solving the mazes that have yet to be solved based on replies.
@@ -606,3 +610,7 @@ Once you have solved the maze, you should reply to their post in the discussion,
 ----
 
 [^1]: Before Git, there were several generations of version control systems that evolved to meet the changing demands of software development. The first generation, represented by tools like Source Code Control System (SCCS) developed in 1972 by Marc Rochkind at Bell Labs, was centralized and relied on simple single-file locking-based concurrency. The Revision Control System (RCS), developed a decade later in 1982, followed the same lines but became widely popular due to its open-source nature. The second generation included the Concurrent Versions System (CVS), which allowed for more networked, collaborative work by introducing a merging-based approach instead of a file-locking approach. However, CVS had limitations that were addressed by its successor, Subversion, released in 2000, which allowed for more robust file set operations with atomic commits. Git represents the third generation of version control, combining lessons from these previous systems with new features suited for modern, large-scale software development. For more information, see Shane Lin's [*Git for Humanists*](https://shane-et-al.github.io/git_slab/).
+
+## Resources
+
+- Once you've worked through this lesson, feel free to read through our [Advanced git and GitHub resource]({{site.baseurl}}/materials/introducing-humanities-computing/05-advanced-git-github). In particular, it has a helpful section on [git cheatsheet]({{site.baseurl}}/materials/introducing-humanities-computing/05-advanced-git-github#git-commands-cheat-sheet) that you're welcome to refer to as you work through the course.
