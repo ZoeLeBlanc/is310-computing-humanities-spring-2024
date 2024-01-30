@@ -44,7 +44,7 @@ In addition to feedback from the Instructor, you will also be receiving and offe
 
 ## Final Exploration & Experimental Project Submission 25% 
 
-**DUE MAY 11, 2022 (Hard Deadline)** 
+**DUE MAY 13, 2024 (Hard Deadline)** 
 
 The final part of this semester-long project is your final project submission, due at the end of the semester (please note **the hard deadline**).  This submission is the culmination of your explorations and experimentations throughout the course, representing your first forays into the realm of computing in the humanities. While there is no expectation that your final submission will be a polished digital project, your submission should cover all the required elements outlined initially, and demonstrate a well-rounded understanding and application of the course concepts.
 
