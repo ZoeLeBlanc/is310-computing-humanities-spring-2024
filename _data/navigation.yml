@@ -59,7 +59,7 @@ schedule:
       - title: "<b>February 1</b><br> Markup & Markdown"
         url: /schedule/06-markup-and-markdown
       - title:  "<b>February 6</b><br> Power Hierarchies & Data Feminism"
-        url:  /schedule/07-power-hierarchies-and-data-feminism
+        url:  /schedule/07-power-hierarchies-data-feminism/
       - title:  "<b>February 8</b><br> Scrape Off & Web Structures"
         url: /schedule/08-scrape-off-and-web-structures
       - title:  "<b>February 13</b><br> Culture as Data & Data Cultures"

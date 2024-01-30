@@ -5,6 +5,20 @@ toc: true
 class_date: 2024-01-30
 ---
 
+## In-Class Agenda
+
+- [ ] Discuss Command Line Maze Assignment 
+
+<figure>
+    <a href="{{site.baseurl}}/assets/images/command_line_maze.png">
+    <img src="{{site.baseurl}}/assets/images/command_line_maze.png" alt="Command Line Maze" class="image-popup">
+    </a>
+</figure>
+
+- [ ] Discuss Assigned Materials
+- [ ] Discuss [Initial Project Proposal]({{site.baseurl}}/assessments/03-semester-project#initial-project-proposal-5)
+- [ ] Time permitting begin [introduction to Markup and Web Styling]({{site.baseurl}}/materials/introducing-humanities-computing/06-intro-markup).
+
 ## Assigned Materials
 
 - Johnson, Jessica Marie. “Markup Bodies: Black [Life] Studies and Slavery [Death] Studies at the Digital Crossroads.” *Social Text* 36, no. 4 (137) (December 1, 2018): 57–79. [https://doi.org/10.1215/01642472-7145658](https://doi.org/10.1215/01642472-7145658). Read and annotate on Canvas.
