@@ -17,3 +17,4 @@ class_date: 2024-02-01
 - Visit some of the following older websites:
   - Some preserved Geo-Cities websites [https://geocities.restorativland.org/Area51/Shadowlands/](https://geocities.restorativland.org/Area51/Shadowlands/)
   - Original Space Jam website (https://www.spacejam.com/1996/)[https://www.spacejam.com/1996/]
+  - Humanist Discussion Group archives (https://humanist.kdl.kcl.ac.uk/)[https://humanist.kdl.kcl.ac.uk/]
