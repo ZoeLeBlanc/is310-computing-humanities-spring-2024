@@ -17,7 +17,7 @@ You are welcome to be as creative and experimental with this project as you like
 
 ## Initial Project Proposal 5% 
 
-**DUE FEBRUARY 6, 2024 (Optional Extension to February 8, 2024)**
+**DUE FEBRUARY 6, 2024 (Optional Extension to February 13, 2024)**
 
 Your initial project proposal should be a combination of outlining your proposed focus for the final project (what are your initial project goals, what are you trying to create or study, and why this topic?), outlining the work you propose to undertake (how will you tackle this project and why have you organized it as such? What methods and data do you plan to use and how will you communicate your results?), and explaining your initial goals of this project in relation to the readings and topics we have discussed in class (what are the scholarly goals of your project and how would you situate your project in relation to research in computing in the humanities? Who are your audiences and what scholarship does your research draw upon and further?). 
 
