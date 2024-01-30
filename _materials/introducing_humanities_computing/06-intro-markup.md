@@ -538,7 +538,7 @@ In the case of `whatisdigitalhumanities`, we can even see this effort by explori
 
 The assignments below are intended to help you start to explore both some of the web technologies and markup languages we've discussed, as well as try your hand at using them. Do your best to get through both assignments, and reach out for help from the Instructors if you get stuck.
 
-Once you've completed the assignments you should push up your materials to your GitHub `is310-coding-assignments` repository and share the link to your file in the GitHub discussion thread [https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/2](https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/2).
+Once you've completed the assignments you should push up your materials to your GitHub `is310-coding-assignments` repository. These materials should be in a new folder `week_02` and share the link to your folder in the GitHub discussion thread [https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/2](https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/2).
 
 ### Assignment 1: Inspecting the Web
 
