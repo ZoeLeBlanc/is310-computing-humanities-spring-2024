@@ -36,6 +36,16 @@ materials:
         url: /materials/introducing-humanities-computing/05-advanced-git-github
       - title: "Introduction to Markup & Styling Web Documents"
         url: /materials/introducing-humanities-computing/06-intro-markup
+      - title: "Introduction to the Web"
+        url: /materials/introducing-humanities-computing/07-intro-web
+  - title: Creating & Curating Humanities Data
+    children:
+      - title: "Python Refresher (To Be Posted)"
+        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Setting Up Virtual Environments (To Be Posted)"
+        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Introduction to Web Scraping (To Be Posted)"
+        url: /materials/introducing-humanities-computing/01-course-tools
 
 schedule:
   - title: Overview
