@@ -551,7 +551,7 @@ You can use screenshots to support your assessment, but you should also include 
 
 ### Assignment 2: Styling the Web
 
-For this assignment, the goal is to try making an HTML page. You can build from the example we created in class, or can start from scratch. In your HTML page, you should try and include the following:
+For this assignment, the goal is to try improve your existing HTML page. You can build from the example we created in class, or can start from scratch. In your HTML page, you should try and include the following:
 
 - The standard structure of an HTML page (so the `<!DOCTYPE html>` declaration, `<html>` tag, `<head>` tag, and `<body>` tag)
 - At least one heading (so `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, or `<h6>`), one div,one paragraph (so `<p>`), and one link (so `<a>`)
