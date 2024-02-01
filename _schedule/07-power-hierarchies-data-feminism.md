@@ -12,3 +12,8 @@ class_date: 2024-02-06
 
 
 ## Additional Materials
+
+## Assignments
+
+- [ ] Complete [Web Technologies & Markup Homework Assignments]({{site.baseurl}}/materials/introducing-humanities-computing/06-intro-markup#web-technologies--markup-homework-assignments) 
+- [ ] Try your best to also complete the [Doing It Live: Hosting Your HTML Page Assignment]({{site.baseurl}}/materials/introducing-humanities-computing/07-intro-web#doing-it-live-hosting-your-html-page-assignment)
