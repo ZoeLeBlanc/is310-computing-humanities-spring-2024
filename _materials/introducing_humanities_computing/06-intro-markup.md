@@ -253,7 +253,7 @@ For more information, read through this [introduction from Mozilla on HTML](http
 
 ### Second Exercise
 
-Now that you have a basic understanding of HTML, let's try implementing this understanding by creating a new HTML file, called `is310_website.htl` in our `is310-coding-assignments` repository in a new folder called `week_02`.
+Now that you have a basic understanding of HTML, let's try implementing this understanding by creating a new HTML file, called `is310_website.html` in our `is310-coding-assignments` repository in a new folder called `week_02`.
 
 This HTML file should include the following elements:
 
