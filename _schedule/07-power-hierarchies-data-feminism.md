@@ -5,6 +5,12 @@ toc: true
 class_date: 2024-02-06
 ---
 
+## In-Class Agenda
+
+- [ ] Discuss HTML assignments
+- [ ] Discuss assigned readings
+- [ ] Work through group activity [exploring cultural data and power hierarchies]({{site.baseurl}}/critical-cultural-data-explorations/)
+
 ## Assigned Materials
 
 - D’Ignazio, Catherine, and Lauren F. Klein. Chapter 1 “The Power Chapter.” In *Data Feminism*. The MIT Press, 2020. [https://direct.mit.edu/books/oa-monograph/4660/chapter/213285/The-Power-Chapter](https://direct.mit.edu/books/oa-monograph/4660/chapter/213285/The-Power-Chapter).
