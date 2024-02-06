@@ -40,10 +40,12 @@ materials:
         url: /materials/introducing-humanities-computing/07-intro-web
   - title: Creating & Curating Humanities Data
     children:
-      - title: "Python Refresher (To Be Posted)"
-        url: /materials/introducing-humanities-computing/01-course-tools
-      - title: "Setting Up Virtual Environments (To Be Posted)"
-        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Python Refresher: Foundations (Optional)"
+        url: /materials/creating-curating-humanities-data/01-python-refresher-foundations
+      - title: "Python Refresher: Advanced (Optional)"
+        url: /materials/creating-curating-humanities-data/02-python-refresher-advanced
+      - title: "Setting Up Virtual Environments"
+        url: /materials/creating-curating-humanities-data/03-virtual-environments
       - title: "Introduction to Web Scraping (To Be Posted)"
         url: /materials/introducing-humanities-computing/01-course-tools
 
