@@ -13,7 +13,7 @@ class_date: 2024-02-06
     <a href="{{site.baseurl}}/assets/images/completion_html_assignment.png">
     <img src="{{site.baseurl}}/assets/images/completion_html_assignment.png" alt="A group of students discussing their HTML assignments">
     </a>
-</figured>
+</figure>
 
 - [ ] Discuss concepts and questions from assigned materials
 - [ ] Work through group activity [exploring cultural data and power hierarchies]({{site.baseurl}}/critical-cultural-data-explorations/)
