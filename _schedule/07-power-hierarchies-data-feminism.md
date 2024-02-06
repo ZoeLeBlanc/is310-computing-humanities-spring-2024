@@ -8,7 +8,7 @@ class_date: 2024-02-06
 ## In-Class Agenda
 
 - [ ] Discuss HTML assignments
-- [ ] Discuss assigned readings
+- [ ] Discuss concepts and questions from assigned materials
 - [ ] Work through group activity [exploring cultural data and power hierarchies]({{site.baseurl}}/critical-cultural-data-explorations/)
 
 ## Assigned Materials
