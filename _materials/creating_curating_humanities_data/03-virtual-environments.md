@@ -1,6 +1,6 @@
 ---
 title: "Python Virtual Environments"
-permalink: /materials/advanced-python/03-virtual-environments
+permalink: /materials/creating-curating-humanities-data/03-virtual-environments
 toc: true
 ---
 

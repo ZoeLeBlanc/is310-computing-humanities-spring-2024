@@ -1,42 +1,15 @@
 ---
-title: "Web Scraping with Python"
+title: "Web Scraping & Complex Python"
 permalink: /materials/creating-curating-humanities-data/03-web-scraping
 excerpt: "An introduction to web scraping with Python."
 toc: true
 ---
 
-### Commenting and Documentation
+Now that we have refreshed our knowledge of Python and learned how to create virtual environments, it's time to start getting more advanced in how we use Python to get data. In this lesson, we'll learn how to use Python to scrape the web and get data from web pages. 
 
-#### Inline Commenting
+## Complex Python
 
-Comments are especially useful--necessary!--for collaboration. Python is open source and its community of millions of coders often share in its permissive approach to intellectual property. Python as a whole is a giant collaborative project of which you are now members.
-
-When you write particularly complicated logic or whenever you write new classes or functions (more on this later!), you should write a comment to explain yourself.
-
-```python
-edited_definition_of_dh = definition_of_dh.replace('tools', 'people') 
-print(edited_definition_of_dh)
-```
-
-#### Documentation
-
-Python, as with virtually all other languages and complex codes, contains extensive documentation that covers all aspects of its use. This documentation is [easily accessible via the Internet](assets/MissionImpossible.m4v?raw=true).
-
-[Python 3 Documentation](https://docs.python.org/3/)
-
-Let's take a look at the specific documentation for strings:
-
-[Python 3 Docs: Built-in Types: Strings](https://docs.python.org/3/library/stdtypes.html#string-methods)
-
-Learning to read documentation is a critical skill for succeeding as a programmer. Happily, most of you, as graduate students, should already be literate.
-
-## Imports
-
-## File Input and Output
-
-### Reading Files
-
-### Writing Files
+### Classes
 
 So far we've learned how to store data in different data types (integers, strings, floats, etc...) and structures (lists and dictionaries). We've also learned how to use for loops to manipulate our data, conditionals to change the data flow, and functions to encapsulate our code and make it reusable and generalizable.
 
@@ -90,8 +63,6 @@ We've already used a lot of built-in classes. Strings, lists, dictionaries are a
 >>> type(b)
 <class 'str'>
 ```
-
-## Classes
 
 Python classes are great for storing complex data structures, but they can also be simple.
 
@@ -239,6 +210,49 @@ def get_tool_info(self):
 1. [An Introduction to Python Classes and Inheritance](http://www.jesshamrick.com/2011/05/18/an-introduction-to-classes-and-inheritance-in-python/)
 2. [Here is a very helpful video series on class inheritance](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
 3. [Python Documentation on Classes](https://docs.python.org/3/tutorial/classes.html)
+
+
+#### Commenting and Documentation
+
+##### Inline Commenting
+
+Comments are especially useful--necessary!--for collaboration. Python is open source and its community of millions of coders often share in its permissive approach to intellectual property. Python as a whole is a giant collaborative project of which you are now members.
+
+When you write particularly complicated logic or whenever you write new classes or functions (more on this later!), you should write a comment to explain yourself.
+
+```python
+edited_definition_of_dh = definition_of_dh.replace('tools', 'people') 
+print(edited_definition_of_dh)
+```
+
+##### Documentation
+
+Python, as with virtually all other languages and complex codes, contains extensive documentation that covers all aspects of its use. This documentation is [easily accessible via the Internet](assets/MissionImpossible.m4v?raw=true).
+
+[Python 3 Documentation](https://docs.python.org/3/)
+
+Let's take a look at the specific documentation for strings:
+
+[Python 3 Docs: Built-in Types: Strings](https://docs.python.org/3/library/stdtypes.html#string-methods)
+
+Learning to read documentation is a critical skill for succeeding as a programmer. Happily, most of you, as graduate students, should already be literate.
+
+
+### Libraries
+
+
+#### Imports
+
+#### File Input and Output
+
+##### Reading Files
+
+##### Writing Files
+
+
+
+## Classes
+
 
 ## Python Libraries
 
