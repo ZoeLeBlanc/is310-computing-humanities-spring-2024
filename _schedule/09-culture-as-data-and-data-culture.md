@@ -12,4 +12,5 @@ class_date: 2024-02-13
 
 ## Additional Materials
 
-- Silge, Julia, Russell Samora, Amber Thomas, and Hanah Anderson. “She Giggles, He Gallops.” *The Pudding*, August 2017. [https://pudding.cool/2017/08/screen-direction](https://pudding.cool/2017/08/screen-direction). 
+- Silge, Julia, Russell Samora, Amber Thomas, and Hanah Anderson. “She Giggles, He Gallops.” *The Pudding*, August 2017. [https://pudding.cool/2017/08/screen-direction](https://pudding.cool/2017/08/screen-direction).
+- Krause, Eunice. “Data Biographies: Getting to Know Your Data.” *Global Investigative Journalism Network*, March 27, 2017. [https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/).
