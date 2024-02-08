@@ -5,6 +5,11 @@ toc: true
 class_date: 2024-02-08
 ---
 
+## In-Class Agenda
+
+- [ ] Discuss the Python Refresher lessons and any questions you have.
+- [ ] Begin the [Complex Python lesson]({{site.baseurl}}/materials/creating-curating-humanities-data/04-complex-python) and the [Introduction to Web Scraping]({{site.baseurl}}/materials/creating-curating-humanities-data/05-web-scraping) lesson.
+
 ## Assigned Materials
 
 - Anderson, Hanah, and Matt Daniels. “The Largest Analysis of Film Dialogue by Gender, Ever.” *The Pudding*, April 2016. [https://pudding.cool/2017/03/film-dialogue/index.html](https://pudding.cool/2017/03/film-dialogue/index.html).

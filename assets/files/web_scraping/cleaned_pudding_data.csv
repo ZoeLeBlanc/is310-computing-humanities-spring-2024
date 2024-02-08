@@ -1,0 +1,125 @@
+imdb_id,script_id,title,year,gross (inflation-adjusted),link
+tt0023622,5154,Trouble in Paradise,1932,,http://www.aellea.com/emruf3/tip.html
+tt0024368,4677,Mystery of the Wax Museum,1933,,http://www.aellea.com/script/qWAX.htm
+tt0025905,5147,Transatlantic Merry-Go-Round,1934,,http://www.aellea.com/emruf3/tm.html
+tt0031679,4658,Mr. Smith Goes to Washington,1939,,http://www.dailyscript.com/scripts/Mr%20Smith%20Goes%20To%20Washington.txt
+tt0031725,3016,Ninotchka,1939,45.0,http://www.dailyscript.com/scripts/Ninotchka.txt
+tt0036027,4396,I Walked with a Zombie,1943,,http://www.dailyscript.com/scripts/i-walked_with_a_zombie.html
+tt0036104,4520,The Leopard Man,1943,,http://www.dailyscript.com/scripts/theleopardman.htm
+tt0036341,4940,The Seventh Victim,1943,,http://www.dailyscript.com/scripts/SeventhVictim.htm
+tt0036733,4064,The Curse of the Cat People,1944,,http://www.dailyscript.com/scripts/cursecat.htm
+tt0037549,3949,The Body Snatcher,1945,,http://www.dailyscript.com/scripts/TheBodySnatcher.htm
+tt0037820,4437,Isle of the Dead,1945,,http://www.dailyscript.com/scripts/isleofthedead.htm
+tt0038650,2642,It's a Wonderful Life,1946,,http://www.aellea.com/script/itsawonderfullife.txt
+tt0043014,3466,Sunset Blvd.,1950,,http://www.dailyscript.com/scripts/sunset_bld_3_21_49.html
+tt0046359,5022,Stalag 17,1953,,http://www.dailyscript.com/scripts/Stalag%2017.txt
+tt0046534,5197,The War of the Worlds,1953,,http://www.scifiscripts.com/scripts/WARWORLDS.txt
+tt0047296,4745,On the Waterfront,1954,185.0,http://www.dailyscript.com/scripts/onthewaterfront.html
+tt0047443,4906,Salt of the Earth,1954,,http://www.aellea.com/script/salt.txt
+tt0054997,4390,The Hustler,1961,,"http://www.dailyscript.com/scripts/Hustler,+The.txt"
+tt0055601,5189,Viridiana,1961,,http://www.aellea.com/script/viridiana.txt
+tt0058414,4721,Nothing But a Man,1964,,http://www.aellea.com/emruf3/nbam.html
+tt0060397,4198,Fantastic Voyage,1966,,http://www.scifiscripts.com/scripts/fantasticvoyager.txt
+tt0061512,4041,Cool Hand Luke,1967,,http://www.aellea.com/script/cool_hand_luke.html
+tt0067309,2713,Klute,1971,,http://www.dailyscript.com/scripts/klute.html
+tt0068638,2387,The Getaway,1972,138.0,http://www.dailyscript.com/scripts/getaway.html
+tt0069303,5003,Sounder,1972,,http://www.aellea.com/script/sounder.txt
+tt0070047,4184,The Exorcist,1973,195.0,http://www.horrorlair.com/scripts/exorcist.html
+tt0070379,4606,Mean Streets,1973,,http://www.dailyscript.com/scripts/meanstreet.html
+tt0071562,4280,The Godfather: Part II,1974,266.0,http://www.dailyscript.com/scripts/godfather2.html
+tt0072431,5254,Young Frankenstein,1974,401.0,http://www.horrorlair.com/scripts/young.txt
+tt0073195,2666,Jaws,1975,1103.0,http://www.dailyscript.com/scripts/Jaws.txt
+tt0074812,4543,Logan's Run,1976,102.0,http://www.dailyscript.com/scripts/Logans+Run.txt
+tt0076729,4978,Smokey and the Bandit,1977,495.0,http://www.dailyscript.com/scripts/Smokey%20And%20The%20Bandit.txt
+tt0079271,4333,Hardcore,1979,,http://www.dailyscript.com/scripts/Hardcore.txt
+tt0079945,5025,Star Trek: The Motion Picture,1979,285.0,http://www.dailyscript.com/scripts/startrek01.html
+tt0080684,3433,Star Wars: Episode V - The Empire Strikes Back,1980,937.0,http://www.scifiscripts.com/scripts/esb_final.txt
+tt0083972,4235,Friday the 13th Part III,1982,107.0,http://www.horrorlair.com/scripts/friday13th3.txt
+tt0083987,2368,Gandhi,1982,,http://www.dailyscript.com/scripts/Gandhi.txt
+tt0084434,4738,An Officer and a Gentleman,1982,384.0,"http://www.dailyscript.com/scripts/Officer+And+A+Gentleman,+An.txt"
+tt0085750,4449,Jaws 3-D,1983,116.0,http://www.horrorlair.com/scripts/jaws3_1st_draft.txt
+tt0086122,4804,The Ploughman's Lunch,1983,,http://www.dailyscript.com/scripts/ploughmans_lunch.html
+tt0086393,5075,Superman III,1983,165.0,http://www.scifiscripts.com/scripts/superman3_script.txt
+tt0088170,5028,Star Trek III: The Search for Spock,1984,197.0,http://www.scifiscripts.com/scripts/Trek/Star_Trek_III.htm
+tt0089469,4515,Legend,1985,37.0,http://www.angelfire.com/movies/ridleyscott/script/LegendOfDarkness.txt
+tt0090022,4960,Silverado,1985,81.0,http://www.dailyscript.com/scripts/Silverado.txt
+tt0091080,4236,Jason Lives: Friday the 13th Part VI,1986,44.0,http://www.horrorlair.com/scripts/friday13th6.txt
+tt0091203,2540,Highlander,1986,13.0,http://www.scifiscripts.com/scripts/Highlander_final.txt
+tt0092007,5029,Star Trek IV: The Voyage Home,1986,257.0,http://www.scifiscripts.com/scripts/Trek/Star_Trek_IV.htm
+tt0093300,4450,Jaws: The Revenge,1987,46.0,http://www.horrorlair.com/scripts/jaws_the_revenge.txt
+tt0093629,4706,A Nightmare on Elm Street 3: Dream Warriors,1987,99.0,http://www.horrorlair.com/scripts/nightmare_on_elm_street3.txt
+tt0094074,5076,Superman IV: The Quest for Peace,1987,34.0,http://www.scifiscripts.com/scripts/superman_IV.txt
+tt0095271,4315,Halloween 4: The Return of Michael Myers,1988,37.0,http://www.horrorlair.com/scripts/halloween4.txt
+tt0097806,4577,The Magic Toyshop,1987,,http://www.aellea.com/emruf3/toyshop.html
+tt0098084,3082,Pet Sematary,1989,126.0,http://www.dailyscript.com/scripts/Pet-Sematary.html
+tt0098258,4914,Say Anything...,1989,45.0,http://www.moviescriptsandscreenplays.com/johncusack/scripts/sayanything.txt
+tt0098524,5155,True Believer,1989,19.0,http://www.dailyscript.com/scripts/True%20Believer.txt
+tt0098987,3806,The Adventures of Ford Fairlane,1990,44.0,http://www.dailyscript.com/scripts/ford-fairlane_early.html
+tt0099685,4292,Goodfellas,1990,96.0,http://www.dailyscript.com/scripts/goodfellas.html
+tt0103064,5104,Terminator 2: Judgment Day,1991,423.0,http://www.scifiscripts.com/scripts/t2.txt
+tt0103893,1939,Buffy the Vampire Slayer,1992,34.0,http://www.dailyscript.com/scripts/buffy_the_vampire_slayer.html
+tt0104412,4354,Hero,1992,40.0,http://www.dailyscript.com/scripts/hero1.html
+tt0104627,4487,Knight Moves,1992,1.0,http://www.scifiscripts.com/msol/Knight_m.txt
+tt0104691,4503,The Last of the Mohicans,1992,151.0,http://www.dailyscript.com/scripts/last-of-the-mohicans-script.html
+tt0105665,5166,Twin Peaks: Fire Walk with Me,1992,8.0,http://www.dailyscript.com/scripts/Twin+Peaks+-+Fire+Walk+With+Me.txt
+tt0106303,1689,Arctic Blue,1993,,http://www.awesomefilm.com/script/arcticblue.txt
+tt0106582,2027,Cliffhanger,1993,176.0,http://www.dailyscript.com/scripts/cliffhanger_stallone.html
+tt0107254,4238,Jason Goes to Hell: The Final Friday,1993,33.0,http://www.horrorlair.com/scripts/friday13thjasongoestohell.txt
+tt0107302,2697,Kalifornia,1993,5.0,http://www.dailyscript.com/scripts/Kalifornia.txt
+tt0107688,3006,The Nightmare Before Christmas,1993,157.0,http://www.dailyscript.com/scripts/nightmare-b4-xmas_early.html
+tt0108558,5223,White Angel,1994,,http://www.horrorlair.com/scripts/whiteang.txt
+tt0109836,4228,Mary Shelley's Frankenstein,1994,45.0,http://www.dailyscript.com/scripts/Frankenstein+(1994).txt
+tt0110413,4519,Léon: The Professional,1994,67.0,http://www.scifiscripts.com/msol/LEON.txt
+tt0110613,4670,My Girl 2,1994,34.0,http://www.scifiscripts.com/msol/my_girl_2.html
+tt0110737,4758,Only You,1994,41.0,http://www.awesomefilm.com/script/onlyyou.html
+tt0111300,5063,Stranglehold,1994,,http://www.horrorlair.com/scripts/strangehold.txt
+tt0112533,4589,Bloodfist VII: Manhunt,1995,,http://www.awesomefilm.com/script/manhunt.html
+tt0112579,280,The Bridges of Madison County,1995,142.0,http://www.awesomefilm.com/script/bomc.txt
+tt0114084,4765,Panther,1995,13.0,http://www.dailyscript.com/scripts/Panther.txt
+tt0114478,4976,Smoke,1995,16.0,http://www.awesomefilm.com/script/smoke.txt
+tt0116573,4377,House of the Damned,1996,,http://www.horrorlair.com/scripts/houseOfTheDamned.txt
+tt0116922,4561,Lost Highway,1997,7.0,http://www.dailyscript.com/scripts/Lost+Highway.txt
+tt0117509,4888,Romeo + Juliet,1996,91.0,http://www.awesomefilm.com/script/romeo+juliet.txt
+tt0117571,4920,Scream,1996,202.0,http://www.dailyscript.com/scripts/Scream.txt
+tt0117731,5036,Star Trek: First Contact,1996,181.0,http://www.scifiscripts.com/scripts/Trek/Star_Trek_VIII.htm
+tt0118883,4039,Conspiracy Theory,1997,144.0,http://www.dailyscript.com/scripts/conspiracy-theory.html
+tt0118956,2139,Deep Rising,1998,20.0,http://www.horrorlair.com/scripts/deeprising.txt
+tt0119675,2918,Mimic,1997,48.0,http://www.dailyscript.com/scripts/mimic_production.html
+tt0120174,5006,Spacejacked,1997,,http://www.scifiscripts.com/scripts/spaceJacked.txt
+tt0120238,5068,SubUrbia,1996,0.0,http://www.awesomefilm.com/script/suburbia.html
+tt0120338,5136,Titanic,1997,1249.0,http://www.dailyscript.com/scripts/Titanic.txt
+tt0120347,3574,Tomorrow Never Dies,1997,236.0,http://www.awesomefilm.com/script/tomorrowneverdies.txt
+tt0120601,1801,Being John Malkovich,1999,39.0,http://www.dailyscript.com/scripts/beingjohnmalkovich.html
+tt0120694,4317,Halloween H20: 20 Years Later,1998,102.0,http://www.horrorlair.com/scripts/H20.txt
+tt0120801,3216,RKO 281,1999,,http://www.dailyscript.com/scripts/RKO218.html
+tt0120815,3270,Saving Private Ryan,1998,400.0,http://www.moviescriptsandscreenplays.com/BenandMatt/savingprivateryan.txt
+tt0120844,5037,Star Trek: Insurrection,1998,130.0,http://www.scifiscripts.com/scripts/Trek/Star_Trek_IX.htm
+tt0144286,4564,The Lost Son,1999,,http://www.alibi-books.com/thelostson/thelostson.htm
+tt0160484,4565,Lost Souls,2000,27.0,http://www.horrorlair.com/scripts/lostsouls.txt
+tt0163579,4010,Chill Factor,1999,19.0,http://www.awesomefilm.com/script/chillfactor.html
+tt0166110,1879,Bones,2001,11.0,http://www.horrorlair.com/HorrorWorld/newyork/bones.html
+tt0177789,4256,Galaxy Quest,1999,122.0,http://www.scifiscripts.com/scripts/GalaxyQuest.txt
+tt0180073,4838,Quills,2000,11.0,http://www.dailyscript.com/scripts/Quills.txt
+tt0185371,4378,House on Haunted Hill,1999,69.0,http://www.dailyscript.com/scripts/house-on-haunted-hill.html
+tt0195685,4169,Erin Brockovich,2000,203.0,http://www.dailyscript.com/scripts/Erin+Brockovich.txt
+tt0195945,2996,Next Friday,2000,92.0,http://www.dailyscript.com/scripts/Next_Friday.html
+tt0199725,2814,Love & Basketball,2000,44.0,http://www.dailyscript.com/scripts/love_and_basketball.html
+tt0210094,4328,Happy Campers,2001,,http://www.dailyscript.com/scripts/happy-campers_early.html
+tt0227005,4572,Made,2001,8.0,http://www.dailyscript.com/scripts/Made.txt
+tt0239860,3161,Quantum Project,2000,,http://www.dailyscript.com/scripts/quantumproject.html
+tt0240507,4218,Five Feet High and Rising,2000,,http://www.dailyscript.com/scripts/fivefeetandrising.html
+tt0244000,1634,American Outlaws,2001,20.0,http://www.dailyscript.com/scripts/American_Outlaws.html
+tt0253754,5038,Star Trek: Nemesis,2002,64.0,http://www.scifiscripts.com/scripts/Trek/Star_Trek_X.htm
+tt0254099,1666,The Anniversary Party,2001,6.0,http://www.dailyscript.com/scripts/anniversaryparty.html
+tt0257106,4918,Scary Movie 2,2001,109.0,http://www.dailyscript.com/scripts/Scary+Movie+2.txt
+tt0263265,4107,Shortcut to Happiness,2003,,http://www.aellea.com/script/devilanddanielwebster.txt
+tt0264395,1759,Basic,2003,38.0,http://www.dailyscript.com/scripts/Basic.txt
+tt0274546,2529,Hellraiser: Hellseeker,2002,,http://www.horrorlair.com/scripts/hellraiser_hellseeker_orig.html
+tt0301848,4968,Slash,2002,,http://www.dailyscript.com/scripts/Slash.txt
+tt0309593,2294,Final Destination 2,2003,67.0,http://www.dailyscript.com/scripts/final_destination2.html
+tt0335266,2812,Lost in Translation,2003,64.0,http://www.dailyscript.com/scripts/lost-in-translation-script.html
+tt0366627,2651,The Jacket,2005,8.0,http://www.dailyscript.com/scripts/The_Jacket.html
+tt0372532,4992,The Wedding Date,2005,42.0,http://www.dailyscript.com/scripts/somethingborrowed.html
+tt0416658,4034,Crazylove,2005,,http://www.dailyscript.com/scripts/crazy_love.html
+tt0421054,4121,Domino,2005,13.0,http://www.dailyscript.com/scripts/domino.html
+tt0480249,4392,I Am Legend,2007,323.0,http://www.horrorlair.com/scripts/legend.txt
