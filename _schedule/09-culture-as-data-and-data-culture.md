@@ -6,9 +6,14 @@ class_date: 2024-02-13
 ---
 ## Assigned Materials
 
+Read the following chapters: 
 - D’Ignazio, Catherine, and Lauren F. Klein. Chapter 4 “‘What Gets Counted Counts.’” In *Data Feminism*, by Catherine D’Ignazio and Lauren F. Klein. The MIT Press, 2020. [https://doi.org/10.7551/mitpress/11805.001.0001](https://doi.org/10.7551/mitpress/11805.001.0001).
-- D’Ignazio, Catherine, and Lauren F. Klein. Chapter 6 “The Numbers Don’t Speak for Themselves.” In *Data Feminism*, 2020. [https://direct.mit.edu/books/oa-monograph/4660/chapter/213291/The-Numbers-Don-t-Speak-for-Themselves](https://direct.mit.edu/books/oa-monograph/4660/chapter/213291/The-Numbers-Don-t-Speak-for-Themselves). 
+- D’Ignazio, Catherine, and Lauren F. Klein. Chapter 6 “The Numbers Don’t Speak for Themselves.” In *Data Feminism*, 2020. [https://direct.mit.edu/books/oa-monograph/4660/chapter/213291/The-Numbers-Don-t-Speak-for-Themselves](https://direct.mit.edu/books/oa-monograph/4660/chapter/213291/The-Numbers-Don-t-Speak-for-Themselves).
+
+Explore this digital project:
 - Schimdt, Ben. “Gendered Language in Teaching Evaluations.” [https://benschmidt.org/profGender/](https://benschmidt.org/profGender/).
+
+- Finish the [Complex Python lesson]({{site.baseurl}}/materials/creating-curating-humanities-data/04-complex-python) and start working through [Introduction to Web Scraping]({{site.baseurl}}/materials/creatting-curating-humanities-data/05-web-scraping). Bring any questions you have to class.
 
 ## Additional Materials
 
