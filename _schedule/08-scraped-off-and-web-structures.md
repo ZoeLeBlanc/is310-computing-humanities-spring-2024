@@ -7,8 +7,8 @@ class_date: 2024-02-08
 
 ## In-Class Agenda
 
-- [ ] Discuss the Python Refresher lessons and any questions you have.
-- [ ] Begin the [Complex Python lesson]({{site.baseurl}}/materials/creating-curating-humanities-data/04-complex-python) and the [Introduction to Web Scraping]({{site.baseurl}}/materials/creating-curating-humanities-data/05-web-scraping) lesson.
+- [x] Discuss the Python Refresher lessons and any questions you have.
+- [x] Begin the [Complex Python lesson]({{site.baseurl}}/materials/creating-curating-humanities-data/04-complex-python) and the [Introduction to Web Scraping]({{site.baseurl}}/materials/creating-curating-humanities-data/05-web-scraping) lesson.
 
 ## Assigned Materials
 

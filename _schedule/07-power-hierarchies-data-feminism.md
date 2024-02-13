@@ -7,7 +7,7 @@ class_date: 2024-02-06
 
 ## In-Class Agenda
 
-- [ ] Discuss HTML assignments
+- [x] Discuss HTML assignments
 
 <figure>
     <a href="{{site.baseurl}}/assets/images/completion_html_assignment.png">
@@ -15,8 +15,8 @@ class_date: 2024-02-06
     </a>
 </figure>
 
-- [ ] Discuss concepts and questions from assigned materials
-- [ ] Work through group activity [exploring cultural data and power hierarchies]({{site.baseurl}}/critical-cultural-data-explorations/)
+- [x] Discuss concepts and questions from assigned materials
+- [x] Work through group activity [exploring cultural data and power hierarchies]({{site.baseurl}}/critical-cultural-data-explorations/)
 
 ## Assigned Materials
 

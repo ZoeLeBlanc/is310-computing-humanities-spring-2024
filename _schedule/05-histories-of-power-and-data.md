@@ -7,7 +7,7 @@ class_date: 2024-01-30
 
 ## In-Class Agenda
 
-- [ ] Discuss Command Line Maze Assignment 
+- [x] Discuss Command Line Maze Assignment 
 
 <figure>
     <a href="{{site.baseurl}}/assets/images/command_line_maze.png">
@@ -15,9 +15,9 @@ class_date: 2024-01-30
     </a>
 </figure>
 
-- [ ] Discuss Assigned Materials
-- [ ] Discuss [Initial Project Proposal]({{site.baseurl}}/assessments/03-semester-project#initial-project-proposal-5)
-- [ ] Time permitting begin [introduction to Markup and Web Styling]({{site.baseurl}}/materials/introducing-humanities-computing/06-intro-markup).
+- [x] Discuss Assigned Materials
+- [x] Discuss [Initial Project Proposal]({{site.baseurl}}/assessments/03-semester-project#initial-project-proposal-5)
+- [x] Time permitting begin [introduction to Markup and Web Styling]({{site.baseurl}}/materials/introducing-humanities-computing/06-intro-markup).
 
 ## Assigned Materials
 

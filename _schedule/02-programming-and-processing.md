@@ -5,7 +5,7 @@ toc: true
 class_date: 2024-01-18
 ---
 
-## Agenda
+## In-Class Agenda
 
 - [x] Complete the Installation Progress form [https://forms.gle/3513nM7qdFXe1xgc9](https://forms.gle/3513nM7qdFXe1xgc9).
 - [x] Discuss the assigned readings.

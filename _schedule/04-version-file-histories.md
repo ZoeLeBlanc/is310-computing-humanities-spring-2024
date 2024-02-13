@@ -7,8 +7,8 @@ class_date: 2024-01-25
 
 ## In-Class Agenda
 
-- [ ] Finish our discussion of digital libraries and archives, as well as the assigned readings from Tuesday.
-- [ ] Work through questions from the Introduction to [Git and GitHub]({{site.baseurl}}/materials/introducing-humanities-computing/03-intro-versioning) tutorial.
+- [x] Finish our discussion of digital libraries and archives, as well as the assigned readings from Tuesday.
+- [x] Work through questions from the Introduction to [Git and GitHub]({{site.baseurl}}/materials/introducing-humanities-computing/03-intro-versioning) tutorial.
 
 ## Assigned Materials
 

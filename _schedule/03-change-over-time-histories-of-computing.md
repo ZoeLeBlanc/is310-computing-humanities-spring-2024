@@ -5,7 +5,7 @@ toc: true
 class_date: 2024-01-23
 ---
 
-## Agenda (Zoom Class)
+## In-Class Agenda (Zoom Class)
 
 - [x] Discuss [solution to Instructor's Command Line Maze]({{site.baseurl}}/materials/introducing-humanities-computing/02-intro-cli-file-formats/#assignment-1-find-your-way-solve-a-command-line-corn-maze).
 - [x] [Explore digital libraries and archives]({{site.baseurl}}/digital-libraries). You can find the link to the digital libraries page here.

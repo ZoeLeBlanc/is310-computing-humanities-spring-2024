@@ -7,9 +7,9 @@ class_date: 2024-02-01
 
 ## In-Class Agenda
 
-- [ ] Discuss Assigned Readings
-- [ ] Work through remainder of [Introduction to Markup and Web Styling]({{site.baseurl}}/materials/introducing-humanities-computing/06-intro-markup)
-- [ ] Start working on [Introduction to the Web]({{site.baseurl}}/materials/introducing-humanities-computing/07-intro-web)
+- [x] Discuss Assigned Readings
+- [x] Work through remainder of [Introduction to Markup and Web Styling]({{site.baseurl}}/materials/introducing-humanities-computing/06-intro-markup)
+- [x] Start working on [Introduction to the Web]({{site.baseurl}}/materials/introducing-humanities-computing/07-intro-web)
 
 ## Assigned Materials
 
