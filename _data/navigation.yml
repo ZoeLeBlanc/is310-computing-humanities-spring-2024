@@ -118,9 +118,9 @@ schedule:
         url: /schedule/25-preservation-and-publications
       - title: "<b>April 18</b><br> Serving Looks"
         url: /schedule/26-serving-looks
-      - title: "<b>April 23</b><br> TBD: Open Topic"
-        url: /schedule/27-tbd-open-topic
+      - title: "<b>April 23</b><br> Culture & Data Futures"
+        url: /schedule/27-culture-and-data-futures
       - title: "<b>April 25</b><br> Review & Reflect"
         url: /schedule/28-review-and-reflect
-      - title: "<b>April 30</b><br> Future Horizons & Final Projects"
-        url: /schedule/29-future-horizons-and-final-projects
+      - title: "<b>April 30</b><br> Demo Day & Final Projects"
+        url: /schedule/29-demo-day-and-final-projects

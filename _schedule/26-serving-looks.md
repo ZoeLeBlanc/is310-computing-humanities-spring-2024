@@ -5,6 +5,12 @@ toc: true
 class_date: 2024-04-18
 ---
 
+
+## In-Class Agenda
+
+- [ ] Review the image clustering homework
+- [ ] Continue the static site generation lesson (to be posted)
+
 ## Assigned Materials
 
 ## Additional Materials

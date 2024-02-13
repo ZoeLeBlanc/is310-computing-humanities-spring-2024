@@ -27,8 +27,8 @@ This overview gives a top level view of the topics for each of our meetings. You
 |[January 30 - Histories of Power & Data]({{site.baseurl}}/schedule/05-histories-of-power-and-data/) |[February 01 - Markup and Markdown]({{site.baseurl}}/schedule/06-markup-and-markdown/)|
 |[February 06 - Power Hierarchies & Data Feminism]({{site.baseurl}}/schedule/07-power-hierarchies-data-feminism/) |[February 08 - Scraped Off & Web Structures]({{site.baseurl}}/schedule/08-scraped-off-and-web-structures)|
 |[February 13 - Culture as Data & Data Cultures]({{site.baseurl}}/schedule/09-culture-as-data-and-data-cultures) |[February 15 - GETting Data]({{site.baseurl}}/schedule/10-getting-data)|
-|[February 20 - Culture at Scale & Digital Collections]({{site.baseurl}}/schedule/11-culture-at-scale-and-digital-collections) |[February 22 - Structuring Data]({{site.baseurl}}/schedule/10-structuring-data)|
-|[February 27 - T(r)ending and Cleaning]({{site.baseurl}}/schedule/11-trending-and-cleaning) |[February 29 - Curate & Collect]({{site.baseurl}}/schedule/14-curate-and-collect)|
+|[February 20 - Culture at Scale & Digital Collections]({{site.baseurl}}/schedule/11-culture-at-scale-and-digital-collections) |[February 22 - Structuring Data]({{site.baseurl}}/schedule/12-structuring-data)|
+|[February 27 - T(r)ending and Cleaning]({{site.baseurl}}/schedule/13-trending-and-cleaning) |[February 29 - Curate & Collect]({{site.baseurl}}/schedule/14-curate-and-collect)|
 |[March 05 - Making A Point]({{site.baseurl}}/schedule/15-making-a-point) |[March 07 - Making A Point, Again]({{site.baseurl}}/schedule/16-making-a-point-again)|
 |{::nomarkdown}<td colspan="2">March 12 & 14 - Spring Break</td>{:/}|
 |[March 19 - Patterns & Outliers]({{site.baseurl}}/schedule/17-patterns-and-outliers) |[March 21 - Making It Count]({{site.baseurl}}/schedule/18-making-it-count)|
@@ -36,8 +36,8 @@ This overview gives a top level view of the topics for each of our meetings. You
 |[April 02 - Connecting The Dots]({{site.baseurl}}/schedule/21-connecting-the-dots) |[April 04 - Nodes & Edges]({{site.baseurl}}/schedule/22-nodes-and-edges)|
 |[April 09 - Seeing Like A Computer]({{site.baseurl}}/schedule/23-seeing-like-a-computer) |[April 11 - A Thousand Pictures]({{site.baseurl}}/schedule/24-a-thousand-pictures)|
 |[April 16 - Preservation & Publications]({{site.baseurl}}/schedule/25-preservation-and-publications) |[April 18 - Serving Looks]({{site.baseurl}}/schedule/26-serving-looks)|
-|[April 23 - TBD: Open Topic]({{site.baseurl}}/schedule/27-tbd-open-topic) |[April 25 - Review & Reflect]({{site.baseurl}}/schedule/28-review-and-reflect)|
-|[April 30 - Future Horizons & Final Projects]({{site.baseurl}}/schedule/29-future-horizons-and-final-projects) |
+|[April 23 - Culture & Data Futures]({{site.baseurl}}/schedule/27-culture-and-data-futures) |[April 25 - Review & Reflect]({{site.baseurl}}/schedule/28-review-and-reflect)|
+|[April 30 - Demo Day & Final Projects]({{site.baseurl}}/schedule/29-demo-day-and-final-projects) |
 
 ## Assignment Schedule
 

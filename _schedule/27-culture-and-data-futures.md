@@ -1,9 +1,14 @@
 ---
-title: "Future Horizons & Final Projects"
-permalink: /schedule/29-future-horizons-and-final-projects
+title: "Culture & Data Futures"
+permalink: /schedule/27-culture-and-data-futures
 toc: true
-class_date: 2024-04-30
+class_date: 2024-04-23
 ---
+
+## In-Class Agenda
+
+- [ ] Review the static site lesson and homework
+- [ ] Discuss the assigned readings
 
 ## Assigned Materials
 

@@ -5,6 +5,12 @@ toc: true
 class_date: 2024-03-26
 ---
 
+## In-Class Agenda
+
+- [ ] Discuss any homework related questions
+- [ ] Revise last's week's exercise based on the assigned materials and present it to the class
+- [ ] Discuss the assigned materials
+
 ## Assigned Materials
 
 - Walsh, Melanie, and Maria Antoniak. “The Goodreads ‘Classics’: A Computational Study of Readers, Amazon, and Crowdsourced Amateur Criticism.” Post45: Peer Reviewed, April 21, 2021. [https://post45.org/2021/04/the-goodreads-classics-a-computational-study-of-readers-amazon-and-crowdsourced-amateur-criticism/](https://post45.org/2021/04/the-goodreads-classics-a-computational-study-of-readers-amazon-and-crowdsourced-amateur-criticism/).

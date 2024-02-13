@@ -5,10 +5,12 @@ toc: true
 class_date: 2024-03-21
 ---
 
-## Assigned Materials
+## In-Class Agenda
 
-- Underwood, Ted. “Seven Ways Humanists Are Using Computers to Understand Text.” *The Stone and the Shell (blog)*, June 4, 2015. [https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/](https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/).
-- Underwood, Ted. “Wordcounts Are Amazing.” *The Stone and the Shell (blog)*, February 20, 2013. [https://tedunderwood.com/2013/02/20/wordcounts-are-amazing/](https://tedunderwood.com/2013/02/20/wordcounts-are-amazing/). 
+- [ ] Review Altair and EDA homework
+- [ ] Start introduction to text analysis with Python lesson (to be posted)
+
+## Assigned Materials
 
 ## Additional Materials
 

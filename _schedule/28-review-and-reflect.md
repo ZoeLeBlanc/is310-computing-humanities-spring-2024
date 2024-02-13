@@ -5,4 +5,10 @@ toc: true
 class_date: 2024-04-25
 ---
 
-*Class will work on their projects in class*
+## In-Class Agenda
+
+- [ ] Work on final projects in class
+
+## Assigned Materials
+
+## Additional Materials

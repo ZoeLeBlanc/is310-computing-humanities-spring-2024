@@ -1,9 +1,15 @@
 ---
 title: "T(r)ending and Cleaning"
-permalink: /schedule/11-trending-and-cleaning
+permalink: /schedule/13-trending-and-cleaning
 toc: true
 class_date: 2024-02-27
 ---
+
+## In-Class Agenda
+
+- [ ] Discuss any homework related questions
+- [ ] Revise the custom dataset exercise based on the assigned materials
+- [ ] Discuss the assigned materials
 
 ## Assigned Materials
 

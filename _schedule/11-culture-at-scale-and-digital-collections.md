@@ -5,6 +5,12 @@ toc: true
 class_date: 2024-02-20
 ---
 
+## In-Class Agenda
+
+- [ ] Discuss any questions about the Introduction to APIs
+- [ ] Discuss the assigned materials
+- [ ] Begin working on creating custom data exercise (to be posted).
+
 ## Assigned Materials
 
 - Loukissas, Yanni Alexander. “Collecting Infrastructures.” In *All Data Are Local: Thinking Critically in a Data-Driven Society*. The MIT Press, 2019. [https://doi.org/10.7551/mitpress/11543.001.0001](https://doi.org/10.7551/mitpress/11543.001.0001).
