@@ -8,8 +8,8 @@ class_date: 2024-02-13
 ## In Class Agenda
 
 - [ ] Discuss any immediate questions
-- [ ] Revise last week's activity [exploring cultural data and power hierarchies]({{site.baseurl}}/critical-cultural-data-explorations/) to consider data biographies and data feminism, then present your group's results
 - [ ] Discuss assigned materials
+- [ ] Revise last week's activity [exploring cultural data and power hierarchies]({{site.baseurl}}/critical-cultural-data-explorations/) to consider data biographies and data feminism, then present your group's results
 - [ ] Discuss any questions from the Complex Python lesson or the Introduction to Web Scraping lesson
 
 ## Assigned Materials
