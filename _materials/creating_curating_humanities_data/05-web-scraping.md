@@ -92,6 +92,8 @@ This is very detailed, but just remember that while these terms are often used i
 
 Here, confusingly, the name of the package on PyPI (beautifulsoup4) doesn't match the actual Python code package (bs4). Which is why we always read the documentation, which is available here [https://www.crummy.com/software/BeautifulSoup/bs4/doc/](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)!
 
+So let's try using this library. First, we need to import it into our Python file. If you don't have a file yet, would highly recommend making a new folder in your `is310-coding-assignments` called `web_scraping` and then creating a new file called `web_scraping.py`. Then you can add the following code to your file:
+
 We use Beautiful Soup in our Python code with code that looks like this:
 
 ```python
@@ -122,7 +124,7 @@ While technically we can do the `from bs4 import *`, that's usually only good fo
 
 ### Scraping A Web Page
 
-Now that we have installed our packages, let's try scraping a web page. We'll start by checking the version of the `beautifulsoup4` package that we installed. Let's create a new Python file called `web_scraping.py` and add the following code:
+Now that we have installed our packages, let's try scraping a web page. We'll start by checking the version of the `beautifulsoup4` package that we installed. Let's update our code:
 
 ```python
 import bs4

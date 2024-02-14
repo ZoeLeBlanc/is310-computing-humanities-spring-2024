@@ -63,10 +63,16 @@ Now you need to activate our virtual environments. We can either do this with th
 
 ### Activating Virtual Environments in the Terminal
 
-To activate our virtual environment in the terminal, we need to use a command called called `source` and after that we need to specify the path to the `activate` file in our virtual environment. The path to the `activate` file is `[LOCATION - OPTIONAL]/[NAME OF VIRTUAL ENVIRONMENT]/bin/activate`. If you aren't in the same directory as your virtual environment, you'll have to specify the exact location of the virtual environment. If you are in the same directory as your virtual environment, you can just run the following command:
+To activate our virtual environment in the terminal, we need to use a command called called `source` and after that we need to specify the path to the `activate` file in our virtual environment. The path to the `activate` file is `[LOCATION - OPTIONAL]/[NAME OF VIRTUAL ENVIRONMENT]/bin/activate`. If you aren't in the same directory as your virtual environment, you'll have to specify the exact location of the virtual environment. If you are in the same directory as your virtual environment, you can just run the following command if you're on a Linux/Unix/MacOS system:
 
 ```sh
 source is310-env/bin/activate
+```
+
+Or if you are using a Windows system, you can run the following command:
+
+```sh
+source is310-env/Scripts/activate
 ```
 
 In this example, `is310-env` is the name of the virtual environment.
