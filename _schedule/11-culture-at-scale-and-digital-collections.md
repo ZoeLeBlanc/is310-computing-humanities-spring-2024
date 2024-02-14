@@ -7,7 +7,7 @@ class_date: 2024-02-20
 
 ## In-Class Agenda
 
-- [ ] Discuss any questions about the Introduction to APIs
+- [ ] Review homework from the Introduction to Web Scraping and questions from Introduction to APIs
 - [ ] Discuss the assigned materials
 - [ ] Begin working on creating custom data exercise (to be posted).
 

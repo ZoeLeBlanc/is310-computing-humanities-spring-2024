@@ -7,8 +7,8 @@ class_date: 2024-02-15
 
 ## In-Class Agenda
 
-- [ ] Review homework from the Introduction to Web Scraping
-- [ ] Start working through the Introduction to APIs (to be posted)
+- [ ] Review lesson and work on completing homework from the Introduction to Web Scraping
+- [ ] Time permitting: Start working through the Introduction to APIs (to be posted)
 
 ## Assigned Materials
 
