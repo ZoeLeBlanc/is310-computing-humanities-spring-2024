@@ -83,7 +83,19 @@ api_key = "YOUR_API_KEY_HERE"
 
 Now we can look at the DPLA API documentation to see how we can start getting data from their databases [https://pro.dp.la/developers/requests](https://pro.dp.la/developers/requests).
 
+<figure>
+    <a href="{{site.baseurl}}/assets/images/dpla_api_requests.png">
+        <img src="{{site.baseurl}}/assets/images/dpla_api_requests.png" alt="DPLA API Requests" class="image-popup">
+    </a>
+</figure>
+
 Let's start with the simple search example [https://pro.dp.la/developers/requests#simple](https://pro.dp.la/developers/requests#simple).
+
+<figure>
+    <a href="{{site.baseurl}}/assets/images/dpla_api_simple_search.png">
+        <img src="{{site.baseurl}}/assets/images/dpla_api_simple_search.png" alt="DPLA API Simple Search" class="image-popup">
+    </a>
+</figure>
 
 Copy their example url into your script and save it as the variable `url`. Then try to get the data from the API using the `requests.get` method we've used previously.
 
