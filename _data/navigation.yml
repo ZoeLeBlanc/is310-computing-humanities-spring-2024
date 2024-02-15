@@ -50,6 +50,8 @@ materials:
         url: /materials/creating-curating-humanities-data/04-complex-python
       - title: "Introduction to Web Scraping"
         url: /materials/creating-curating-humanities-data/05-web-scraping
+      - title: "Introduction to APIs"
+        url: /materials/creating-curating-humanities-data/06-getting-data-apis
 
 schedule:
   - title: Overview

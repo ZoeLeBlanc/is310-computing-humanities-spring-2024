@@ -1,0 +1,676 @@
+{
+    "count": 1014,
+    "start": 1,
+    "limit": 10,
+    "docs": [
+        {
+            "id": "43a2f678b647c534de2600c3a9697337",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/43a2f678b647c534de2600c3a9697337",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Minneapolis Institute of Art",
+            "ingestDate": "2022-01-11T15:11:30.751Z",
+            "ingestType": "item",
+            "isShownAt": "https://collections.artsmia.org/art/58424",
+            "object": "http://0.api.artsmia.org/58424.jpg",
+            "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+            "originalRecord": {
+                "stringValue": "{\n  \"id\" : \"17bbe3e1f0f8585fe39cd03562a682c302ded5aa\",\n  \"type\" : \"records\",\n  \"links\" : {\n    \"self\" : \"https://lib-metl-prd-01.oit.umn.edu/api/v2/records/17bbe3e1f0f8585fe39cd03562a682c302ded5aa\"\n  },\n  \"attributes\" : {\n    \"metadata\" : {\n      \"object\" : \"http://0.api.artsmia.org/58424.jpg\",\n      \"rights\" : \"https://creativecommons.org/publicdomain/mark/1.0/\",\n      \"@context\" : \"http://dp.la/api/items/context\",\n      \"HUBINDEX\" : {\n        \"title_ssi\" : \"Kittens\",\n        \"object_ssi\" : \"http://0.api.artsmia.org/58424.jpg\",\n        \"title_ssort\" : \"Kittens\",\n        \"creator_ssim\" : \"Artist: Kellogg and Cumstock\",\n        \"isShownAt_ssi\" : \"https://collections.artsmia.org/art/58424\",\n        \"dataProvider_ssi\" : \"Minneapolis Institute of Art\",\n        \"dataProvider_tei\" : \"Minneapolis Institute of Art\",\n        \"creator_display_ssi\" : \"Artist: Kellogg and Cumstock\",\n        \"sourceResource_extent_ssi\" : \"8 11/16 x 12 15/16 in. (22.07 x 32.86 cm) (image)\\r\\n14 x 18 in. (35.56 x 45.72 cm) (mat, Size I)\",\n        \"sourceResource_format_ssi\" : \"Lithograph\",\n        \"sourceResource_creator_ssi\" : \"Artist: Kellogg and Cumstock\",\n        \"sourceResource_identifier_ssi\" : \"P.11,063\",\n        \"sourceResource_spatial_name_ssi\" : \"North America\",\n        \"sourceResource_location_facet_ssim\" : [ null, \"\", \"\", null, \"North America\" ],\n        \"sourceResource_date_displaydate_ssi\" : \"19th century\",\n        \"sourceResource_spatial_coordinates_ssi\" : \"46.07323, -100.54688\"\n      },\n      \"provider\" : \"Minnesota Digital Library\",\n      \"isShownAt\" : \"https://collections.artsmia.org/art/58424\",\n      \"batch_param\" : \"\",\n      \"record_hash\" : \"17bbe3e1f0f8585fe39cd03562a682c302ded5aa\",\n      \"dataProvider\" : \"Minneapolis Institute of Art\",\n      \"originalRecord\" : {\n        \"id\" : \"http://api.artsmia.org/objects/58424\",\n        \"role\" : \"Artist\",\n        \"room\" : \"Not on View\",\n        \"text\" : \"\",\n        \"dated\" : \"19th century\",\n        \"image\" : \"valid\",\n        \"style\" : \"19th century\",\n        \"title\" : \"Kittens\",\n        \"artist\" : \"Artist: Kellogg and Cumstock\",\n        \"medium\" : \"Lithograph\",\n        \"signed\" : \"No\",\n        \"country\" : \"United States\",\n        \"culture\" : null,\n        \"markings\" : \"\",\n        \"see_also\" : [ \"\" ],\n        \"continent\" : \"North America\",\n        \"dimension\" : \"8 11/16 x 12 15/16 in. (22.07 x 32.86 cm) (image)\\r\\n14 x 18 in. (35.56 x 45.72 cm) (mat, Size I)\",\n        \"life_date\" : null,\n        \"portfolio\" : \"From \",\n        \"creditline\" : \"Anonymous gift, 1924\",\n        \"department\" : \"Arts of the Americas\",\n        \"provenance\" : \"\",\n        \"restricted\" : 0,\n        \"description\" : \"Several water spots near edges\",\n        \"image_width\" : 6183,\n        \"inscription\" : \"\",\n        \"nationality\" : null,\n        \"object_name\" : \"Tour Du Gros - Horloge, Batie Sous La Domination Des Anglais\",\n        \"rights_type\" : \"Public Domain\",\n        \"image_height\" : 4428,\n        \"classification\" : \" Prints\",\n        \"image_copyright\" : \"\",\n        \"accession_number\" : \"P.11,063\",\n        \"curator_approved\" : 0,\n        \"art_champions_text\" : null,\n        \"catalogue_raissonne\" : null\n      },\n      \"sourceResource\" : {\n        \"date\" : {\n          \"displayDate\" : \"19th century\"\n        },\n        \"title\" : \"Kittens\",\n        \"extent\" : \"8 11/16 x 12 15/16 in. (22.07 x 32.86 cm) (image)\\r\\n14 x 18 in. (35.56 x 45.72 cm) (mat, Size I)\",\n        \"format\" : \"Lithograph\",\n        \"creator\" : \"Artist: Kellogg and Cumstock\",\n        \"spatial\" : [ {\n          \"name\" : \"North America\",\n          \"state\" : \"\",\n          \"county\" : \"\",\n          \"country\" : null,\n          \"coordinates\" : \"46.07323, -100.54688\"\n        } ],\n        \"identifier\" : \"P.11,063\"\n      },\n      \"HIDE_FIELD_IMAGE_INVALID\" : \"valid\",\n      \"HIDE_FIELD_IMAGE_RESTRICTED\" : \"0\"\n    },\n    \"record-hash\" : \"17bbe3e1f0f8585fe39cd03562a682c302ded5aa\",\n    \"import-job-name\" : \"MIA\",\n    \"import-job-id\" : 37,\n    \"import-batch-id\" : 1360402,\n    \"import-job-tags\" : [ \"dpla\", \"dplaingest\", \"dpla_nonoai\" ]\n  }\n}"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mdl",
+                "name": "Minnesota Digital Library"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/43a2f678b647c534de2600c3a9697337#SourceResource",
+                "creator": [
+                    "Artist: Kellogg and Cumstock"
+                ],
+                "date": [
+                    {
+                        "displayDate": "19th century"
+                    }
+                ],
+                "extent": [
+                    "8 11/16 x 12 15/16 in. (22.07 x 32.86 cm) (image) 14 x 18 in. (35.56 x 45.72 cm) (mat, Size I)"
+                ],
+                "format": [
+                    "Lithograph"
+                ],
+                "spatial": [
+                    {
+                        "name": "North America",
+                        "coordinates": "46.07323, -100.54688"
+                    }
+                ],
+                "title": [
+                    "Kittens"
+                ]
+            },
+            "@type": "ore:Aggregation",
+            "rightsCategory": "Unlimited Re-Use"
+        },
+        {
+            "id": "bf12d2a347122cd218adf08e93bc14b1",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/bf12d2a347122cd218adf08e93bc14b1",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Queens Borough Public Library",
+            "ingestDate": "2020-02-19T18:54:41.375Z",
+            "ingestType": "item",
+            "intermediateProvider": "Metropolitan New York Library Council",
+            "isShownAt": "http://digitalarchives.queenslibrary.org/vital/access/manager/Repository/aql:5200",
+            "object": "http://digitalarchives.queenslibrary.org:8001/vital/access/services/Thumbnail/aql:5200",
+            "originalRecord": {
+                "stringValue": "<record \nxmlns=\"http://www.openarchives.org/OAI/2.0/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <header>\n    <identifier>oai:repox.ist.utl.pt:collection5125:aql:5200</identifier>\n    <datestamp>2018-08-08</datestamp>\n    <setSpec>collection5125</setSpec>\n  </header>\n  <metadata>\n    <mods \n    xsi:schemaLocation=\"http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd\" version=\"3.4\" xmlns=\"http://www.loc.gov/mods/v3\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:oai-pmh=\"http://www.openarchives.org/OAI/2.0/\">\n      <titleInfo>\n        <title>Kittens</title>\n      </titleInfo>\n      <name>\n        <namePart>William E. Case, Sr.</namePart>\n        <role>\n          <roleTerm>Creator</roleTerm>\n        </role>\n      </name>\n      <originInfo>\n        <dateCreated keyDate=\"yes\">ca. 1900</dateCreated>\n      </originInfo>\n      <note type=\"content\">\n        Group of kittens playing in a basket in the yard of a house.\n      </note>\n      <identifier>aql:5200</identifier>\n      <identifier>cas-000015</identifier>\n      <identifier>cas-000015.tif</identifier>\n      <physicalDescription>\n        <extent>4 x 5 inches (negative); 400 ppi (digital image)</extent>\n        <form>unknown material on plate glass</form>\n      </physicalDescription>\n      <location>\n        <url usage=\"primary display\" access=\"object in context\">\n          http://digitalarchives.queenslibrary.org/vital/access/manager/Repository/aql:5200\n        </url>\n      </location>\n      <location>\n        <url access=\"preview\">\n          http://digitalarchives.queenslibrary.org:8001/vital/access/services/Thumbnail/aql:5200\n        </url>\n      </location>\n      <accessCondition>\n        The Queens Library is interested in learning more about\n        items you've seen on our websites or elsewhere online. If you have any more information\n        about an item or its copyright status, we want to hear from you. Please contact\n        digitalarchive@queenslibrary.org with your contact information and a link to the relevant\n        content.\n      </accessCondition>\n      <subject>\n        <topic>Kittens</topic>\n      </subject>\n      <subject>\n        <geographic>Jamaica, NY</geographic>\n      </subject>\n      <subject>\n        <geographic>Jamaica (New York, N.Y.)</geographic>\n      </subject>\n      <subject>\n        <geographic>Queens (New York, N.Y.)</geographic>\n      </subject>\n      <typeOfResource>still image</typeOfResource>\n      <note type=\"ownership\">Queens Borough Public Library</note>\n      <note type=\"regional council\">Metropolitan New York Library Council</note>\n      <relatedItem type=\"host\" displayLabel=\"Collection\">\n        <titleInfo>\n          <title>Queens Borough Public Library-Wiliam Erwin Photographs</title>\n        </titleInfo>\n      </relatedItem>\n</mods>\n  </metadata>\n  <about>\n    <oaiProvenance:provenance \n    xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/provenance http://www.openarchives.org/OAI/2.0/provenance.xsd\" xmlns:oaiProvenance=\"http://www.openarchives.org/OAI/2.0/provenance\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n      <oaiProvenance:originDescription harvestDate=\"2018-08-08\" altered=\"true\">\n        <oaiProvenance:baseURL>\n          http://vital.queenslibrary.org/vital/oai/provider\n        </oaiProvenance:baseURL>\n        <oaiProvenance:identifier>aql:5200</oaiProvenance:identifier>\n        <oaiProvenance:datestamp>2018-08-08</oaiProvenance:datestamp>\n        <oaiProvenance:metadataNamespace>\n          http://www.openarchives.org/OAI/2.0/\n        </oaiProvenance:metadataNamespace>\n      </oaiProvenance:originDescription>\n</oaiProvenance:provenance>\n  </about>\n</record>\n"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/esdn",
+                "name": "Empire State Digital Network"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/bf12d2a347122cd218adf08e93bc14b1#SourceResource",
+                "collection": [
+                    {
+                        "title": "Queens Borough Public Library-Wiliam Erwin Photographs"
+                    }
+                ],
+                "creator": [
+                    "William E. Case, Sr"
+                ],
+                "date": [
+                    {
+                        "displayDate": "ca. 1900"
+                    }
+                ],
+                "description": [
+                    "Group of kittens playing in a basket in the yard of a house."
+                ],
+                "extent": [
+                    "4 x 5 inches (negative); 400 ppi (digital image)"
+                ],
+                "format": [
+                    "Unknown material on plate glass"
+                ],
+                "identifier": [
+                    "aql:5200",
+                    "cas-000015",
+                    "cas-000015.tif"
+                ],
+                "relation": [
+                    "Queens Borough Public Library-Wiliam Erwin Photographs"
+                ],
+                "rights": [
+                    "The Queens Library is interested in learning more about items you've seen on our websites or elsewhere online. If you have any more information about an item or its copyright status, we want to hear from you. Please contact digitalarchive@queenslibrary.org with your contact information and a link to the relevant content."
+                ],
+                "spatial": [
+                    {
+                        "name": "Jamaica, NY"
+                    },
+                    {
+                        "name": "Jamaica (New York, N.Y.)"
+                    },
+                    {
+                        "name": "Queens (New York, N.Y.)"
+                    }
+                ],
+                "subject": [
+                    {
+                        "name": "Kittens"
+                    }
+                ],
+                "title": [
+                    "Kittens"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation",
+            "rightsCategory": "Unspecified Rights Status"
+        },
+        {
+            "id": "c3ed2a5b0c6e9ea9021160485ac547e5",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/c3ed2a5b0c6e9ea9021160485ac547e5",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Brunswick Public Library, Frederick County Public Libraries",
+            "ingestDate": "2021-09-13T16:41:29.319Z",
+            "ingestType": "item",
+            "isShownAt": "http://collections.digitalmaryland.org/cdm/ref/collection/fcmk/id/1463",
+            "object": "http://webconfig.digitalmaryland.org/utils/getthumbnail/collection/fcmk/id/1463",
+            "rights": "http://rightsstatements.org/vocab/InC/1.0/",
+            "originalRecord": {
+                "stringValue": "<record \nxmlns=\"http://www.openarchives.org/OAI/2.0/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <header>\n    <identifier>oai:collections.digitalmaryland.org:fcmk/1463</identifier>\n    <datestamp>2019-11-19</datestamp>\n    <setSpec>fcmk</setSpec>\n  </header>\n  <metadata>\n    <oai_qdc:qualifieddc \n    xsi:schemaLocation=\"http://worldcat.org/xmlschemas/qdc-1.0/ http://worldcat.org/xmlschemas/qdc/1.0/qdc-1.0.xsd http://purl.org/net/oclcterms http://worldcat.org/xmlschemas/oclcterms/1.4/oclcterms-1.4.xsd\" xmlns:oai_qdc=\"http://worldcat.org/xmlschemas/qdc-1.0/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n      <dc:identifier>7A.114</dc:identifier>\n      <dc:title>Kittens</dc:title>\n      <dc:creator>Kaplon, Myer, 1894-1978</dc:creator>\n      <dc:source>\n        Brunswick Public Library, Frederick County Public Libraries\n      </dc:source>\n      <dc:date>ca. 1940-1979</dc:date>\n      <dc:type>Image</dc:type>\n      <dc:format>Digital reproduction of 1 </dc:format>\n      <dcterms:temporal>1941-1950; 1951-1960; 1961-1970; 1971-1980</dcterms:temporal>\n      <dc:rights>http://rightsstatements.org/vocab/InC/1.0/</dc:rights>\n      <dcterms:accessRights>\n        This item is owned by Frederick County Public Libraries. Permission to reproduce this item is required and may be subject to copyright and other legal restrictions. For more information, please contact: Brunswick Public Library, Frederick County Public Libraries, 915 N. Maple Avenue, Brunswick, MD 21716, 301-600-7250.\n      </dcterms:accessRights>\n      <dc:identifier>\n        http://collections.digitalmaryland.org/cdm/ref/collection/fcmk/id/1463\n      </dc:identifier>\n</oai_qdc:qualifieddc>\n  </metadata>\n</record>\n"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/maryland",
+                "name": "Digital Maryland"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/c3ed2a5b0c6e9ea9021160485ac547e5#SourceResource",
+                "creator": [
+                    "Kaplon, Myer, 1894-1978"
+                ],
+                "date": [
+                    {
+                        "displayDate": "ca. 1940-1979"
+                    }
+                ],
+                "format": [
+                    "Digital reproduction of 1"
+                ],
+                "temporal": [
+                    {
+                        "displayDate": "1941-1950"
+                    },
+                    {
+                        "displayDate": "1951-1960"
+                    },
+                    {
+                        "displayDate": "1961-1970"
+                    },
+                    {
+                        "displayDate": "1971-1980"
+                    }
+                ],
+                "title": [
+                    "Kittens"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation",
+            "rightsCategory": "Permission or Fair Use"
+        },
+        {
+            "id": "4a338737d97ababaf13f42be8e9bf1de",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/4a338737d97ababaf13f42be8e9bf1de",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "National Museum of American History",
+            "ingestDate": "2022-02-24T23:01:09.591Z",
+            "ingestType": "item",
+            "isShownAt": "http://collections.si.edu/search/results.htm?q=record_ID=nmah_324688&repo=DPLA",
+            "object": "https://ids.si.edu/ids/deliveryService?id=NMAH-2003-24633-000001&max=150",
+            "originalRecord": {
+                "stringValue": "<doc>\n  <descriptiveNonRepeating>\n    <record_ID>nmah_324688</record_ID>\n    <online_media>\n      <media \n      thumbnail=\"https://ids.si.edu/ids/deliveryService?id=NMAH-2003-24633-000001&amp;max=150\" idsId=\"NMAH-2003-24633-000001\" caption=\"Kittens\" guid=\"http://n2t.net/ark:/65665/bq99ca746be-3e2c-704b-e053-15f76fa0b4fa\" type=\"Images\">\n        <usage>\n          <access>CC0</access>\n        </usage>\n        https://ids.si.edu/ids/deliveryService?id=NMAH-2003-24633-000001\n</media>\n    </online_media>\n    <unit_code>NMAH</unit_code>\n    <title_sort>KITTENS</title_sort>\n    <guid>http://n2t.net/ark:/65665/ng49ca746a1-387c-704b-e053-15f76fa0b4fa</guid>\n    <title label=\"Title\">Kittens</title>\n    <metadata_usage>\n      <access>CC0</access>\n    </metadata_usage>\n    <data_source>National Museum of American History</data_source>\n  </descriptiveNonRepeating>\n  <indexedStructured>\n    <date>1840s</date>\n    <object_type>Lithographs</object_type>\n    <name>Kelloggs &amp; Thayer</name>\n    <name>Needham, D.</name>\n    <name>E.B. and E.C. Kellogg</name>\n    <topic>Pets</topic>\n    <topic>Art</topic>\n    <topic>Peters Prints</topic>\n    <topic>Flowers</topic>\n    <topic>Furnishings</topic>\n    <place>United States</place>\n    <place>Connecticut</place>\n    <place>Hartford</place>\n    <online_media_type>Images</online_media_type>\n  </indexedStructured>\n  <freetext>\n    <setName label=\"See more items in\">\n      Cultural and Community Life: Domestic Life\n    </setName>\n    <setName label=\"See more items in\">Domestic Furnishings</setName>\n    <setName label=\"See more items in\">Art</setName>\n    <setName label=\"See more items in\">Peters Prints</setName>\n    <date label=\"date made\">1846</date>\n    <identifier label=\"ID Number\">DL.60.2356</identifier>\n    <identifier label=\"catalog number\">60.2356</identifier>\n    <identifier label=\"accession number\">228146</identifier>\n    <notes label=\"Description (Brief)\">\n      Colored print of three kittens playing with yarn on and around a stool. Stool is upholstered with brass tacks holding upholstery to the frame. Window in left background showing a garden view. Patterned carpet.\n    </notes>\n    <notes label=\"Location\">Currently not on view</notes>\n    <creditLine label=\"Credit Line\">\n      Harry T. Peters &quot;America on Stone&quot; Lithography Collection\n    </creditLine>\n    <name label=\"distributor\">Needham, D.</name>\n    <name label=\"maker\">E.B. and E.C. Kellogg</name>\n    <name label=\"maker\">Kelloggs &amp; Thayer</name>\n    <publisher label=\"Related Publication\">\n      Peters, Harry T.. America on Stone\n    </publisher>\n    <topic label=\"subject\">Pets</topic>\n    <topic label=\"subject\">Furnishings</topic>\n    <topic label=\"subject\">Flowers</topic>\n    <place label=\"place made\">United States: Connecticut, Hartford</place>\n    <physicalDescription label=\"Physical Description\">\n      paper (overall material)\n    </physicalDescription>\n    <physicalDescription label=\"Physical Description\">\n      ink (overall material)\n    </physicalDescription>\n    <physicalDescription label=\"Measurements\">\n      image: 9 1/4 in x 13 in; 23.495 cm x 33.02 cm\n    </physicalDescription>\n    <physicalDescription label=\"Measurements\">\n      overall: 10 in x 14 in; 25.4 cm x 35.56 cm\n    </physicalDescription>\n    <dataSource label=\"Data Source\">\n      National Museum of American History\n    </dataSource>\n    <objectType label=\"Object Name\">lithograph</objectType>\n    <objectType label=\"Object Type\">Lithograph</objectType>\n  </freetext>\n</doc>"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/smithsonian",
+                "name": "Smithsonian Institution"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/4a338737d97ababaf13f42be8e9bf1de#SourceResource",
+                "collection": [
+                    {
+                        "title": "Cultural and Community Life: Domestic Life"
+                    },
+                    {
+                        "title": "Domestic Furnishings"
+                    },
+                    {
+                        "title": "Art"
+                    },
+                    {
+                        "title": "Peters Prints"
+                    }
+                ],
+                "creator": [
+                    "Needham, D",
+                    "E.B. and E.C. Kellogg",
+                    "Kelloggs & Thayer"
+                ],
+                "date": [
+                    {
+                        "displayDate": "1846",
+                        "begin": "1846",
+                        "end": "1846"
+                    }
+                ],
+                "description": [
+                    "Colored print of three kittens playing with yarn on and around a stool. Stool is upholstered with brass tacks holding upholstery to the frame. Window in left background showing a garden view. Patterned carpet.",
+                    "Currently not on view"
+                ],
+                "format": [
+                    "Paper (overall material)",
+                    "Ink (overall material)"
+                ],
+                "rights": [
+                    "Harry T. Peters \"America on Stone\" Lithography Collection"
+                ],
+                "spatial": [
+                    {
+                        "name": "United States: Connecticut, Hartford"
+                    }
+                ],
+                "subject": [
+                    {
+                        "name": "Pets"
+                    },
+                    {
+                        "name": "Art"
+                    },
+                    {
+                        "name": "Peters Prints"
+                    },
+                    {
+                        "name": "Flowers"
+                    },
+                    {
+                        "name": "Furnishings"
+                    },
+                    {
+                        "name": "Kelloggs & Thayer"
+                    },
+                    {
+                        "name": "Needham, D"
+                    },
+                    {
+                        "name": "E.B. and E.C. Kellogg"
+                    }
+                ],
+                "temporal": [
+                    {
+                        "displayDate": "1846"
+                    }
+                ],
+                "title": [
+                    "Kittens"
+                ]
+            },
+            "@type": "ore:Aggregation",
+            "rightsCategory": "Unspecified Rights Status"
+        },
+        {
+            "id": "95af8138a557ca7f6e5397661e3aa686",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/95af8138a557ca7f6e5397661e3aa686",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Minnesota Historical Society",
+            "ingestDate": "2022-01-11T15:11:30.751Z",
+            "ingestType": "item",
+            "isShownAt": "https://collections.mnhs.org/cms/display?irn=10747490",
+            "object": "https://collections.mnhs.org/cms/media?thumb=yes&irn=10120853",
+            "originalRecord": {
+                "stringValue": "{\n  \"id\" : \"cc4233e35e63385fedde90211830c8f8dac2b372\",\n  \"type\" : \"records\",\n  \"links\" : {\n    \"self\" : \"https://lib-metl-prd-01.oit.umn.edu/api/v2/records/cc4233e35e63385fedde90211830c8f8dac2b372\"\n  },\n  \"attributes\" : {\n    \"metadata\" : {\n      \"title\" : \"Kittens.\",\n      \"object\" : \"https://collections.mnhs.org/cms/media?thumb=yes&irn=10120853\",\n      \"rights\" : \"http://www.mnhs.org/copyright\",\n      \"@context\" : \"http://dp.la/api/items/context\",\n      \"HUBINDEX\" : {\n        \"title_ssi\" : \"Kittens.\",\n        \"object_ssi\" : \"https://collections.mnhs.org/cms/media?thumb=yes&irn=10120853\",\n        \"title_ssort\" : \"Kittens.\",\n        \"creator_ssim\" : \"Soule, John P.\",\n        \"subject_ssim\" : [ \"Animals. Pets. Cats.\" ],\n        \"isShownAt_ssi\" : \"https://collections.mnhs.org/cms/display?irn=10747490\",\n        \"dataProvider_ssi\" : \"Minnesota Historical Society\",\n        \"dataProvider_tei\" : \"Minnesota Historical Society\",\n        \"creator_display_ssi\" : \"Soule, John P.\",\n        \"sourceResource_type_ssi\" : \"image\",\n        \"sourceResource_format_ssi\" : \"Photographs\",\n        \"sourceResource_creator_ssi\" : \"Soule, John P.\",\n        \"sourceResource_description_tesi\" : \"Photographer located in Boston.\",\n        \"sourceResource_location_facet_ssim\" : [ null, null, null, null, null ],\n        \"sourceResource_collection_title_ssi\" : \"Collections Online\",\n        \"sourceResource_date_displaydate_ssi\" : \"circa 1873\"\n      },\n      \"provider\" : \"Minnesota Digital Library\",\n      \"isShownAt\" : \"https://collections.mnhs.org/cms/display?irn=10747490\",\n      \"identifier\" : \"https://collections.mnhs.org/cms/media?thumb=yes&irn=10120853\",\n      \"batch_param\" : \"\",\n      \"record_hash\" : \"cc4233e35e63385fedde90211830c8f8dac2b372\",\n      \"dataProvider\" : \"Minnesota Historical Society\",\n      \"originalRecord\" : {\n        \"link\" : \"https://collections.mnhs.org/cms/display?irn=10747490\",\n        \"titles\" : {\n          \"title\" : \"Kittens.\"\n        },\n        \"fulltexts\" : {\n          \"fulltext\" : [ \"Photographer located in Boston.\", \"stereograph\", \"photographs\" ]\n        },\n        \"image_link\" : \"https://collections.mnhs.org/cms/media?thumb=yes&irn=10120853\",\n        \"name_texts\" : {\n          \"name_text\" : \"soule, john p.\"\n        },\n        \"type_texts\" : {\n          \"type_text\" : \"Photographs\"\n        },\n        \"event_dates\" : {\n          \"event_date\" : [ \"1873-01-01T00:00:00Z\", \"1873-12-31T23:59:59Z\" ]\n        },\n        \"name_facets\" : {\n          \"name_facet\" : \"Soule, John P.\"\n        },\n        \"type_facets\" : {\n          \"type_facet\" : \"Photographs\"\n        },\n        \"name_displays\" : {\n          \"name_display\" : \"Soule, John P.\"\n        },\n        \"subject_texts\" : {\n          \"subject_text\" : \"Animals. Pets. Cats.\"\n        },\n        \"type_displays\" : {\n          \"type_display\" : \"Photographs\"\n        },\n        \"subject_facets\" : {\n          \"subject_facet\" : [ \"Animals\", \"Pets\", \"Cats\" ]\n        },\n        \"collection_name\" : \"Collections Online\",\n        \"event_date_label\" : \"Dates\",\n        \"given_name_texts\" : {\n          \"given_name_text\" : \"john p.\"\n        },\n        \"subject_displays\" : {\n          \"subject_display\" : \"Animals. Pets. Cats.\"\n        },\n        \"family_name_texts\" : {\n          \"family_name_text\" : \"soule\"\n        },\n        \"given_name_facets\" : {\n          \"given_name_facet\" : \"John\"\n        },\n        \"family_name_facets\" : {\n          \"family_name_facet\" : \"Soule\"\n        },\n        \"event_display_dates\" : {\n          \"event_display_date\" : [ \"Created: circa 1873\", \"Content: circa 1873\" ]\n        },\n        \"given_name_displays\" : {\n          \"given_name_display\" : \"John P.\"\n        },\n        \"family_name_displays\" : {\n          \"family_name_display\" : \"Soule\"\n        }\n      },\n      \"sourceResource\" : {\n        \"date\" : {\n          \"displayDate\" : \"circa 1873\"\n        },\n        \"type\" : \"image\",\n        \"title\" : \"Kittens.\",\n        \"format\" : \"Photographs\",\n        \"creator\" : \"Soule, John P.\",\n        \"subject\" : [ {\n          \"name\" : \"Animals. Pets. Cats.\"\n        } ],\n        \"collection\" : {\n          \"title\" : \"Collections Online\"\n        },\n        \"description\" : \"Photographer located in Boston.\",\n        \"stateLocatedIn\" : {\n          \"iso3166-2\" : \"US-MN\"\n        }\n      }\n    },\n    \"record-hash\" : \"cc4233e35e63385fedde90211830c8f8dac2b372\",\n    \"import-job-name\" : \"MHS\",\n    \"import-job-id\" : 4,\n    \"import-batch-id\" : 1360613,\n    \"import-job-tags\" : [ \"dpla\", \"dplaingest\", \"dpla_nonoai\" ]\n  }\n}"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mdl",
+                "name": "Minnesota Digital Library"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/95af8138a557ca7f6e5397661e3aa686#SourceResource",
+                "collection": [
+                    {
+                        "title": "Collections Online"
+                    }
+                ],
+                "creator": [
+                    "Soule, John P"
+                ],
+                "date": [
+                    {
+                        "displayDate": "circa 1873"
+                    }
+                ],
+                "description": [
+                    "Photographer located in Boston."
+                ],
+                "format": [
+                    "Photographs"
+                ],
+                "rights": [
+                    "http://www.mnhs.org/copyright"
+                ],
+                "subject": [
+                    {
+                        "name": "Animals. Pets. Cats"
+                    }
+                ],
+                "title": [
+                    "Kittens."
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation",
+            "rightsCategory": "Unspecified Rights Status"
+        },
+        {
+            "id": "9edea0dc0ea8ee757a75dcbff8165227",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/9edea0dc0ea8ee757a75dcbff8165227",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Special Collections and University Archives, University of Massachusetts Amherst Libraries",
+            "ingestDate": "2021-10-12T15:47:14.232Z",
+            "ingestType": "item",
+            "isShownAt": "http://credo.library.umass.edu/view/full/muph061-sl089-i003",
+            "object": "http://credo.library.umass.edu/images/resize/300x300/muph061-sl089-i003-001.png",
+            "originalRecord": {
+                "stringValue": "<record \nxmlns=\"http://www.openarchives.org/OAI/2.0/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <header>\n    <identifier>oai:digitalcommonwealth.org:commonwealth-oai:kh04g728q</identifier>\n    <datestamp>2021-07-13T04:07:37Z</datestamp>\n    <setSpec>commonwealth-oai:z603r517s</setSpec>\n  </header>\n  <metadata>\n    <mods:mods \n    version=\"3.5\" xsi:schemaLocation=\"http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:mods=\"http://www.loc.gov/mods/v3\">\n      <mods:recordInfo>\n        <mods:recordContentSource>\n          University of Massachusetts Amherst Libraries Special Collections and University Archives\n        </mods:recordContentSource>\n        <mods:recordOrigin>OAI-PMH request</mods:recordOrigin>\n      </mods:recordInfo>\n      <mods:titleInfo usage=\"primary\" displayLabel=\"primary_display\">\n        <mods:title>Kittens</mods:title>\n      </mods:titleInfo>\n      <mods:identifier type=\"uri\">\n        http://credo.library.umass.edu/view/full/muph061-sl089-i003\n      </mods:identifier>\n      <mods:identifier type=\"local-other\">muph061-sl089-i003</mods:identifier>\n      <mods:name type=\"personal\" authority=\"local\" authorityURI=\"\">\n        <mods:role>\n          <mods:roleTerm \n          type=\"text\" authority=\"marcrelator\" authorityURI=\"http://id.loc.gov/vocabulary/relators\" valueURI=\"http://id.loc.gov/vocabulary/relators/pht\">\n            Photographer\n</mods:roleTerm>\n        </mods:role>\n        <mods:namePart>Blackington, Alton H.</mods:namePart>\n      </mods:name>\n      <mods:subject \n      authority=\"lcsh\" authorityURI=\"http://id.loc.gov/authorities/subjects\">\n        <mods:topic>Cats</mods:topic>\n        <mods:genre>Photographs</mods:genre>\n</mods:subject>\n      <mods:genre \n      authority=\"gmgpc\" authorityURI=\"http://id.loc.gov/vocabulary/graphicMaterials\" valueURI=\"http://id.loc.gov/vocabulary/graphicMaterials/tgm007721\" displayLabel=\"general\">\n        Photographs\n</mods:genre>\n      <mods:subject \n      authority=\"lcsh\" authorityURI=\"http://id.loc.gov/authorities/subjects\">\n        <mods:topic>Kittens</mods:topic>\n        <mods:genre>Photographs</mods:genre>\n</mods:subject>\n      <mods:accessCondition type=\"use and reproduction\" displayLabel=\"rights\">\n        Requests to publish, redistribute, or replicate this material should be addressed to Special Collections and University Archives, University of Massachusetts Amherst Libraries.\n      </mods:accessCondition>\n      <mods:accessCondition type=\"use and reproduction\" displayLabel=\"license\">\n        Contact host institution for more information.\n      </mods:accessCondition>\n      <mods:physicalDescription>\n        <mods:extent>1 photograph ; 8.5 x 10 cm</mods:extent>\n        <mods:internetMediaType>image/tiff</mods:internetMediaType>\n        <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>\n      </mods:physicalDescription>\n      <mods:typeOfResource>still image</mods:typeOfResource>\n      <mods:genre \n      authority=\"aat\" authorityURI=\"http://vocab.getty.edu/aat\" displayLabel=\"specific\">\n        Black-and-white negatives\n</mods:genre>\n      <mods:abstract>Close-up of two tuxedo kittens.</mods:abstract>\n      <mods:originInfo>\n        <mods:dateCreated encoding=\"w3cdtf\" qualifier=\"approximate\" keyDate=\"yes\">\n          1930\n        </mods:dateCreated>\n      </mods:originInfo>\n      <mods:relatedItem type=\"host\">\n        <mods:titleInfo>\n          <mods:title>Alton H. Blackington Collection</mods:title>\n        </mods:titleInfo>\n      </mods:relatedItem>\n      <mods:location>\n        <mods:physicalLocation>\n          Special Collections and University Archives, University of Massachusetts Amherst Libraries\n        </mods:physicalLocation>\n      </mods:location>\n      <mods:language>\n        <mods:languageTerm \n        type=\"text\" authority=\"iso639-2b\" authorityURI=\"http://id.loc.gov/vocabulary/iso639-2\" valueURI=\"http://id.loc.gov/vocabulary/iso639-2/eng\">\n          English\n</mods:languageTerm>\n      </mods:language>\n      <mods:location>\n        <mods:url usage=\"primary\" access=\"object in context\">\n          http://credo.library.umass.edu/view/full/muph061-sl089-i003\n        </mods:url>\n        <mods:url access=\"preview\">\n          http://credo.library.umass.edu/images/resize/300x300/muph061-sl089-i003-001.png\n        </mods:url>\n      </mods:location>\n</mods:mods>\n  </metadata>\n</record>\n"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/digital-commonwealth",
+                "name": "Digital Commonwealth"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/9edea0dc0ea8ee757a75dcbff8165227#SourceResource",
+                "collection": [
+                    {
+                        "title": "Alton H. Blackington Collection"
+                    }
+                ],
+                "creator": [
+                    "Blackington, Alton H"
+                ],
+                "date": [
+                    {
+                        "displayDate": "1930",
+                        "begin": "1930",
+                        "end": "1930"
+                    }
+                ],
+                "description": [
+                    "Close-up of two tuxedo kittens."
+                ],
+                "extent": [
+                    "1 photograph ; 8.5 x 10 cm"
+                ],
+                "format": [
+                    "Photographs",
+                    "Black-and-white negatives"
+                ],
+                "identifier": [
+                    "Local accession: List()",
+                    "Local other: List(muph061-sl089-i003)",
+                    "Local call: List()",
+                    "Local barcode: List()"
+                ],
+                "language": [
+                    {
+                        "name": "English",
+                        "iso639_3": "English"
+                    }
+                ],
+                "rights": [
+                    "Requests to publish, redistribute, or replicate this material should be addressed to Special Collections and University Archives, University of Massachusetts Amherst Libraries.",
+                    "Contact host institution for more information."
+                ],
+                "subject": [
+                    {
+                        "name": "Cats"
+                    },
+                    {
+                        "name": "Kittens"
+                    },
+                    {
+                        "name": "Photographs"
+                    }
+                ],
+                "title": [
+                    "Kittens"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation",
+            "rightsCategory": "Unspecified Rights Status"
+        },
+        {
+            "id": "9f695d8c16a4978061a25076a43aa11f",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/9f695d8c16a4978061a25076a43aa11f",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Boston Public Library",
+            "iiifManifest": "https://ark.digitalcommonwealth.org/ark:/50959/6682xj30d/manifest",
+            "ingestDate": "2021-10-12T15:47:14.232Z",
+            "ingestType": "item",
+            "isShownAt": "https://ark.digitalcommonwealth.org/ark:/50959/6682xj30d",
+            "object": "https://ark.digitalcommonwealth.org/ark:/50959/6682xj30d/thumbnail",
+            "originalRecord": {
+                "stringValue": "<record \nxmlns=\"http://www.openarchives.org/OAI/2.0/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <header>\n    <identifier>oai:digitalcommonwealth.org:commonwealth:6682xj30d</identifier>\n    <datestamp>2021-07-13T05:17:29Z</datestamp>\n    <setSpec>commonwealth:2j62s484w</setSpec>\n  </header>\n  <metadata>\n    <mods:mods \n    version=\"3.4\" xsi:schemaLocation=\"http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:mods=\"http://www.loc.gov/mods/v3\">\n      <mods:titleInfo usage=\"primary\" displayLabel=\"primary_display\">\n        <mods:title>Kittens</mods:title>\n      </mods:titleInfo>\n      <mods:name type=\"personal\" authority=\"local\">\n        <mods:role>\n          <mods:roleTerm \n          type=\"text\" authority=\"marcrelator\" authorityURI=\"http://id.loc.gov/vocabulary/relators\" valueURI=\"http://id.loc.gov/vocabulary/relators/pht\">\n            Photographer\n</mods:roleTerm>\n        </mods:role>\n        <mods:namePart>Jones, Leslie</mods:namePart>\n        <mods:namePart type=\"date\">1886-1967</mods:namePart>\n      </mods:name>\n      <mods:typeOfResource>still image</mods:typeOfResource>\n      <mods:genre \n      authority=\"gmgpc\" authorityURI=\"http://id.loc.gov/vocabulary/graphicMaterials\" valueURI=\"http://id.loc.gov/vocabulary/graphicMaterials/tgm007721\" displayLabel=\"general\">\n        Photographs\n</mods:genre>\n      <mods:genre \n      authority=\"gmgpc\" authorityURI=\"http://id.loc.gov/vocabulary/graphicMaterials\" valueURI=\"http://id.loc.gov/vocabulary/graphicMaterials/tgm004561\" displayLabel=\"specific\">\n        Glass negatives\n</mods:genre>\n      <mods:originInfo>\n        <mods:dateCreated \n        encoding=\"w3cdtf\" keyDate=\"yes\" point=\"start\" qualifier=\"approximate\">\n          1917\n</mods:dateCreated>\n        <mods:dateCreated encoding=\"w3cdtf\" point=\"end\" qualifier=\"approximate\">\n          1934\n        </mods:dateCreated>\n      </mods:originInfo>\n      <mods:physicalDescription>\n        <mods:internetMediaType>image/tiff</mods:internetMediaType>\n        <mods:internetMediaType>image/jpeg</mods:internetMediaType>\n        <mods:digitalOrigin>reformatted digital</mods:digitalOrigin>\n        <mods:extent>1 negative : glass, black &amp; white ; 4 x 5 in.</mods:extent>\n      </mods:physicalDescription>\n      <mods:note>\n        Title from information provided by Leslie Jones or the Boston Public Library on the negative or negative sleeve.\n      </mods:note>\n      <mods:note>Date supplied by cataloger.</mods:note>\n      <mods:subject authority=\"lctgm\">\n        <mods:topic>Cats</mods:topic>\n      </mods:subject>\n      <mods:subject authority=\"lctgm\">\n        <mods:topic>Baby animals</mods:topic>\n      </mods:subject>\n      <mods:accessCondition type=\"use and reproduction\" displayLabel=\"rights\">\n        Copyright (c) Leslie Jones.\n      </mods:accessCondition>\n      <mods:accessCondition type=\"use and reproduction\" displayLabel=\"license\">\n        All rights reserved.\n      </mods:accessCondition>\n      <mods:relatedItem type=\"host\">\n        <mods:titleInfo>\n          <mods:title>Leslie Jones Collection</mods:title>\n        </mods:titleInfo>\n      </mods:relatedItem>\n      <mods:location>\n        <mods:physicalLocation>Boston Public Library</mods:physicalLocation>\n        <mods:holdingSimple>\n          <mods:copyInformation>\n            <mods:subLocation>Arts Department</mods:subLocation>\n          </mods:copyInformation>\n        </mods:holdingSimple>\n      </mods:location>\n      <mods:relatedItem type=\"series\">\n        <mods:titleInfo>\n          <mods:title>Animals: Dogs &amp; Cats</mods:title>\n        </mods:titleInfo>\n      </mods:relatedItem>\n      <mods:identifier type=\"local-accession\">08_06_000884</mods:identifier>\n      <mods:recordInfo>\n        <mods:recordContentSource>Boston Public Library</mods:recordContentSource>\n        <mods:recordOrigin>human prepared</mods:recordOrigin>\n        <mods:languageOfCataloging>\n          <mods:languageTerm \n          authority=\"iso639-2b\" authorityURI=\"http://id.loc.gov/vocabulary/iso639-2\" type=\"text\" valueURI=\"http://id.loc.gov/vocabulary/iso639-2/eng\">\n            English\n</mods:languageTerm>\n        </mods:languageOfCataloging>\n        <mods:descriptionStandard authority=\"marcdescription\">\n          gihc\n        </mods:descriptionStandard>\n      </mods:recordInfo>\n      <mods:location>\n        <mods:url access=\"preview\">\n          https://ark.digitalcommonwealth.org/ark:/50959/6682xj30d/thumbnail\n        </mods:url>\n        <mods:url usage=\"primary\" access=\"object in context\">\n          https://ark.digitalcommonwealth.org/ark:/50959/6682xj30d\n        </mods:url>\n        <mods:url note=\"iiif-manifest\">\n          https://ark.digitalcommonwealth.org/ark:/50959/6682xj30d/manifest\n        </mods:url>\n      </mods:location>\n      <mods:identifier type=\"uri\">\n        https://ark.digitalcommonwealth.org/ark:/50959/6682xj30d\n      </mods:identifier>\n</mods:mods>\n  </metadata>\n</record>\n"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/digital-commonwealth",
+                "name": "Digital Commonwealth"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/9f695d8c16a4978061a25076a43aa11f#SourceResource",
+                "collection": [
+                    {
+                        "title": "Leslie Jones Collection"
+                    }
+                ],
+                "creator": [
+                    "Jones, Leslie, 1886-1967"
+                ],
+                "date": [
+                    {
+                        "displayDate": "1917-1934",
+                        "begin": "1917",
+                        "end": "1934"
+                    }
+                ],
+                "description": [
+                    "Title from information provided by Leslie Jones or the Boston Public Library on the negative or negative sleeve.",
+                    "Date supplied by cataloger."
+                ],
+                "extent": [
+                    "1 negative : glass, black & white ; 4 x 5 in."
+                ],
+                "format": [
+                    "Photographs",
+                    "Glass negatives"
+                ],
+                "identifier": [
+                    "Local accession: List(08_06_000884)",
+                    "Local other: List()",
+                    "Local call: List()",
+                    "Local barcode: List()"
+                ],
+                "rights": [
+                    "Copyright (c) Leslie Jones.",
+                    "All rights reserved."
+                ],
+                "subject": [
+                    {
+                        "name": "Cats"
+                    },
+                    {
+                        "name": "Baby animals"
+                    }
+                ],
+                "title": [
+                    "Kittens"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation",
+            "rightsCategory": "Unspecified Rights Status"
+        },
+        {
+            "id": "a9a80a1b1561c5084124bae49818d4e5",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/a9a80a1b1561c5084124bae49818d4e5",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Minneapolis Institute of Art",
+            "ingestDate": "2022-01-11T15:11:30.751Z",
+            "ingestType": "item",
+            "isShownAt": "https://collections.artsmia.org/art/97286",
+            "object": "http://0.api.artsmia.org/97286.jpg",
+            "rights": "http://rightsstatements.org/vocab/InC-RUU/1.0/",
+            "originalRecord": {
+                "stringValue": "{\n  \"id\" : \"a91f30b30462b4b550373923d2c0a5c82e9b4f20\",\n  \"type\" : \"records\",\n  \"links\" : {\n    \"self\" : \"https://lib-metl-prd-01.oit.umn.edu/api/v2/records/a91f30b30462b4b550373923d2c0a5c82e9b4f20\"\n  },\n  \"attributes\" : {\n    \"metadata\" : {\n      \"object\" : \"http://0.api.artsmia.org/97286.jpg\",\n      \"rights\" : \"http://rightsstatements.org/vocab/InC-RUU/1.0/\",\n      \"@context\" : \"http://dp.la/api/items/context\",\n      \"HUBINDEX\" : {\n        \"title_ssi\" : \"Kittens\",\n        \"object_ssi\" : \"http://0.api.artsmia.org/97286.jpg\",\n        \"title_ssort\" : \"Kittens\",\n        \"creator_ssim\" : \"Artist: Mabel Dwight; Printer: George C. Miller\",\n        \"isShownAt_ssi\" : \"https://collections.artsmia.org/art/97286\",\n        \"dataProvider_ssi\" : \"Minneapolis Institute of Art\",\n        \"dataProvider_tei\" : \"Minneapolis Institute of Art\",\n        \"creator_display_ssi\" : \"Artist: Mabel Dwight; Printer: George C. Miller\",\n        \"sourceResource_extent_ssi\" : \"9 11/16 x 12 1/2 in. (24.61 x 31.75 cm) (image)\\r\\n15 15/16 x 18 1/4 in. (40.48 x 46.36 cm) (sheet)\",\n        \"sourceResource_format_ssi\" : \"Lithograph\",\n        \"sourceResource_creator_ssi\" : \"Artist: Mabel Dwight; Printer: George C. Miller\",\n        \"sourceResource_identifier_ssi\" : \"2005.103.1\",\n        \"sourceResource_spatial_name_ssi\" : \"North America\",\n        \"sourceResource_location_facet_ssim\" : [ null, \"\", \"\", null, \"North America\" ],\n        \"sourceResource_date_displaydate_ssi\" : \"1931\",\n        \"sourceResource_spatial_coordinates_ssi\" : \"46.07323, -100.54688\"\n      },\n      \"provider\" : \"Minnesota Digital Library\",\n      \"isShownAt\" : \"https://collections.artsmia.org/art/97286\",\n      \"batch_param\" : \"\",\n      \"record_hash\" : \"a91f30b30462b4b550373923d2c0a5c82e9b4f20\",\n      \"dataProvider\" : \"Minneapolis Institute of Art\",\n      \"originalRecord\" : {\n        \"id\" : \"http://api.artsmia.org/objects/97286\",\n        \"role\" : \"Artist\",\n        \"room\" : \"Not on View\",\n        \"text\" : \"\",\n        \"dated\" : \"1931\",\n        \"image\" : \"valid\",\n        \"style\" : \"20th century\",\n        \"title\" : \"Kittens\",\n        \"artist\" : \"Artist: Mabel Dwight; Printer: George C. Miller\",\n        \"medium\" : \"Lithograph\",\n        \"signed\" : \"Signed and dated in pencil, LRC: [Mabel Dwight - 1931]\",\n        \"country\" : \"United States\",\n        \"culture\" : null,\n        \"markings\" : \"\",\n        \"see_also\" : [ \"\" ],\n        \"continent\" : \"North America\",\n        \"dimension\" : \"9 11/16 x 12 1/2 in. (24.61 x 31.75 cm) (image)\\r\\n15 15/16 x 18 1/4 in. (40.48 x 46.36 cm) (sheet)\",\n        \"life_date\" : \"American, 1894-1965\",\n        \"portfolio\" : \"From \",\n        \"creditline\" : \"Gift of funds in memory of Walt Augustinack by his family and friends\",\n        \"department\" : \"Prints and Drawings\",\n        \"provenance\" : \"[Paramour Fine Arts]\",\n        \"restricted\" : 0,\n        \"description\" : \"black and white mother cat, seated, with five kittens in various poses (two tiger, one white, two white with black spots) on a small rug\",\n        \"image_width\" : 4878,\n        \"inscription\" : \"Signature and Date\",\n        \"nationality\" : \"American\",\n        \"object_name\" : \"Print\",\n        \"rights_type\" : \"In Copyright–Rights-holder(s) Unlocatable\",\n        \"image_height\" : 3882,\n        \"classification\" : \" Prints\",\n        \"image_copyright\" : \"Copyright of the artist%2C artist%27s estate%2C or assignees\",\n        \"accession_number\" : \"2005.103.1\",\n        \"curator_approved\" : 0,\n        \"art_champions_text\" : null,\n        \"catalogue_raissonne\" : \"Robinson 53\"\n      },\n      \"sourceResource\" : {\n        \"date\" : {\n          \"displayDate\" : \"1931\"\n        },\n        \"title\" : \"Kittens\",\n        \"extent\" : \"9 11/16 x 12 1/2 in. (24.61 x 31.75 cm) (image)\\r\\n15 15/16 x 18 1/4 in. (40.48 x 46.36 cm) (sheet)\",\n        \"format\" : \"Lithograph\",\n        \"creator\" : \"Artist: Mabel Dwight; Printer: George C. Miller\",\n        \"spatial\" : [ {\n          \"name\" : \"North America\",\n          \"state\" : \"\",\n          \"county\" : \"\",\n          \"country\" : null,\n          \"coordinates\" : \"46.07323, -100.54688\"\n        } ],\n        \"identifier\" : \"2005.103.1\"\n      },\n      \"HIDE_FIELD_IMAGE_INVALID\" : \"valid\",\n      \"HIDE_FIELD_IMAGE_RESTRICTED\" : \"0\"\n    },\n    \"record-hash\" : \"a91f30b30462b4b550373923d2c0a5c82e9b4f20\",\n    \"import-job-name\" : \"MIA\",\n    \"import-job-id\" : 37,\n    \"import-batch-id\" : 1360467,\n    \"import-job-tags\" : [ \"dpla\", \"dplaingest\", \"dpla_nonoai\" ]\n  }\n}"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mdl",
+                "name": "Minnesota Digital Library"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/a9a80a1b1561c5084124bae49818d4e5#SourceResource",
+                "creator": [
+                    "Artist: Mabel Dwight; Printer: George C. Miller"
+                ],
+                "date": [
+                    {
+                        "displayDate": "1931",
+                        "begin": "1931",
+                        "end": "1931"
+                    }
+                ],
+                "extent": [
+                    "9 11/16 x 12 1/2 in. (24.61 x 31.75 cm) (image) 15 15/16 x 18 1/4 in. (40.48 x 46.36 cm) (sheet)"
+                ],
+                "format": [
+                    "Lithograph"
+                ],
+                "spatial": [
+                    {
+                        "name": "North America",
+                        "coordinates": "46.07323, -100.54688"
+                    }
+                ],
+                "title": [
+                    "Kittens"
+                ]
+            },
+            "@type": "ore:Aggregation",
+            "rightsCategory": "Permission or Fair Use"
+        },
+        {
+            "id": "084fd481aa392ab8a344ff0d35ee21b0",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/084fd481aa392ab8a344ff0d35ee21b0",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Oregon Historical Society Research Library",
+            "ingestDate": "2022-01-26T03:12:51.976Z",
+            "ingestType": "item",
+            "isShownAt": "https://digitalcollections.ohs.org/cougar-kittens-6",
+            "object": "https://digitalcollections.ohs.org/uploads/r/oregon-historical-society-library/8/4/7/847acfa9de79c7f777c2915c37e348971c71dda4082c06c6377d32892254b432/23ce627a-528e-41dc-b013-e991d4f42a1d-OrgLot369_FinleyD1770_142.jpg",
+            "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+            "originalRecord": {
+                "stringValue": "<mods:mods \nxsi:schemaLocation=\"http://www.loc.gov/mods/v3 https://www.loc.gov/standards/mods/mods.xsd\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:mods=\"http://www.loc.gov/mods/v3\">\n  <mods:identifier>\n    oai:northwestdigitalheritage.org:ohs:oai:digitalcollections.ohs.org:ohy_9639\n  </mods:identifier>\n  <mods:titleInfo>\n    <mods:title>Cougar kittens</mods:title>\n  </mods:titleInfo>\n  <mods:name>\n    <mods:namePart>Finley, William L. (William Lovell), 1876-1953</mods:namePart>\n    <mods:role>\n      <mods:roleTerm>creator</mods:roleTerm>\n    </mods:role>\n  </mods:name>\n  <mods:name>\n    <mods:namePart>Finley, Irene</mods:namePart>\n    <mods:role>\n      <mods:roleTerm>contributor</mods:roleTerm>\n    </mods:role>\n  </mods:name>\n  <mods:typeOfResource>still image</mods:typeOfResource>\n  <mods:originInfo>\n    <mods:dateCreated>1914-04-24</mods:dateCreated>\n  </mods:originInfo>\n  <mods:language>\n    <mods:languageTerm>eng</mods:languageTerm>\n  </mods:language>\n  <mods:abstract>\n    Two young cougar kittens sitting on a set of stairs.\n  </mods:abstract>\n  <mods:subject>\n    <mods:topic>Pumas</mods:topic>\n    <mods:geographic>Jennings Lodge (Or.)</mods:geographic>\n    <mods:geographic>Oregon</mods:geographic>\n  </mods:subject>\n  <mods:genre>Photograph</mods:genre>\n  <mods:genre>cellulose nitrate film</mods:genre>\n  <mods:note type=\"ownership\">\n    Oregon Historical Society Research Library\n  </mods:note>\n  <mods:relatedItem type=\"host\">\n    <mods:titleInfo>\n      <mods:title>William L. Finley Collection</mods:title>\n    </mods:titleInfo>\n  </mods:relatedItem>\n  <mods:accessCondition type=\"use and reproduction\">\n    http://rightsstatements.org/vocab/NoC-US/1.0/\n  </mods:accessCondition>\n  <mods:location>\n    <mods:url usage=\"primary\" access=\"object in context\">\n      https://digitalcollections.ohs.org/cougar-kittens-6\n    </mods:url>\n  </mods:location>\n  <mods:location>\n    <mods:url access=\"preview\">\n      https://digitalcollections.ohs.org/uploads/r/oregon-historical-society-library/8/4/7/847acfa9de79c7f777c2915c37e348971c71dda4082c06c6377d32892254b432/23ce627a-528e-41dc-b013-e991d4f42a1d-OrgLot369_FinleyD1770_142.jpg\n    </mods:url>\n  </mods:location>\n</mods:mods>\n"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/northwest-digital-heritage",
+                "name": "Northwest Digital Heritage"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/084fd481aa392ab8a344ff0d35ee21b0#SourceResource",
+                "collection": [
+                    {
+                        "title": "William L. Finley Collection"
+                    }
+                ],
+                "contributor": [
+                    "Finley, Irene"
+                ],
+                "creator": [
+                    "Finley, William L. (William Lovell), 1876-1953"
+                ],
+                "date": [
+                    {
+                        "displayDate": "1914-04-24"
+                    }
+                ],
+                "description": [
+                    "Two young cougar kittens sitting on a set of stairs."
+                ],
+                "format": [
+                    "Photograph",
+                    "Cellulose nitrate film"
+                ],
+                "language": [
+                    {
+                        "name": "English",
+                        "iso639_3": "English"
+                    }
+                ],
+                "spatial": [
+                    {
+                        "name": "Jennings Lodge (Or.)"
+                    },
+                    {
+                        "name": "Oregon"
+                    }
+                ],
+                "subject": [
+                    {
+                        "name": "Pumas"
+                    }
+                ],
+                "title": [
+                    "Cougar kittens"
+                ],
+                "type": [
+                    "image"
+                ]
+            },
+            "@type": "ore:Aggregation",
+            "rightsCategory": "Unlimited Re-Use"
+        },
+        {
+            "id": "3a1bbbc76f9d88c2b7bb65bb5cbebd54",
+            "@context": "http://dp.la/api/items/context",
+            "@id": "http://dp.la/api/items/3a1bbbc76f9d88c2b7bb65bb5cbebd54",
+            "aggregatedCHO": "#sourceResource",
+            "dataProvider": "Utah Department of Cultural and Community Engagement",
+            "ingestDate": "2022-02-17T16:01:10.296Z",
+            "ingestType": "item",
+            "isShownAt": "https://utah-primoprod.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=digcoll_uuu_11dha_sltnc/570137&context=L&vid=MWDL",
+            "object": "https://collections.lib.utah.edu/thumb?id=570137",
+            "originalRecord": {
+                "stringValue": "<sear:DOC \nID=\"477797\" RANK=\"0.8\" NO=\"268992\" SEARCH_ENGINE=\"Local Search Engine\" SEARCH_ENGINE_TYPE=\"Local Search Engine\" xmlns:sear=\"http://www.exlibrisgroup.com/xsd/jaguar/search\">\n  <PrimoNMBib xmlns=\"http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib\">\n    <record>\n      <control>\n        <sourcerecordid>dha_sltnc/570137</sourcerecordid>\n        <sourceid>digcoll_uuu_11</sourceid>\n        <recordid>digcoll_uuu_11dha_sltnc/570137</recordid>\n        <originalsourceid>570137</originalsourceid>\n        <sourcedbandrecordid>dha_sltnc</sourcedbandrecordid>\n        <addsrcrecordid>uuu-11-119-2229</addsrcrecordid>\n        <sourceformat>Digital Entity</sourceformat>\n        <sourcesystem>Other</sourcesystem>\n      </control>\n      <display>\n        <type>Image</type>\n        <title>Cats--Kittens</title>\n        <publisher>\n          Published by Utah State History; digitized by Backstage Library Works; hosted by J. Willard Marriott Library, University of Utah\n        </publisher>\n        <creationdate>1947-12-08</creationdate>\n        <format>image/jpeg</format>\n        <identifier>https://collections.lib.utah.edu/ark:/87278/s6s77hg6</identifier>\n        <subject>Journalism, Pictorial</subject>\n        <description>Photograph taken by Salt Lake Tribune staff</description>\n        <language>eng</language>\n        <rights>\n          Online access. Reproduction and use by permission from Utah State History.\n        </rights>\n        <lds01>University of Utah, J. Willard Marriott Library</lds01>\n        <lds02>University of Utah J. Willard Marriott Digital Library</lds02>\n        <lds03>Utah Department of Cultural and Community Engagement</lds03>\n        <lds04>Salt Lake Tribune Negative Collection</lds04>\n        <lds12>MSS C 400 Salt Lake Tribune Negative Collection</lds12>\n        <lds13>http</lds13>\n      </display>\n      <links>\n        <linktorsrc>\n          $$Tdigcoll_uuu_11_linktores$$DOpen resource in a new window\n        </linktorsrc>\n        <thumbnail>$$Tdigcoll_uuu_11_linktothumb$$DSee Thumbnail</thumbnail>\n      </links>\n      <search>\n        <title>Cats--Kittens</title>\n        <description>Photograph taken by Salt Lake Tribune staff</description>\n        <subject>Journalism, Pictorial</subject>\n        <sourceid>digcoll_uuu_11</sourceid>\n        <recordid>digcoll_uuu_11dha_sltnc/570137</recordid>\n        <creationdate>1947-12-08</creationdate>\n        <addsrcrecordid>uuu-11-119-2229</addsrcrecordid>\n        <scope>uu</scope>\n        <scope>mw</scope>\n        <lsr01>uuu</lsr01>\n        <lsr02>11</lsr02>\n        <lsr03>119</lsr03>\n        <lsr04>2229</lsr04>\n        <lsr09>University of Utah, J. Willard Marriott Library</lsr09>\n        <lsr10>University of Utah J. Willard Marriott Digital Library</lsr10>\n        <lsr12>Utah Department of Cultural and Community Engagement</lsr12>\n        <lsr13>Salt Lake Tribune Negative Collection</lsr13>\n      </search>\n      <sort>\n        <title>Cats--Kittens</title>\n        <creationdate>1947</creationdate>\n      </sort>\n      <facets>\n        <language>eng</language>\n        <creationdate>1947-12-08</creationdate>\n        <topic>Journalism, Pictorial</topic>\n        <collection>Digital Collections</collection>\n        <toplevel>online_resources</toplevel>\n        <format>image/jpeg</format>\n        <lfc01>Salt Lake Tribune Negative Collection</lfc01>\n        <lfc02>Utah Department of Cultural and Community Engagement</lfc02>\n        <lfc03>University of Utah, J. Willard Marriott Library</lfc03>\n        <lfc04>University of Utah J. Willard Marriott Digital Library</lfc04>\n        <newrecords>20190524_697</newrecords>\n        <frbrgroupid>652115538</frbrgroupid>\n        <frbrtype>6</frbrtype>\n      </facets>\n      <delivery>\n        <institution>MWDL</institution>\n        <delcategory>Online Resource</delcategory>\n      </delivery>\n      <ranking>\n        <booster1>1</booster1>\n        <booster2>1</booster2>\n      </ranking>\n      <addata>\n        <date>1947</date>\n        <pub>\n          Published by Utah State History; digitized by Backstage Library Works; hosted by J. Willard Marriott Library, University of Utah\n        </pub>\n      </addata>\n    </record>\n  </PrimoNMBib>\n  <sear:GETIT \n  deliveryCategory=\"Online Resource\" GetIt1=\"https://collections.lib.utah.edu/details?id=570137\" GetIt2=\"http://1.1.1.1?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2022-02-15T14%3A15%3A47IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-digcoll_uuu_11&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:&amp;rft_id=info:doi/&amp;rft_dat=%3Cdigcoll_uuu_11%3Edha_sltnc/570137%3C/digcoll_uuu_11%3E%3Cgrp_id%3E652115538%3C/grp_id%3E%3Coa%3E%3C/oa%3E&amp;rft_id=info:oai/\">\n</sear:GETIT>\n  <sear:LINKS>\n    <sear:linktorsrc>\n      https://collections.lib.utah.edu/details?id=570137\n    </sear:linktorsrc>\n    <sear:thumbnail>\n      https://collections.lib.utah.edu/thumb?id=570137\n    </sear:thumbnail>\n    <sear:thumbnail>\n      https://collections.lib.utah.edu/thumb?id=570137\n    </sear:thumbnail>\n  </sear:LINKS>\n</sear:DOC>\n"
+            },
+            "provider": {
+                "@id": "http://dp.la/api/contributor/mwdl",
+                "name": "Mountain West Digital Library"
+            },
+            "sourceResource": {
+                "@id": "http://dp.la/api/items/3a1bbbc76f9d88c2b7bb65bb5cbebd54#SourceResource",
+                "collection": [
+                    {
+                        "title": "Salt Lake Tribune Negative Collection"
+                    }
+                ],
+                "date": [
+                    {
+                        "displayDate": "1947-12-08"
+                    }
+                ],
+                "description": [
+                    "Photograph taken by Salt Lake Tribune staff"
+                ],
+                "identifier": [
+                    "digcoll_uuu_11dha_sltnc/570137"
+                ],
+                "language": [
+                    {
+                        "name": "English",
+                        "iso639_3": "English"
+                    }
+                ],
+                "rights": [
+                    "Online access. Reproduction and use by permission from Utah State History."
+                ],
+                "subject": [
+                    {
+                        "name": "Journalism, Pictorial"
+                    }
+                ],
+                "title": [
+                    "Cats--Kittens"
+                ]
+            },
+            "@type": "ore:Aggregation",
+            "rightsCategory": "Unspecified Rights Status"
+        }
+    ],
+    "facets": []
+}
