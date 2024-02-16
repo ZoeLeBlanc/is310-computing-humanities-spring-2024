@@ -19,4 +19,6 @@ class_date: 2024-02-20
 
 ## Additional Materials
 
+## Assignments
 
+- [ ] Complete the [Web Scraping Assignments]({{site.baseurl}}/materials/creating-curating-humanities-data/05-web-scraping#web-scraping-assignments)
