@@ -49,7 +49,8 @@ Answer the following questions in the Google Doc:
 - [ ] Is your dataset representative? Are there any glaring expections of groups of people or categories which have been excluded?
 - [ ] Discuss the strategies you used to select samples for your data. Did you simply go through Google search results? Rely on social media algorithms to sort and retrieve posts? Decide based on your own tastes or preferences? How does your choice of selection criterion impact the examples you found?
 - [ ] Finally, ask ChatGPT to generate a table with your area and fields.
- | Movie Title      | Director Gender | Oscar Nominations | Budget (Million $) | Gross (Million $) | Bechdel Test Passed? |
+
+| Movie Title      | Director Gender | Oscar Nominations | Budget (Million $) | Gross (Million $) | Bechdel Test Passed? |
 |------------------|-----------------|-------------------|--------------------|-------------------|----------------------|
 | Avatar           | M               | 9                 | 237                | 2,847             | No                   |
 | Titanic          | M               | 14                | 200                | 2,195             | Yes                  |
@@ -64,4 +65,5 @@ Answer the following questions in the Google Doc:
 | Wonder Woman     | F               | 0                 | 149                | 821               | Yes                  |
 | Little Women     | F               | 6                 | 40                 | 218               | Yes                  |
 | Captain Marvel   | F               | 1                 | 175                | 1,128             | Yes                  |
+
 - [ ] Compare the quality of your data with the sample provided by ChatGPT. Discuss any obvious errors or exclusions you observe. 
