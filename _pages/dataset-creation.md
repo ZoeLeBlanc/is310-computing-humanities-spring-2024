@@ -62,8 +62,6 @@ Answer the following questions in the Google Doc:
 | Harry Potter and the Sorcerer's Stone | M  | 3           | 125                | 974               | No                   |
 | The Dark Knight  | M               | 8                 | 185                | 1,005             | No                   |
 | Inception        | M               | 8                 | 160                | 829               | No                   |
-| Wonder Woman     | F               | 0                 | 149                | 821               | Yes                  |
-| Little Women     | F               | 6                 | 40                 | 218               | Yes                  |
-| Captain Marvel   | F               | 1                 | 175                | 1,128             | Yes                  |
 
-- [ ] Compare the quality of your data with the sample provided by ChatGPT. Discuss any obvious errors or exclusions you observe. 
+
+- [ ] Compare the quality of your data with the sample provided by ChatGPT. Discuss any obvious errors or exclusions you observe. Does ChatGPT's judgment on the subjective field align with your choices? 
