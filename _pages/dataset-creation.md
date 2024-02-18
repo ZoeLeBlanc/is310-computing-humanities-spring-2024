@@ -19,6 +19,7 @@ Some example topics: bestselling novels, viral tweets, blockbuster movies, Insta
 
 Here's a short example of the type of data we could like you to collect.
 | Movie      | Director Gender | Oscar Nominations      | Does it pass the Bechdel Test? | Budget | Gross |
+|-----------|-----------|-----------|-----------|-----------|-----------|
 | Barbie | Female | 8 | yes | $151,000,000 | $1,445,638,421 |
 
 
