@@ -1,5 +1,5 @@
 ---
-permalink: /dataset-creation/
+permalink: /dataset-creation
 title: Build your own dataset! 
 toc: true
 toc_sticky: true
