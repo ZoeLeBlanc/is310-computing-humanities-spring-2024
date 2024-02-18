@@ -6,14 +6,14 @@ toc_sticky: true
 author_profile: false
 ---
 
-This week, we discussed infrastructures, scale, representation and different barriers to the availability and accessibility of humanities data. Today, you will be working together in a hands on activity to practically explore some of these gaps and 
+This week, we discussed infrastructures, scale, representation and different barriers to the availability and accessibility of humanities data. Today, you will be working together on a hands on activity to practically explore some of these gaps and frictions by going through process of creating your own humanities dataset. 
 
 
 ## Group Activity
 
-Your goal for this project is to work in groups of around 4, create a group Google Doc named Dataset Curation - [Group #] and share it with the class Slack channel.
+Working in groups of around 4, create a group Google Doc named Dataset Curation - [Group #] and share it with the class Slack channel.
 
-Your goal for this assignment is to work together to create a new dataset that is capable of addressing a concrete problem of 
+Your goal for this assignment is to collaboratively create a new dataset 
 
 ### Defining the shape of your data
 
@@ -35,3 +35,6 @@ You are free to use web scraping techniques,
 
 
 Post screenshots of the chatbot's responses in your Google Doc. We will discuss these responses as a class.
+
+### Reflection and evaluation
+
