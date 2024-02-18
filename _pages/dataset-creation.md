@@ -13,21 +13,16 @@ This week, we discussed infrastructures, scale, representation and different bar
 
 Working in groups of around 4, create a group Google Doc named Dataset Curation - [Group #] and share it with the class Slack channel.
 
-Your goal for this assignment is to collaboratively create a new dataset 
+Your goal for this assignment is to collaboratively create a new dataset that can be used to explore a cultural phenomenon broadly defined. This should be obtainable from publicly available data and dhouldn't just be 
+
+Some example topics: bestselling novels, viral tweets, 
 
 ### Defining the shape of your data
 
-- [ ] Find a dataset that contains data about historic cultural objects or practices (historic meaning created prior to the 1980s). This could be a dataset that contains information about a specific cultural object (like medieval manuscripts) or a dataset that contains information about a specific cultural practice (like historic art collecting), etc.
-- [ ] Find a dataset that contains contemporary cultural data (so data from post-1980s). This could be a dataset that contains information about contemporary cultural objects (like movie genres) or practices (box office grosses or ratings for movies).
+- [ ] After you come up with an area, brainstorm some fields for your dataset. Come up with at least 5 fields that should 
+- [ ] 
+Make a Google Sheets form an 
 
-You can find more than one example for each of these, and you can also try to find cultural data that spans both time periods, or use different types of cultural data (like music, film, literature, etc.). You should include a link to the dataset and a screenshot of the dataset in your Google Doc.
-
-For each dataset, try to answer the following questions in the Google Doc:
-
-- [ ] How do these two datasets differ in how they represent cultural objects or practices? How much can we understand of how this data was created or collected? Do the two datasets differ in how they were created or collected?
-- [ ] How does this dataset reflect power structures? How does it reflect the biases of those who collect and use the data? Does this data challenge or critique power structures in any way? How does it relate to the concept of `matrix of domination` from the *Data Feminism* reading?
-
-Finally, the group should consider what is missing from these datasets, and why that data is missing. Is that data missing because it is difficult to collect, because it is not valued, or because it is actively suppressed? What would it look to collect that data and how might it change the dataset? Should that data be collected?
 
 ### Gathering data
 
