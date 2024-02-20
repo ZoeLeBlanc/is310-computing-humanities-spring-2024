@@ -20,7 +20,7 @@ Some example topics: bestselling novels, viral tweets, blockbuster movies, Insta
 Here's a short example of one type of data you could collect (but certainly not limited to this).
 | Movie Title      | Director Gender | Oscar Nominations | Budget (Million $) | Gross (Million $) | Bechdel Test Passed? |
 |------------------|-----------------|-------------------|--------------------|-------------------|----------------------|
-| Barbie           | F               | 8                 | 151                | 1,445             | No                   |
+| Barbie           | F               | 8                 | 151                | 1,445             | Yes                   |
 
 
 
