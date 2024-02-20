@@ -18,9 +18,10 @@ Your goal for this assignment is to collaboratively create a new dataset that ca
 Some example topics: bestselling novels, viral tweets, blockbuster movies, Instagram posts, or music reception. 
 
 Here's a short example of one type of data you could collect (but certainly not limited to this).
-| Movie      | Director Gender | Oscar Nominations      | Does it pass the Bechdel Test? | Budget | Gross |
-|-----------|-----------|-----------|-----------|-----------|-----------|
-| Barbie | Female | 8 | yes | $151,000,000 | $1,445,638,421 |
+| Movie Title      | Director Gender | Oscar Nominations | Budget (Million $) | Gross (Million $) | Bechdel Test Passed? |
+|------------------|-----------------|-------------------|--------------------|-------------------|----------------------|
+| Barbie           | F               | 8                 | 151                | 1,445             | No                   |
+
 
 
 ### Defining the shape (schema) of your data
