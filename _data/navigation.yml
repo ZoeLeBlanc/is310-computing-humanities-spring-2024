@@ -52,6 +52,10 @@ materials:
         url: /materials/creating-curating-humanities-data/05-web-scraping
       - title: "Introduction to APIs"
         url: /materials/creating-curating-humanities-data/06-getting-data-apis
+      - title: "Data Cleaning with CLI (To Be Posted)"
+        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Jupyter Notebooks & Pandas for EDA (To Be Posted)"
+        url: /materials/introducing-humanities-computing/01-course-tools
 
 schedule:
   - title: Overview

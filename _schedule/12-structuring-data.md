@@ -7,8 +7,15 @@ class_date: 2024-02-22
 
 ## In Class Agenda
 
-- [ ] Work through the Introduction to APIs lesson
-- [ ] Time permitting: Start working through the lesson building data cleaning CLI applications (to be posted)
+
+<figure>
+    <a href="{{site.baseurl}}/assets/images/completion_webscraping_assignment.png">
+    <img src="{{site.baseurl}}/assets/images/completion_webscraping_assignment.png" class="image-popup">
+    </a>
+</figure>
+
+- [ ] Review Web Scraping Homework
+- [ ] Work through the Introduction to APIs lesson and homework
 
 ## Assigned Materials
 

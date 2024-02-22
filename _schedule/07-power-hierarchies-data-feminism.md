@@ -11,7 +11,7 @@ class_date: 2024-02-06
 
 <figure>
     <a href="{{site.baseurl}}/assets/images/completion_html_assignment.png">
-    <img src="{{site.baseurl}}/assets/images/completion_html_assignment.png" alt="A group of students discussing their HTML assignments">
+    <img src="{{site.baseurl}}/assets/images/completion_html_assignment.png" class="image-popup">
     </a>
 </figure>
 
