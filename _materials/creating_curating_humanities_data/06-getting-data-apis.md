@@ -62,16 +62,24 @@ First, let's get our DPLA token!
 On Macs/WSL, open your VS Code terminal and type:
 
 ```sh
-curl -v -XPOST http://api.dp.la/v2/api_key/YOUR_EMAIL@example.com
+curl -v -XPOST https://api.dp.la/v2/api_key/YOUR_EMAIL@example.com
 ```
 
 On Windows, open your VS Code PowerShell terminal and type:
 
 ```sh
-Invoke-WebRequest -Uri ("http://api.dp.la/v2/api_key/YOUR_EMAIL@example.com") -Method POST -Verbose
+Invoke-WebRequest -Uri ("https://api.dp.la/v2/api_key/YOUR_EMAIL@example.com") -Method POST -Verbose
 ```
 
 In both examples, replace `YOUR_Email@example.com` with your email (can be any email address). If you run into issues, again feel free to jump ahead and authenticate with DPyLA.
+
+If you are having issues with either of these options, you can use websites like [https://reqbin.com/post-online](https://reqbin.com/post-online), which allow you to mimic the `curl` command in a web browser.
+
+<figure>
+    <a href="{{site.baseurl}}/assets/images/reqbin_post.png">
+        <img src="{{site.baseurl}}/assets/images/reqbin_post.png" class="image-popup">
+    </a>
+</figure>
 
 Once you've completed that step, go to your inbox and you should see an email from the DPLA with your API key, which is a long list of alphanumeric characters.
 

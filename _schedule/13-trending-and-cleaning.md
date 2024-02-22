@@ -8,8 +8,9 @@ class_date: 2024-02-27
 ## In-Class Agenda
 
 - [ ] Discuss any homework related questions
-- [ ] Revise the custom dataset exercise based on the assigned materials
 - [ ] Discuss the assigned materials
+- [ ] Revise and present [creating custom data exercise]({{site.baseurl}}/dataset-creation) based on the assigned materials
+
 
 ## Assigned Materials
 
