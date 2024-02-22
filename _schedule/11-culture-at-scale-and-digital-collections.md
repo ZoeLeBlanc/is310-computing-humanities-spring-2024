@@ -7,9 +7,9 @@ class_date: 2024-02-20
 
 ## In-Class Agenda
 
-- [ ] Review homework from the Introduction to Web Scraping
 - [ ] Discuss the assigned materials
-- [ ] Begin working on creating custom data exercise (to be posted).
+- [ ] Begin working on [creating custom data exercise](https://zoeleblanc.com/is310-computing-humanities-2024/dataset-creation).
+- [ ] Review homework from the Introduction to Web Scraping
 
 ## Assigned Materials
 
