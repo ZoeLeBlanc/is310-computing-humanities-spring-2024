@@ -7,8 +7,8 @@ class_date: 2024-02-29
 
 ## In-Class Agenda
 
-- [ ] Review APIs in the Wild assignment
-- [ ] Start introduction/review of data cleaning and structuring with Pandas lesson (to be posted)
+- [ ] Review [APIs in the Wild assignment]({{site.baseurl}}/materials/creating-curating-humanities-data/06-getting-data-apis#apis-in-the-wild-assignment)
+- [ ] Start introduction/review of data cleaning and structuring with [Pandas lesson]({{site.baseurl}}/materials/creating-curating-humanities-data/07-intro-notebooks).
 
 ## Assigned Materials
 

@@ -69,10 +69,16 @@ To activate our virtual environment in the terminal, we need to use a command ca
 source is310-env/bin/activate
 ```
 
-Or if you are using a Windows system, you can run the following command:
+Or if you are using a Windows system, you can run the following command for Command Prompt:
 
 ```sh
-source is310-env/Scripts/activate
+is310-env\Scripts\activate
+```
+
+Or for PowerShell:
+
+```sh
+.\is310-env\Scripts\Activate.ps1
 ```
 
 In this example, `is310-env` is the name of the virtual environment.
