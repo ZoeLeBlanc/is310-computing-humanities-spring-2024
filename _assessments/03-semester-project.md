@@ -35,6 +35,8 @@ This update will consist of two parts. First, you will update your initial proje
 
 Second, you will share and document your initial dataset through a brief biography of your dataset and data collection methodologies. You must have at least 50% of your data collection and curation completed for this update. The length of this section is variable, but should include documentation of all the materials in your dataset, details on how you have collected the data, and discussion of the datasets properties, including what aspects of the data are missing or incomplete.
 
+Please remember to include relevant citations to the readings and topics we have discussed in class, and to include a discussion of how your project fits into the broader field of computing in the humanities.
+
 ## Peer Review Project Update 5%
 
 **DUE MARCH 26, 2024 (Optional Extension April 2, 2024)**

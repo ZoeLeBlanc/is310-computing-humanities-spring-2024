@@ -9,7 +9,7 @@ class_date: 2024-03-19
 
 - [ ] Answer any homework related questions
 - [ ] Discuss the assigned readings
-- [ ] Work on in-class exercise exploring text analysis and data visualization in DH
+- [ ] Work on in-class exercise exploring projects that focus on text analysis and data visualization of culture
 
 ## Assigned Materials
 
