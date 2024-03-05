@@ -8,8 +8,9 @@ class_date: 2024-03-05
 ## In-Class Agenda
 
 - [ ] Discuss any questions from the homework
+- [ ] Finish presenting [creating custom data exercise]({{site.baseurl}}/dataset-creation)
 - [ ] Discuss the assigned materials
-- [ ] Time-permitting work on project updates
+- [ ] Time-permitting work on [project updates]({{site.baseurl}}/assessments/03-semester-project#mid-semester-project-data-update-15)
 
 ## Assigned Materials
 
