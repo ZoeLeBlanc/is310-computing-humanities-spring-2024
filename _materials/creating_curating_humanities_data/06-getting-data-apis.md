@@ -108,13 +108,13 @@ To create an environment variable, you open your terminal and type the following
 For Macs/WSL:
 
 ```sh
-export DPLA_API_KEY="api_key"
+export DPLA_API_KEY="YOUR_API_KEY_HERE"
 ```
 
 For Windows/Powershell:
 
 ```sh
-setx DPLA_API_KEY "api_key"
+setx DPLA_API_KEY "YOUR_API_KEY_HERE"
 ```
 
 Now you can access these environment variables in your Python script by using the `os` library.
@@ -134,7 +134,7 @@ You simply download the library with `pip install "apikey>=0.2.4` and import it.
 ```python
 import apikey
 
-apikey.save("dpla_key", "api_key")
+apikey.save("dpla_key", "YOUR_API_KEY_HERE")
 
 dpla_api_key = apikey.load("dpla_key")
 ```
@@ -201,7 +201,7 @@ First, we can also store it as a json file, so that we can look at it later.
 import json
 
 with open('dpla_kittens.json', 'w') as f:
-    json.dump(dpla_data, f)
+    json.dump(response.json(), f)
 ```
 
 Here we are using the [JSON module for Python](https://docs.python.org/3/library/json.html) and in particular using the `json.dump` method to write the data to a file called `dpla_kittens.json`. We are using the `w` argument to tell Python that we want to write to the file. If the file already exists, it will be overwritten. If you want to add to the file, you can use the `a` argument, which stands for append.
