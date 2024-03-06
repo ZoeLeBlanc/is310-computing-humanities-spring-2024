@@ -54,8 +54,21 @@ materials:
         url: /materials/creating-curating-humanities-data/06-getting-data-apis
       - title: "(Re)Introduction to Notebooks"
         url: materials/creating-curating-humanities-data/07-intro-notebooks
-      - title: "Data Cleaning with CLI (To Be Posted)"
+  - title: "Interpreting & Communicating Humanities Data"
+    children:
+      - title: "EDA & Data Visualization"
+        url: /materials/interpreting-visualizing-humanities-data/01-eda-data-viz
+      - title: "Introduction to Text Analysis (To Be Posted)"
         url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Advanced Text Mining (To Be Posted)"
+        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Introduction to Network Analysis (To Be Posted)"
+        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Introduction to Image Analysis (To Be Posted)"
+        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Advanced Static Sites (To Be Posted)"
+        url: /materials/introducing-humanities-computing/01-course-tools
+
 
 schedule:
   - title: Overview

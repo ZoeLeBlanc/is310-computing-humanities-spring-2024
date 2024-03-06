@@ -585,11 +585,13 @@ What does this do to our data? You can read about the `to_csv()` method here [ht
 
 ### Film Dialogue as Data Advanced Assignment
 
+*If you are new to Pandas, this assignment might be a bit too advanced, so just focus on downloading and exploring the data.*
+
 For your next assignment, we are returning to *The Pudding* "Film Dialogue" article [https://pudding.cool/2017/03/film-dialogue/](https://pudding.cool/2017/03/film-dialogue/) and taking a closer look at some of the data. So far we have worked with the film scripts and now we will bringing in additional data from the *The Pudding* website.
 
 1. Create a new Jupyter notebook called `CuratingFilmDialogue.ipynb` and read in the three datasets from the Github repository [https://github.com/matthewfdaniels/scripts/](https://github.com/matthewfdaniels/scripts/). Take a look at the documentation in the repository and explore what each file contains, checking if there's any missing data.
 2. Try to answer the following questions:
-   
+
 - How could we tell if the amount of dialogue was increasing over time in movies? How might this influence the assessment about the breakdown of gender dialogue?
 - How could test if there was any relationship between the film's gross value and the amount of dialogue in the film?
 
@@ -597,4 +599,4 @@ To answer these questions you'll need to merge, aggregate, and calculate some ba
 
 *As a bonus, try creating a plot of visualize the answer to each of these questions.*
 
-If you get stuck on this assignment, just submit as far as you got and we can discuss it in class.
+If you get stuck on this assignment, just submit as far as you got and we will discuss it in class.
