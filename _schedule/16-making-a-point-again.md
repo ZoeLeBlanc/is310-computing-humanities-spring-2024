@@ -7,8 +7,8 @@ class_date: 2024-03-07
 
 ## In-Class Agenda
 
-- [ ] Review Notebooks homework
-- [ ] Start introduction to data visualization and EDA with Altair lesson (to be posted)
+- [ ] Review [Notebooks homework]({{site.baseurl}}/materials/creating-curating-humanities-data/07-intro-notebooks/#curate-and-collect-homework)
+- [ ] Start introduction to [EDA and data visualization]({{site.baseurl}}materials/interpreting-visualizing-humanities-data/01-eda-data-viz)
 
 ## Assigned Materials
 
