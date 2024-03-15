@@ -632,7 +632,7 @@ As we are starting to see Altair is a very powerful library. We will continue to
 
 Now that we've learned how to visualize and explore data, your homework is to use the `film_scripts` datasets to answer the following questions using Pandas and Altair. In your Jupyter notebook, you should detail any cleaning or transformations you did to the data and then visualize the data to answer the questions. Your graphs should be interactive and have titles, as well as having the data be correctly formatted.
 
-Once you have completed the assignments, you should push up your solutions to your repository and link to it in the GitHub discussion for this assignment [https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/7](https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/7).
+For the following homework assignments, create a new folder in your `is310-coding-assignments` repository, called `visualizing-data`. Once you have completed the assignments, you should push up your solutions to your repository and link to it in the GitHub discussion for this assignment [https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/7](https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/7).
 
 First, finish trying to answer our original questions using what we have covered today with Pandas and Altair:
 

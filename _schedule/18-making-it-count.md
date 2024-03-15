@@ -7,7 +7,7 @@ class_date: 2024-03-21
 
 ## In-Class Agenda
 
-- [ ] Review Altair and EDA homework
+- [ ] Review [Altair and EDA homework]({{site.baseurl}}/materials/interpreting-visualizing-humanities-data/01-eda-data-viz#visualizing-the-data-homework)
 - [ ] Start introduction to text analysis with Python lesson (to be posted)
 
 ## Assigned Materials

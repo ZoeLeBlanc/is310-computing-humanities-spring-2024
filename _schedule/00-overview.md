@@ -53,3 +53,4 @@ This overview gives a top level view of the topics for each of our meetings. You
 | [Web Scraping Assignments]({{site.baseurl}}/materials/creating-curating-humanities-data/05-web-scraping#web-scraping-assignments)| [February 15 (Optional Extension Until February 20)]({{site.baseurl}}/schedule/10-getting-data) |
 | [APIs in the Wild Assignment]({{site.baserul}}/materials/creating-curating-humanities-data/06-getting-data-apis#apis-in-the-wild-assignment) | [February 29]({{site.baseurl}}/schedule/14-curate-and-collect) |
 | [Curate & Collect Homework]({{site.baseurl}}/materials/creating-curating-humanities-data/07-intro-notebooks/#curate-and-collect-homework) | [March 7]({{site.baseurl}}/schedule/16-making-a-point-again) |
+| [Visualizing the Data Homework]({{site.baseurl}}/materials/interpreting-visualizing-humanities-data/01-eda-data-viz#visualizing-the-data-homework) | [March 21]({{site.baseurl}}/schedule/18-making-it-count) |
