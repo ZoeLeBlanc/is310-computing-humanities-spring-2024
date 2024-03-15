@@ -13,8 +13,8 @@ class_date: 2024-03-26
 
 ## Assigned Materials
 
-- Walsh, Melanie, and Maria Antoniak. “The Goodreads ‘Classics’: A Computational Study of Readers, Amazon, and Crowdsourced Amateur Criticism.” Post45: Peer Reviewed, April 21, 2021. [https://post45.org/2021/04/the-goodreads-classics-a-computational-study-of-readers-amazon-and-crowdsourced-amateur-criticism/](https://post45.org/2021/04/the-goodreads-classics-a-computational-study-of-readers-amazon-and-crowdsourced-amateur-criticism/).
-- Schmidt, Benjamin M. “Do Digital Humanists Need to Understand Algorithms?” In Debates in the Digital Humanities 2016, edited by Matthew K. Gold and Lauren F. Klein, 546–55. University of Minnesota Press, 2016. [https://doi.org/10.5749/j.ctt1cn6thb.51](https://doi.org/10.5749/j.ctt1cn6thb.51). 
+- Walsh, Melanie, and Maria Antoniak. “The Goodreads ‘Classics’: A Computational Study of Readers, Amazon, and Crowdsourced Amateur Criticism.” *Post45*, April 21, 2021. [https://post45.org/2021/04/the-goodreads-classics-a-computational-study-of-readers-amazon-and-crowdsourced-amateur-criticism/](https://post45.org/2021/04/the-goodreads-classics-a-computational-study-of-readers-amazon-and-crowdsourced-amateur-criticism/).
+- D’Ignazio, Catherine, and Lauren F. Klein. “Show Your Work.” In *Data Feminism*. The MIT Press, 2020. [https://doi.org/10.7551/mitpress/11805.001.0001](https://doi.org/10.7551/mitpress/11805.001.0001).
 
 ## Additional Materials
 
