@@ -57,9 +57,9 @@ materials:
   - title: "Interpreting & Communicating Humanities Data"
     children:
       - title: "EDA & Data Visualization"
-        url: /materials/interpreting-visualizing-humanities-data/01-eda-data-viz
-      - title: "Introduction to Text Analysis (To Be Posted)"
-        url: /materials/introducing-humanities-computing/01-course-tools
+        url: /materials/interpreting-communicating-humanities-data/01-eda-data-viz
+      - title: "Introduction to Text Analysis"
+        url: /materials/interpreting-communicating-humanities-data/02-intro-text
       - title: "Advanced Text Mining (To Be Posted)"
         url: /materials/introducing-humanities-computing/01-course-tools
       - title: "Introduction to Network Analysis (To Be Posted)"

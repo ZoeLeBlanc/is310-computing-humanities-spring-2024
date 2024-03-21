@@ -5,6 +5,8 @@ toc: true
 class_date: 2024-03-19
 ---
 
+# Class Canceled
+
 ## In-Class Agenda
 
 - [ ] Answer any homework related questions

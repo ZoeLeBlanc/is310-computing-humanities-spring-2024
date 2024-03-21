@@ -8,13 +8,20 @@ class_date: 2024-03-26
 ## In-Class Agenda
 
 - [ ] Discuss any homework related questions
-- [ ] Revise last's week's exercise based on the assigned materials and present it to the class
 - [ ] Discuss the assigned materials
+- [ ] Work on in-class exercise exploring projects that focus on text analysis and data visualization of culture
 
 ## Assigned Materials
 
+### Moved from Last Week's Class (Patterns & Outliers)
+
+- Underwood, Ted. “Seven Ways Humanists Are Using Computers to Understand Text.” *The Stone and the Shell*, June 4, 2015. [https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/](https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/).
+- Underwood, Ted. “Can Language Models Predict the next Twist in a Story?” *The Stone and the Shell*, January 5, 2024. [https://tedunderwood.com/2024/01/05/can-language-models-predict-the-next-twist-in-a-story/](https://tedunderwood.com/2024/01/05/can-language-models-predict-the-next-twist-in-a-story/).
+- Schmidt, Benjamin M. “Do Digital Humanists Need to Understand Algorithms?” In *Debates in the Digital Humanities* 2016, edited by Matthew K. Gold and Lauren F. Klein, 546–55. University of Minnesota Press, 2016. [https://doi.org/10.5749/j.ctt1cn6thb.51](https://doi.org/10.5749/j.ctt1cn6thb.51). 
+
+### New Materials
+
 - Walsh, Melanie, and Maria Antoniak. “The Goodreads ‘Classics’: A Computational Study of Readers, Amazon, and Crowdsourced Amateur Criticism.” *Post45*, April 21, 2021. [https://post45.org/2021/04/the-goodreads-classics-a-computational-study-of-readers-amazon-and-crowdsourced-amateur-criticism/](https://post45.org/2021/04/the-goodreads-classics-a-computational-study-of-readers-amazon-and-crowdsourced-amateur-criticism/).
-- D’Ignazio, Catherine, and Lauren F. Klein. “Show Your Work.” In *Data Feminism*. The MIT Press, 2020. [https://doi.org/10.7551/mitpress/11805.001.0001](https://doi.org/10.7551/mitpress/11805.001.0001).
 
 ## Additional Materials
 

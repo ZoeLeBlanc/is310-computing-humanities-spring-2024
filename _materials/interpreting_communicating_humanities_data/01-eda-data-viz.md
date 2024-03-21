@@ -1,6 +1,6 @@
 ---
 title: "EDA & Data Visualization"
-permalink: /materials/interpreting-visualizing-humanities-data/01-eda-data-viz
+permalink: /materials/interpreting-communicating-humanities-data/01-eda-data-viz
 excerpt: "An overview of the basics of Exploratory Data Analysis (EDA) and Data Visualization for Humanities Data."
 toc: true
 ---
