@@ -651,6 +651,14 @@ Second, would highly recommend using TF-IDF to help identify what is distinctive
 
 Finally, you'll need to visualize your results, and while you're welcome to use any library, I would recommend either using Pandas plot or Altair. You're welcome to work in either a Python script or Jupyter notebook, though I would recommend starting in a Jupyter notebook.
 
+Because of the size of the dataset, you may want to try and use a subset of the data to start with. You can do this with the `sample` method in Pandas. For example, to get a random sample of 100 rows you could use the following code:
+
+```python
+humanist_vols.sample(100)
+```
+
+You'll also want to make sure that you aren't trying to push up to GitHub any file larger than 50MB. To ignore those files, be sure to add them to your `.gitignore` file. You can read more about how to do that here [https://docs.github.com/en/github/using-git/ignoring-files](https://docs.github.com/en/github/using-git/ignoring-files) and in our [previous lesson]({{site.baseurl}}/materials/introducing-humanities-computing/05-advanced-git-github#gitignore). And you can always ask GitHub Co-Pilot or the instructors for assistance.
+
 Once completed, push up your work to GitHub in a folder called `making_it_count` and share the link in this GitHub discussion [https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/8](https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/8)
 
 
