@@ -1,5 +1,5 @@
 ---
-title: "Places & Spaces"
+title: "Making It Count"
 permalink: /schedule/20-making-it-count
 toc: true
 class_date: 2024-03-28
