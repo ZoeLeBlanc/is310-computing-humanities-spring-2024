@@ -64,8 +64,6 @@ materials:
         url: /materials/introducing-humanities-computing/01-course-tools
       - title: "Introduction to Network Analysis (To Be Posted)"
         url: /materials/introducing-humanities-computing/01-course-tools
-      - title: "Introduction to Image Analysis (To Be Posted)"
-        url: /materials/introducing-humanities-computing/01-course-tools
       - title: "Advanced Static Sites (To Be Posted)"
         url: /materials/introducing-humanities-computing/01-course-tools
 
@@ -115,24 +113,24 @@ schedule:
         url: /schedule/16-making-a-point-again
       - title: "<b>March 12 & 14</b><br> SPRING BREAK"
         url: /schedule/00-overview
-      - title: "<b>March 19</b><br> Patterns & Outliers"
+      - title: "<b>March 19</b><br> Patterns & Outliers - Class Canceled"
         url: /schedule/17-patterns-and-outliers
-      - title: "<b>March 21</b><br> Making It Count"
-        url: /schedule/18-making-it-count
-      - title: "<b>March 26</b><br> Names & Topics"
-        url: /schedule/19-names-and-topics
-      - title: "<b>March 28</b><br> Places & Spaces"
-        url: /schedule/20-places-and-spaces
+      - title: "<b>March 21</b><br> Making A Point, Again Redux"
+        url: /schedule/18-making-a-point-again-redux
+      - title: "<b>March 26</b><br> Patterns & Outliers Redux"
+        url: /schedule/19-patterns-and-outliers-redux
+      - title: "<b>March 28</b><br> Making It Count"
+        url: /schedule/20-making-it-count
   - title: April Detailed Activities
     children:
-      - title: "<b>April 2</b><br> Connecting the Dots"
-        url: /schedule-21-connecting-the-dots
-      - title: "<b>April 4</b><br> Nodes & Edges"
-        url: /schedule/22-nodes-and-edges
-      - title: "<b>April 9</b><br> Seeing Like A Computer"
-        url: /schedule/23-seeing-like-a-computer
-      - title: "<b>April 11</b><br> A Thousand Pictures"
-        url: /schedule/24-a-thousand-pictures
+      - title: "<b>April 2</b><br> Categories & Topics"
+        url: /schedule/21-categories-and-topics
+      - title: "<b>April 4</b><br> Clusters & Classes"
+        url: /schedule/22-clusters-and-classes
+      - title: "<b>April 9</b><br> Connecting the Dots"
+        url: /schedule/23-connecting-the-dots
+      - title: "<b>April 11</b><br> Edges & Nodes"
+        url: /schedule/24-edges-and-nodes
       - title: "<b>April 16</b><br> Preservation & Publications"
         url: /schedule/25-preservation-and-publications
       - title: "<b>April 18</b><br> Serving Looks"

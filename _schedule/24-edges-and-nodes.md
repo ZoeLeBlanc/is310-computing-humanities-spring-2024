@@ -1,6 +1,6 @@
 ---
-title: "A Thousand Pictures"
-permalink: /schedule/24-a-thousand-pictures
+title: "Edges and Nodes"
+permalink: /schedule/24-edges-and-nodes
 toc: true
 class_date: 2024-04-11
 ---
