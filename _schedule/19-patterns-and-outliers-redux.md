@@ -7,9 +7,9 @@ class_date: 2024-03-26
 
 ## In-Class Agenda
 
-- [ ] Discuss any homework related questions
+- [ ] Discuss updates to peer review assignment
 - [ ] Discuss the assigned materials
-- [ ] Work on in-class exercise exploring projects that focus on text analysis and data visualization of culture
+- [ ] Work on in-class exercise exploring projects that focus on [data analysis of culture]({{site.baseurl}}/cultural-data-analysis)
 
 ## Assigned Materials
 

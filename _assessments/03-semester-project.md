@@ -37,11 +37,13 @@ Second, you will share and document your initial dataset through a brief biograp
 
 Please remember to include relevant citations to the readings and topics we have discussed in class, and to include a discussion of how your project fits into the broader field of computing in the humanities.
 
-## Peer Review Project Update 5%
+## Demo Day Presentation and Peer Review Feedback 5%
 
-**DUE MARCH 26, 2024 (Optional Extension April 2, 2024)**
+**DUE APRIL 29 - IN CLASS**
 
-In addition to feedback from the Instructor, you will also be receiving and offering peer feedback on each other’s project updates as part of a peer review process. The goal of this assignment is to offer insightful, actionable feedback, focusing on the clarity of the research question, methodology effectiveness, and overall project organization. The review should be concise and respectful, aiming to highlight strengths and suggest improvements. This exercise is not just about critiquing but also about learning to communicate constructively, a key skill in collaborative and academic settings. The instructor will provide more details closer to the assignment, but you will be assigned based on the similarity of your proposed project.
+*Updated assignment*
+
+After receiving feedback from the instructors on your project, you will have the remainder of the semester to work on your project. In our last two class sessions, you will be grouped into thematic groups to present your project to your peers. This presentation should be a 5-10 minute overview of your project, including a brief description of your research question, the data you engaged with, the computational methods you employed, and the results you achieved. You should also include a brief reflection on the process of working on your project, including any challenges you faced, any changes you made to your initial plan, and any future directions you would like to take with your project. Then your peer group will provide feedback on your project, including suggestions for improvement, questions about your methods or results, and any other comments they have.
 
 
 ## Final Exploration & Experimental Project Submission 25%

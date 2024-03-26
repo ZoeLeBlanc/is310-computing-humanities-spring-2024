@@ -6,26 +6,36 @@ toc_sticky: true
 author_profile: false
 ---
 
-This week we will be exploring how algorithms and data can be used to analyze cultural objects and arguments. Our readings this week considering how humanists are using computers to understand text, the role of algorithms in digital humanities, and the ways that data can be used to tell stories about culture.
+This week we will be exploring how algorithms and data can be used to analyze cultural objects and arguments. Our readings this week have introduced us to the concept of algorithms and how scholars are using these methods to *transform* understandings of cultural data.
 
-But there is a vast amount of research and projects that are using data to explore culture. In this group assignment, you will begin to explore some of these possibilities by finding and discussing examples of cultural data analysis.
+In this group assignment, you will once again try to explore the wider array of projects and practices that are engaging in this work in Computing in the Humanities.
 
 ## Group Activity
 
-To get a sense of the ways scholars use computational methods and digital tools to analyze cultural data, you will be exploring in groups 
+In this activity, you will work in small groups (2-3 people) to explore how computation can be used to not only create cultural data, but also analyze it. While some of you may have some experience with this type of work, I am assuming that most of you are new to this type of research. Part of the difficulty in assessing how computation is being used to study culture is that it requires assessing whether the methods are telling us something new about the topic or object of study. But such an assessment is far beyond the scope of this class. Instead, today we will focus on assessing if computation is being used, and if so, how it is being used.
 
-- find scholarly outputs (so books, articles, digital projects, etc.) that use cultural data
-- identify the methods and tools used in these projects
-- try to locate the code and data used in these projects
-- ask ChatGPT to explain the methods and tools used in these projects
+In this activity the group will decide on two examples to explore, that can be drawn from the resources and examples below or from your own research. The examples have to include some form of computational method and some form of cultural data.
 
-In groups, you will create a GitHub repository named `Cultural Data Analysis Group [Number]` and add a README file to the repository. In the README file, 
+Your goal as a group is to try and answer the following questions to the best of your ability for each example:
 
-you should include a link to the dataset and a screenshot of the dataset. You should also answer the following questions in the README file:
+1. What cultural data is being analyzed? What is the source of the data and what features are being extracted (if any)? Are you able to find the code and data used in the project?
+2. How is the cultural data being transformed? What computational methods or algorithms are being used? Can you identify and explain how they operate?
+3. Is computation being used to make an argument or augment the data in this project? Is computation being used to make predictions or to analyze patterns in the data? Be sure to explain your rationale for your answer.
 
-### Cultural Data Analysis
+To help you with this assessment, you can use ChatGPT but you should do thoughtfully and carefully. For example, if you are looking at an article and ask ChatGPT to summarize, each member of the group should help craft the prompt and then each member should try asking ChatGPT to summarize the article. This will help you get a sense of the range of responses and the limitations of the tool.
 
+Each group should create a Google Doc to record their responses and then be prepared to share their findings with the class. Once you have created your Google Doc, please share the link with the class via Slack. Be sure to include the names of all group members in the document.
 
-- [ ] Find a dataset that contains data about historic cultural objects or practices (historic meaning created prior to the 1980s). This could be a dataset that contains information about a specific cultural object (like medieval manuscripts) or a dataset that contains information about a specific cultural practice (like historic art collecting), etc.
+### Selected Relevant Journals and Example Projects
 
-We will be discussing the readings and then working on an in-class exercise exploring projects that focus on text analysis and data visualization of culture.
+- *The Pudding* [https://pudding.cool/](https://pudding.cool/)
+- *Reviews in DH* [https://reviewsindh.pubpub.org/](https://reviewsindh.pubpub.org/)
+- *Journal of Cultural Analytics* [https://culturalanalytics.org/](https://culturalanalytics.org/)
+- *Journal of Digital History* [https://journalofdigitalhistory.org/](https://journalofdigitalhistory.org/)
+- *Journal of Computational Literary Studies* [https://jcls.io/](https://jcls.io/)
+- *Journal of Historical Network Research* [https://jhnr.uni.lu/](https://jhnr.uni.lu/)
+- Lincoln A. Mullen, *America’s Public Bible: A Commentary* (Stanford University Press, 2023): [https://americaspublicbible.org](https://americaspublicbible.org)
+- Melanie Walsh and Maria Antoniak, "The Goodreads Classics" [https://melaniewalsh.github.io/Goodreads-Classics/](https://melaniewalsh.github.io/Goodreads-Classics/)
+- Ben Lee, *Newspaper Navigator* [https://news-navigator.labs.loc.gov/search](https://news-navigator.labs.loc.gov/search)
+- Ruth Ahnert, Sebastian Ahnert, and Kim Albrecht, *Tudor Networks* [https://tudornetworks.net/](https://tudornetworks.net/)
+- Amanda Henley, Matthew Jansen, et al *On The Books: Jim Crow and Algorithms of Resistance* [https://onthebooks.lib.unc.edu/](https://onthebooks.lib.unc.edu/)
