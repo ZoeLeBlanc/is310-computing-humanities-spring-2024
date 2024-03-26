@@ -20,7 +20,7 @@ Your goal as a group is to try and answer the following questions to the best of
 
 1. What cultural data is being analyzed? What is the source of the data and what features are being extracted (if any)? Are you able to find the code and data used in the project?
 2. How is the cultural data being transformed? What computational methods or algorithms are being used? Can you identify and explain how they operate?
-3. Is computation being used to make an argument or augment the data in this project? Is computation being used to make predictions or to analyze patterns in the data? Be sure to explain your rationale for your answer.
+3. Is computation being used to make an argument or augment the data in this project (even if you're not sure if the argument is sound)? Is computation being used to make predictions or to analyze patterns in the data? Be sure to explain your rationale for your answer.
 
 To help you with this assessment, you can use ChatGPT but you should do thoughtfully and carefully. For example, if you are looking at an article and ask ChatGPT to summarize, each member of the group should help craft the prompt and then each member should try asking ChatGPT to summarize the article. This will help you get a sense of the range of responses and the limitations of the tool.
 
