@@ -79,38 +79,87 @@ Here's my code in this toggle:
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-url = "https://humanist.kdl.kcl.ac.uk/Archives/Converted_Text/"
-response = requests.get(url)
-print(response.status_code)
-soup = BeautifulSoup(response.text, "html.parser")
-links = soup.find_all('a')
-dfs = []
+import numpy as np
+# subset to relevant urls
+humanist_urls = ["https://humanist.kdl.kcl.ac.uk/Archives/Converted_Text/", "https://humanist.kdl.kcl.ac.uk/Archives/Current/"]
+volume_dfs = []
+# loop through each url
+for url in humanist_urls:
+    print(f"Getting volumes from {url}")
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, "html.parser")
+    links = soup.find_all('a')
+    # loop through each volume link
+    for link in links:
+        if link['href'].endswith('.txt'):
+            print(f"Getting volume from {url + link['href']}")
+            page_soup = BeautifulSoup(requests.get(url + link['href']).text, "html.parser")
+            text = page_soup.get_text()
+            volume_link = url + link['href']
+            dates = link['href'].split('.')[1]
+            data_dict = {'volume_text': text, 'volume_link': volume_link, 'volume_dates': dates}
+            volume_dfs.append(data_dict)
 
-for link in links:
-    if link['href'].endswith('.txt'):
-        page_soup = BeautifulSoup(requests.get(url + link['href']).text, "html.parser")
-        text = page_soup.get_text()
-        volume_link = url + link['href']
-        dates = link['href'].split('.')[1]
-        data_dict = {'volume_text': text, 'volume_link': volume_link, 'volume_dates': dates}
-        dfs.append(data_dict)
+scraped_humanist_df = pd.DataFrame(volume_dfs)
+# Extract the volume number from the dates
+scraped_humanist_df['volume_number'] = scraped_humanist_df['volume_dates'].str.extract(r'(\d+)')
+# Remove numbers with more than 2 digits
+scraped_humanist_df['volume_number'] = scraped_humanist_df['volume_number'].apply(lambda x: np.nan if len(str(x)) > 2 else x)
 
-df = pd.DataFrame(dfs)
-df.to_csv("web_scraped_humanist_listserv.csv", index=False)
+# Replace nulls with a sequential of volume numbers
+scraped_humanist_df['volume_number'] = scraped_humanist_df['volume_number'].fillna(pd.Series(np.arange(1, len(scraped_humanist_df) + 1)))
+
+# Extract the start and end years
+scraped_humanist_df[['inferred_start_year', 'inferred_end_year']] = scraped_humanist_df['volume_dates'].str.split('-', expand=True)
+
+# Remove years that are not 4 digits
+scraped_humanist_df.inferred_start_year = scraped_humanist_df.inferred_start_year.apply(lambda x: np.nan if len(str(x)) != 4 else x)
+scraped_humanist_df.inferred_end_year = scraped_humanist_df.inferred_end_year.apply(lambda x: np.nan if len(str(x)) != 4 else x)
+
+# Ensure the years are numeric
+scraped_humanist_df.loc[scraped_humanist_df.inferred_end_year.isnull(), 'inferred_end_year'] = np.nan
+
+# Create an empty dummy variable for the years
+start_year_before = None
+end_year_before = None
+
+# Loop through dataframe row by row
+for index, row in scraped_humanist_df.iterrows():
+    # Check that both start and end years are not null
+    if (not pd.isnull(row.inferred_start_year)) and (not pd.isnull(row.inferred_end_year)):
+        # assign the years to the dummy variables
+        start_year_before = row.inferred_start_year
+        end_year_before = row.inferred_end_year
+        # print the years
+        print(start_year_before, end_year_before)
+    # Check that if years are null and the dummy variables are not, then update the years in the dataframe
+    elif (pd.isnull(row.inferred_start_year) and start_year_before is not None) and (pd.isnull(row.inferred_end_year) and end_year_before is not None):
+        # increment the years by 1
+        start_year_before = int(start_year_before) + 1
+        end_year_before = int(end_year_before) + 1
+        # assign the years to the dataframe using the row index to update the original dataframe
+        scraped_humanist_df.at[index, 'inferred_start_year'] = start_year_before
+        scraped_humanist_df.at[index, 'inferred_end_year'] = end_year_before
+        print(start_year_before, end_year_before)
+
+# Save the dataframe to a csv
+scraped_humanist_df.to_csv("web_scraped_humanist_listserv_volumes.csv", index=False)
 ```
+
+This is fairly advanced code, though it is mostly just complex because I am trying to clean up the metadata associated with the later volumes, something we could do manually since we only have a handful of volumes without specified dates.
 
 {% endcapture %}
 {% include toggle.html content=toggle_code %}
 
-With `web_scraped_humanist_listserv.csv` we have:
+With `web_scraped_humanist_listserv_volumes.csv` we have:
 
-| `volume_dates` | `volume_text` | `volume_link` |
-|---------|--------|-------|
-| 1987-1988 | From: MCCARTY@UTOREPAS\nSubject: \nDate: 12 Ma... | <https://humanist.kdl.kcl.ac.uk/Archives/Converted_Text/humanist.1987-1988.txt>|
+| `volume_dates` | `volume_text` | `volume_link` | `volume_number` | `inferred_start_year` | `inferred_end_year` |
+|---------|--------|-------| -------| -------| -------|
+| 1987-1988 | From: MCCARTY@UTOREPAS\nSubject: \nDate: 12 Ma... | <https://humanist.kdl.kcl.ac.uk/Archives/Converted_Text/humanist.1987-1988.txt>| 1 | 1987 | 1988 |
 
-I've truncated the text file column for visual clarity, but overall this is a much less complex dataset than the Film Dialogue dataset. We could leave the dataset as is and treat it as structured or semi-structured data but our analysis would likely be very limited since we have no numeric data. 
+I've truncated the text file column for visual clarity, but overall even though the code to create this is slightly advanced, the result is still a relatively straightforward dataset, especially compared to some of the data in the Film Dialogue datasets (like gender for example). We could leave the dataset as is, and treat it as structured or semi-structured data but our analysis would likely be very limited since we have only limited numeric data and one column of very long textual data.
 
-Instead to make our Humanist Listserv dataset into something like the Film Dialogue datasets, we need to go through a process of curating and cleaning the data from unstructured to structured data, similar to this graph below:
+Instead to make our Humanist Listserv dataset into something like the Film Dialogue datasets, we need to go through a process of curating and cleaning the data **from unstructured to structured data**, similar to this graph below:
 
 <figure>
     <a href="https://i.pinimg.com/736x/b0/04/b5/b004b543748ba1350c5d66c16c678607.jpg">
@@ -118,11 +167,13 @@ Instead to make our Humanist Listserv dataset into something like the Film Dialo
     </a>
 </figure>
 
-It's worth noting here that this structured vs unstructured divide is very porous and ill defined, and mostly has a lot to do with your goals and your data.
-
 ### Structuring our Textual Data
 
-So let's try adding some structure to our Humanist Listserv dataset. Let's start a new notebook called `HumanistListservEDA.ipynb` and import our libraries and data.
+First, let's talk about what we mean by structured and unstructured data. Structured data is data that is organized in a way that is easily searchable and can be analyzed. This is the type of data that we have been working with so far in our datasets. Unstructured data is data that is not easily searchable or analyzed. This is the type of data that we have in our Humanist Listserv dataset.
+
+To structure this data, we need to think about how we can break it down into smaller, more manageable pieces. This is where text analysis comes in. Now it's worth noting that there is no one way to structure data, and it often depends on your goals and the data you have. But in general it can involve things like cleaning the data, removing unnecessary information, and organizing the data in a way that makes it easier to analyze.
+
+So let's try adding some (more) structure to our Humanist Listserv dataset. Let's start a new notebook called `HumanistListservEDA.ipynb` and import our libraries and data.
 
 Now we need to start thinking about the types of data that we have and exploratory data analysis we might want to undertake.
 
@@ -130,7 +181,7 @@ First we can check our data types:
 
 ```python
 import pandas as pd
-humanist_vols = pd.read_csv('web_scraped_humanist_listserv.csv')
+humanist_vols = pd.read_csv('web_scraped_humanist_listserv_volumes.csv')
 # Check the data types of our columns
 humanist_vols.dtypes
 ```
@@ -138,13 +189,18 @@ humanist_vols.dtypes
 We should see the following output:
 
 ```shell
-volume_dates    object
-volume_text     object
-volume_link     object
+volume_text            object
+volume_link            object
+volume_dates           object
+volume_number          object
+inferred_start_year    object
+inferred_end_year      object
 dtype: object
 ```
 
-In [Intro to Notebooks]({{site.baseurl}}/materials/creating-curating-humanities-data/07-intro-notebooks/), we learned that Pandas treats `string` data as `object` data (also all mixed numeric or non-numeric values). So now we know that to work with our data we will need to dig into Pandas `string` methods. An in-depth discussion of these methods are available on the Pandas documentation website <https://pandas.pydata.org/docs/user_guide/text.html>, but I've also summarized many of the more popular methods below in this table:
+In [Intro to Notebooks]({{site.baseurl}}/materials/creating-curating-humanities-data/07-intro-notebooks/), we learned that Pandas treats `string` data as `object` data (also all mixed numeric or non-numeric values are treated as objects).
+
+Part of what makes Pandas so powerful is that it has a number of built-in methods for working with `string` data. An in-depth discussion of these methods are available on the Pandas documentation website <https://pandas.pydata.org/docs/user_guide/text.html>, but I've also summarized many of the more popular methods below in this table:
 
 | Pandas String Method | Explanation |
 |---------------------|-------------|
@@ -164,15 +220,25 @@ In [Intro to Notebooks]({{site.baseurl}}/materials/creating-curating-humanities-
 | `df[‘column_name’].str.extractall(‘pattern’)` | extract all occurrences of a particular pattern in a column |
 | `df[‘column_name’].str.join(list)` |  join a list of strings with a delimiter |
 
-This list is not exhaustive, but it's a good starting point and shows that there are a number of approaches we could take.
+This list is not exhaustive, but it's a good starting  point and helps explain some of the code above. For example to create this dataset, I used both the `str.extract()` and `str.split()` methods.
 
-Let's start off with trying to explore the size of each volume over time. First, we need to split our `volume_dates` column into a `year_start` and `year_end` columns.
+The first `str.extract` used in this code:
 
 ```python
-# Split the dates column into year_start and year_end 
-humanist_vols['year_start'] = humanist_vols['volume_dates'].str.split('-').str[0]
-humanist_vols['year_end'] = humanist_vols['volume_dates'].str.split('-').str[1]
+# Extract the volume number from the dates
+df['volume_number'] = df['volume_dates'].str.extract(r'(\d+)')
 ```
+
+This code uses a regular expression to extract the volume number from the `volume_dates` column. The regular expression `r'(\d+)'` is looking for one or more digits in the string. The parentheses `()` are used to capture the digits and the `+` is used to indicate that there should be one or more digits. The `r` before the string is used to indicate that this is a raw string and that the backslashes should be treated as literal backslashes.
+
+The second `str.split()` used in this code:
+
+```python
+# Extract the start and end years
+df[['inferred_start_year', 'inferred_end_year']] = df['volume_dates'].str.split('-', expand=True)
+```
+
+This code uses the `str.split()` method to split the `volume_dates` column by the `-` character. The `expand=True` argument is used to return a DataFrame with each split value in a separate column. This is useful when you want to split a column into multiple columns.
 
 Now that we have our years, we need to get the size of each volume. We can do this by using the `count` method and thinking of a pattern that would represent size of the volume (maybe the frequency of new lines `\n` or `FROM` ?).
 
@@ -187,7 +253,7 @@ We could either use the built-in Pandas plotting methods:
 
 ```python
 # Plot the data
-humanist_vols.plot(x='year_start', y='volume_size', kind='bar')
+humanist_vols.plot(x='inferred_year_start', y='volume_size', kind='bar')
 ```
 
 That gives us this plot:
@@ -202,11 +268,14 @@ Or use Altair to plot the data:
 
 ```python
 import altair as alt
-
-alt.Chart(humanist_vols).mark_bar().encode(
-    x='year_start',
+# Convert the inferred start year to a datetime object
+humanist_vols['inferred_start_year'] = humanist_vols['inferred_start_year'].astype(str) + '-01-01'
+humanist_vols['inferred_start_year'] = pd.to_datetime(humanist_vols['inferred_start_year'])
+# Subset the data to only include the volume size and inferred start year so that our chart is not huge
+chart = alt.Chart(humanist_vols[['volume_size', 'inferred_start_year']]).mark_bar().encode(
+    x='inferred_start_year:T',
     y='volume_size',
-    tooltip=['year_start', 'volume_size']
+    tooltip=['inferred_start_year', 'volume_size']
 )
 ```
 
@@ -596,13 +665,13 @@ transformed_documents = vectorizer.fit_transform(documents)
 # Now get the top features for each document
 transformed_documents_as_array = transformed_documents.toarray()
 
-dates = humanist_vols.volume_dates.tolist()
+dates = humanist_vols.inferred_start_year.tolist()
 tfidf_results = []
 for counter, doc in enumerate(transformed_documents_as_array):
     # construct a dataframe
     tf_idf_tuples = list(zip(vectorizer.get_feature_names_out(), doc))
     one_doc_as_df = pd.DataFrame.from_records(tf_idf_tuples, columns=['term', 'score']).sort_values(by='score', ascending=False).reset_index(drop=True)
-    one_doc_as_df['volume_dates'] = dates[counter]
+    one_doc_as_df['inferred_start_year'] = dates[counter]
     tfidf_results.append(one_doc_as_df)
 ```
 
@@ -623,19 +692,18 @@ print(tfidf_df[0:200].term.unique())
 Which should produce this list:
 
 ```python
-['http' 'utorepas' 'bitnet' 'www' '2007' '2006' '2004' 'gopher' '2005'
- '2002' '2003' 'html' 'ninch' '2008' 'vax' 'uottawa' 'qs' 'prolog'
- 'hussein' 'acadvm1' 'kessler' 'doi' 'celia' 'cdt' 'na' '441495' 'cst'
- 'penndrls' 'amico' 'brownvm' 'neach' 'epas' 'xxx' '1007' 'fqs' 'tlg'
- 'kevitt' 'ocp' 'sanskrit' 'dfl' 'iraq' 'easi' 'pali' 'kleio' 'kurzweil'
- 'rahtz' 'cti' 'kentvm' 'bene' 'giampapa' 'hurd' 'htm' 'chiba' 'gas'
- 'nota' 'coombs' 'hypercard' 'cont' 'strangelove' 'ubiquity' 'cdn'
- 'google' 'vm' 'snobol' 'taunivm' '8080' 'ere' 'ibycus' 'lml' 'koontz'
- 'lowercase' 'nicolov' 'mst' 'artfl' 'guvax' 'stallman' 'crosby'
- 'germaine' 'ijcai' 'marchand' 'bst'
- '____________________________________________________________________'
- 'pst' 'ucs' 'engst' 'aisb' 'israeli' 'mc' 'junger' 'masks' 'iraqi'
- 'arundel' '10646' 'nicolas' 'lachance' 'spaeth']
+['2007' 'digitalhumanities' 'ninch' '2004' 'utorepas' 'bitnet' 's16382816'
+ 'onlinehome' 'esmtp' 'joyent' 'amico' '1007' 'gopher' 'fqs' 'barracuda'
+ '2018' 'doi' 'woodward' 'epas' 'xxx' 'elra' 'ruhc' 'gants' '2012'
+ 'outbound' '2015' '2009' '2016' 'mccarty_at_kcl' '3dx' 'messagelabs'
+ 'aaisp' '2011' 'ichim99' 'vax' '2017' 'arundel' 'ippe' 'archiver' '2010'
+ '2013' 'spam' 'saddam' '005' '5801' 'ccreegan' 'dhhumanist' '2014' 'helo'
+ 'wmccarty' 'aes256' 'astra' 'tocs' 'cest' 'hforums' 'lemme' 'wikipedia'
+ 'fludd' '8080' 'uottawa' 'ecu' 'wlm' '0558' 'kis' 'google' 'postfix'
+ 'prolog' 'kraft' 'bounces' 'spf' 'qs' 'penndrls' 'tambovtsev' 'acadvm1'
+ 'mimeole' 'asg' 'hums' 'b7' '2784' 'riao97' 'infobits' 'ceth' 'brownvm'
+ 'lachance' '441495' 'ugl' 'dhe' 'emfw4' 'proofpoint' 'hasselmo' '7848'
+ 'e9' '2980' 'hussein']
  ```
 
 Some of these terms are pretty meaningless and we might want to clean them out, but some like `prolog` or `google` look promising. This could open up a whole new set of questions for our dataset. For example, we could try and compare the frequency of `prolog` and `google` across the dataset to see if there are any patterns.
