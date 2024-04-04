@@ -54,4 +54,4 @@ This overview gives a top level view of the topics for each of our meetings. You
 | [APIs in the Wild Assignment]({{site.baserul}}/materials/creating-curating-humanities-data/06-getting-data-apis#apis-in-the-wild-assignment) | [February 29]({{site.baseurl}}/schedule/14-curate-and-collect) |
 | [Curate & Collect Homework]({{site.baseurl}}/materials/creating-curating-humanities-data/07-intro-notebooks/#curate-and-collect-homework) | [March 7]({{site.baseurl}}/schedule/16-making-a-point-again) |
 | [Visualizing the Data Homework]({{site.baseurl}}/materials/interpreting-communicating-humanities-data/01-eda-data-viz#visualizing-the-data-homework) | [March 28]({{site.baseurl}}/schedule/20-making-it-count) |
-| [Making it Count Homework]({{site.baseurl}}/materials/interpreting-communicating-humanities-data/02-intro-text#making-it-count-homework) | [April 4]({{site.baseurl}}/schedule/22-places-and-spaces) |
+| [Making it Count Homework]({{site.baseurl}}/materials/interpreting-communicating-humanities-data/02-intro-text#making-it-count-homework) | [April 11]({{site.baseurl}}/schedule/24-edges-and-nodes) |
