@@ -8,7 +8,7 @@ class_date: 2024-04-09
 ## In-Class Agenda
 
 - [ ] Discuss assigned materials
-- [ ] Revise the networks in DH project and present results
+- [ ] Present in-class exercise exploring projects that focus on [data analysis of culture]({{site.baseurl}}/cultural-data-analysis)
 
 
 ## Assigned Materials
