@@ -1,5 +1,5 @@
 ---
-title: "Edges and Nodes"
+title: "Nodes & Edges"
 permalink: /schedule/24-edges-and-nodes
 toc: true
 class_date: 2024-04-11
