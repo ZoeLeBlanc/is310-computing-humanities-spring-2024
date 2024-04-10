@@ -1,6 +1,6 @@
 ---
 title: "Nodes & Edges"
-permalink: /schedule/24-edges-and-nodes
+permalink: /schedule/24-nodes-and-edges
 toc: true
 class_date: 2024-04-11
 ---

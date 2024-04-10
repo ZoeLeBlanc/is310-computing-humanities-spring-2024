@@ -1,10 +1,8 @@
 ---
-title: "Introduction to Network Analysis"
-permalink: /materials/exploratory-data-analysis/08-intro-networks
+title: "Introduction to Network Analysis & Named Entity Recognition"
+permalink: /materials/interpreting-communicating-humanities-data/04-intro-networks-and-ner/
 toc: true
 ---
-
-## What is a network?
 
 In [*The Network Turn*](https://www.cambridge.org/core/elements/network-turn/CC38F2EA9F51A6D1AFCB7E005218BBE5), we learned that:
 
