@@ -4,7 +4,7 @@ permalink: /materials/interpreting-communicating-humanities-data/04-intro-networ
 toc: true
 ---
 
-<div class="notice--info">⚡️ This lesson has a notebook with all the code that you can download <a href="{{site.baseurl}}/assets/files/network_analysis/IntroNetworksAnalysis.ipynb" download="IntroNetworksAnalysis.ipynb">here</a>. Be sure to download the datasets and correct Python libraries as well.</div>
+<div class="notice--info">⚡️ This lesson has a notebook with all the code that you can download <a href="{{site.baseurl}}/assets/files/network_analysis/IntroNetworkAnalysis.ipynb" download="IntroNetworkAnalysis.ipynb">here</a>. Be sure to download the datasets and correct Python libraries as well.</div>
 
 In [*The Network Turn*](https://www.cambridge.org/core/elements/network-turn/CC38F2EA9F51A6D1AFCB7E005218BBE5), we learned that:
 
