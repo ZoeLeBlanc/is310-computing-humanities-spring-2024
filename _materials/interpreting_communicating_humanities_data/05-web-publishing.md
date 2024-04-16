@@ -17,6 +17,12 @@ The figure above is from [The Turing Way](https://the-turing-way.netlify.app/wel
 
 ## Documentation & Data Management
 
+Documentation and data management might seem trivial or boring topics, but in actuality, they are crucial to the success of any project. Without proper documentation, it can be difficult to understand what you did, why you did it, and how you did it. This can lead to confusion, errors, and ultimately a lack of reproducibility.
+
+Now reproducibility is not a topic we've discussed much in class, and that's because while movements like Open Science and Open Data are gaining traction, they are still relatively new to the humanities. In particular, it's not always clear what reproducibility means for cultural data.
+
+For example, in the course, we've had multiple moments where we have seen how our interpretation shapes the data we create and how we analyze it. This means that even if we share our data and code, it might not be possible to reproduce our results exactly. This is not a bad thing, but it does mean we need to be thoughtful about how we document our work and the audience we are trying to reach.
+
 ## Digital Publishing
 
 ### Publishing Jupyter Notebooks With Google Colab
