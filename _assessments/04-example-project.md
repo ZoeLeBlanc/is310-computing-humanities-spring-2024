@@ -6,7 +6,7 @@ toc_sticky: true
 classes: wide
 ---
 
-This is a very brief, example project to help you as you work to complete your final project. You are not expected to follow this example exactly, but hopefully it can help give you a sense of what a final project might look like.
+This is a very brief, example project to help you as you work to complete your final project. You are not expected to follow this example exactly, but hopefully it can help give you a sense of what a final project might look like. You are welcome to reuse some of the materials you generated for the proposal and project update.
 
 This example will be built around our class example of exploring the Humanist Listserv [https://humanist.kdl.kcl.ac.uk/](https://humanist.kdl.kcl.ac.uk/). While the example below contains the overall structure, we will be discussing in class how to present this work publicly and how to document it in a way that is accessible to others, which will slightly change the structure of the final project though the content will remain the same.
 
