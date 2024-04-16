@@ -19,6 +19,6 @@ The figure above is from [The Turing Way](https://the-turing-way.netlify.app/wel
 
 ## Digital Publishing
 
-### Jupyter Notebooks
+### Publishing Jupyter Notebooks With Google Colab
 
-### GitHub Pages & Static Site Generators
+### Publishing with GitHub Pages & Static Site Generators

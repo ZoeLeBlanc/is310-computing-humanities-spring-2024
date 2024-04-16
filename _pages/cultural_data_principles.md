@@ -1,6 +1,6 @@
 ---
 permalink: /cultural-data-principles
-title: "Cultural Data Principles: A Guide to Working with Cultural Data"
+title: "Cultural Data Principles: How to Best Work with Cultural Data"
 toc: true
 toc_sticky: true
 author_profile: false
