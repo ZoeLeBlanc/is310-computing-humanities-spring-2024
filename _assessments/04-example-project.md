@@ -37,6 +37,9 @@ This example will be built around our class example of exploring the Humanist Li
 - In this section, I would also include, if relevant, a brief discussion of how others have collected and curated data for similar projects. So for example, I might include the following projects/examples:
   - Scholars who have explored Usenet archives, which are early internet discussion forums, and how they have used computational methods to understand these archives.
   - Projects that have used named entity recognition to extract topics from large text corpora, and how they have structured and cleaned these datasets for analysis.
+- And, I would include also any citations or quotations to readings from the course that are relevant:
+  - So for example, I might include some references to *Data Feminism* because that influenced my approach to organizing this data.
+- Finally, I would also include any reflections on how my thinking about data collection and curation process changed through this process.
 
 ## Data Analysis & Methods
 
@@ -44,11 +47,14 @@ This example will be built around our class example of exploring the Humanist Li
 - I would also detail some experiments of using TF-IDF and topic modeling to understand the conversations on the listserv and how these methods helped me to understand the data. I might not have a final answer to my initial question but showing some trends and using those to speculate about how these technologies have changed over time and how they have been discussed on the listserv. I would also detail any challenges I faced in using these methods and how I overcame them.
 - In this section, I would also include, if relevant, a brief discussion of how others have analyzed data for similar projects. So for example, I might include the following projects/examples:
   - Scholars and/or projects who have used topic modeling or TF-IDF to understand the historic documents and how they have visualized these results to understand the development of discourses.
+- I would also again include relevant citations from our course readings and how they influenced my thinking about data analysis and methods.
+  - So I might include a reference to Melanie Walsh and Maria Antoniak's work with GoodReads since that influenced my approach to topic modeling.
+- Finally, I would also include any reflections on how my thinking about data analysis and methods changed through this process.
 
 ## Conclusion & Reflection
 
-- In this section, I would detail what I learned from this project and how it has helped me to understand working with cultural data and computing in the humanities, and then specifically what this project has found over how the development of technology over time shaped discourses on the Humanist Listserv.
-- I would also reflect and detail any challenges I faced in completing this project and how I overcame them, as well as any future directions I might take this project.
+- In this section, I would detail any big picture takeaways about what I learned from this project and how it has helped me to understand working with cultural data and computing in the humanities, and then specifically what this project has found over how the development of technology over time shaped discourses on the Humanist Listserv.
+- I would also reflect and summarize any challenges I faced in completing this project and how I overcame them, as well as any future directions I might take this project.
 - Finally, I would also include any guidance for others who might want to utilize this data or methods in their own research, and how they might go about doing so.
 
 ---

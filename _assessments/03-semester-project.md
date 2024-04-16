@@ -43,8 +43,7 @@ Please remember to include relevant citations to the readings and topics we have
 
 *Updated assignment*
 
-After receiving feedback from the instructors on your project, you will have the remainder of the semester to work on your project. In our last two class sessions, you will be grouped into thematic groups to present your project to your peers. This presentation should be a 5-10 minute overview of your project, including a brief description of your research question, the data you engaged with, the computational methods you employed, and the results you achieved. You should also include a brief reflection on the process of working on your project, including any challenges you faced, any changes you made to your initial plan, and any future directions you would like to take with your project. Then your peer group will provide feedback on your project, including suggestions for improvement, questions about your methods or results, and any other comments they have.
-
+After receiving feedback from the instructors on your project, you will have the remainder of the semester to work on your project. In our last class session, you will be grouped into thematic groups to present your project to your peers. This presentation should be a 10-20 minutes overview of your project, including a brief description of your research question, the data you engaged with, the computational methods you employed, and the results you achieved. You should also include a brief reflection on the process of working on your project, including any challenges you faced, any changes you made to your initial plan, and any future directions you would like to take with your project. Then your peer group will provide feedback on your project, including suggestions for improvement, questions about your methods or results, and any other comments they have.
 
 ## Final Exploration & Experimental Project Submission 25%
 
@@ -52,11 +51,11 @@ After receiving feedback from the instructors on your project, you will have the
 
 The final part of this semester-long project is your final project submission, due at the end of the semester (please note **the hard deadline**).  This submission is the culmination of your explorations and experimentations throughout the course, representing your first forays into the realm of computing in the humanities. While there is no expectation that your final submission will be a polished digital project, your submission should cover all the required elements outlined initially, and demonstrate a well-rounded understanding and application of the course concepts.
 
-This assignment is twofold: First, it involves detailed documentation and explanation of your project. This includes a clear description of your research question, the data you engaged with, the computational methods you employed, and the results you achieved. Your narrative should effectively convey the project’s journey from conception to its current state. Second, and equally important, is the reflective component. This is an introspective dive into the process of your project’s development. Reflect on how your ideas and approaches evolved over the semester, how the course materials influenced your project, and what changes you would now implement with your newfound knowledge. Address the feasibility of your initial proposal, the scope of what you managed to achieve, and openly discuss any deviations from your original plan. The goal is not to focus on whether you hit every milestone, but rather to articulate how the process of working with data and computing in the humanities has shaped your project and your understanding of the field.
+In writing and presenting your project, you should focus on two strands:
+
+- First, providing detailed documentation and explanation of your project. This includes a clear description of your research question, the scholarship that you engaged with, the data you created and transformed, the computational methods you employed, and the results you achieved. Your narrative should effectively convey the project’s journey from conception to its current state
+- Second, and equally important, is the reflective component. Specifically, you should where you deem appropriate reflect on how your ideas and approaches evolved over the semester, how the course materials influenced your project, and what changes you would now implement with your newfound knowledge. You might discuss how the feasibility of your initial proposal evolved, whether the scope of what you managed to achieve matched that proposal or not, and openly discuss any deviations from your original plan. The goal is not to focus on whether you hit every milestone, but rather to articulate how the process of working with data and computing in the humanities has shaped your project and your understanding of the field.
 
 There is no set page limit for this assignment since it will be submitted digitally, but we will discuss more details closer to the final submission date.
 
-
-
-
-
+You can find an example project here: [Example Final Project]({{site.baseurl}}/assessments/04-example-project)
