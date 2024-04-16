@@ -27,10 +27,8 @@ Other relevant resources include:
 
 ## Group Activity
 
-In this group activity, you will work in small groups to start drafting a set of principles that you think are important for working with cultural data. You can draw on the examples above, as well as your own experiences and research. Your goal is to create a set of principles that you think are important for working with cultural data, and to explain why you think these principles are important.
+In this group activity, you will work in small groups to start drafting a set of principles that you think are important for working with cultural data. You can draw on the examples above, as well as your own experiences and our discussions in class. Your goal is to create a set of principles that you think would be helpful for anyone new to working with cultural data, and then we will discuss in class why you think these principles are important.
 
-Part of the difficulty in drafting a set of principles is that it requires assessing potential audiences and thinking through how this work might be used in the future. While no set of principles is ever perfect, the goal is to try and articulate a set of principles that you think are important for working with cultural data.
+You should aim for at least 4 principles, but you are welcome to draft more if you think it is necessary. You should create a Google Doc to record your principles and then be prepared to share your findings with the class. Once you have created your Google Doc, please share the link with the class via Slack. Be sure to include the names of all group members in the document.
 
-You should aim for at least 4 principles, but you are welcome to draft more if you think it is necessary. Once you have drafted your principles, you should create a Google Doc to record your responses and then be prepared to share your findings with the class. Once you have created your Google Doc, please share the link with the class via Slack. Be sure to include the names of all group members in the document.
-
-We will discuss the principles you have drafted in class and try to come up with a set of principles that we think are important for working with cultural data.
+We will discuss the principles you have drafted in class and try to come up with a set of overall principles that we think are important for working with and preserving cultural data.
