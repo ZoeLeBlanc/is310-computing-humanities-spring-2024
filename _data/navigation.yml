@@ -20,7 +20,9 @@ assessments:
         url: /assessments/02-weekly-assessments
       - title: "Semester Long Project"
         url: /assessments/03-semester-project
-
+      - title: "Example Project"
+        url: /assessments/04-example-project
+        
 materials:
   - title: Introductions & Installations
     children:

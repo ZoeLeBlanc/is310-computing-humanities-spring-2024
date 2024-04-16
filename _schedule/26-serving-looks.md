@@ -8,8 +8,8 @@ class_date: 2024-04-18
 
 ## In-Class Agenda
 
-- [ ] Review the image clustering homework
-- [ ] Continue the static site generation lesson (to be posted)
+- [ ] Begin lesson on [web publishing]({{site.baseurl}}/materials/interpreting-communicating-humanities-data/05-web-publishing/).
+- [ ] Discuss any remaining homework assignments.
 
 ## Assigned Materials
 

@@ -7,9 +7,9 @@ class_date: 2024-04-16
 
 ## In-Class Agenda
 
-- [ ] Discuss the final project and any questions from the homework
+- [ ] Discuss the final project and [the sample project]({{site.baseurl}}/assessments/04-example-project).
 - [ ] Discuss the assigned materials
-- [ ] Start lesson on static sites and digital preservation (to be posted)
+- [ ] Work on [cultural data principles group activity]({{site.baseurl}}/cultural-data-principles).
 
 ## Assigned Materials
 

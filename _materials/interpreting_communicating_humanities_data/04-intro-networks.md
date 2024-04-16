@@ -320,9 +320,9 @@ This produces the following visualization:
 
 Now we can see how the way we created our network changes the relationships between the characters. We can also use the network algorithms we discussed earlier to analyze this network and understand the relationships between the characters.
 
-## Experimenting With Cultural Networks Homework
+## Experimenting With Cultural Networks Homework (Optional Bonus)
 
-Your homework for this week is to create a network from a film script in the `Pudding film dialogue` dataset. You can choose any film script from the dataset and create a network from it. You can use the code we discussed in class to create the network and visualize it. You can also experiment with different window sizes to see how this changes the network. You **must** try one of the other centrality algorithms we discussed in class and visualize the network with the node size proportional to these metrics.
+This homework assignment is optional, but can provide bonus participation points. If you decide to complete this assignment, you should create a network from a film script in the `Pudding film dialogue` dataset. You can choose any film script from the dataset and create a network from it. You can use the code we discussed in class to create the network and visualize it. You can also experiment with different window sizes to see how this changes the network. You should try one of the other centrality algorithms we discussed in class and visualize the network with the node size proportional to these metrics.
 
 You should create a new folder in your `is310-coding-homework` folder called `network_analysis` and save your code there. Once you have completed the homework, you should post a link to your folder in this GitHub discussion [https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/9](https://github.com/ZoeLeBlanc/is310-computing-humanities-2024/discussions/9).
 
