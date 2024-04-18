@@ -66,8 +66,8 @@ materials:
         url: /materials/interpreting-communicating-humanities-data/03-advanced-text-analysis/
       - title: "Introduction to Network Analysis"
         url: /materials/interpreting-communicating-humanities-data/04-intro-networks/
-      - title: "Advanced Static Sites (To Be Posted)"
-        url: /materials/introducing-humanities-computing/01-course-tools
+      - title: "Introduction to Web Publishing"
+        url: /materials/interpreting-communicating-humanities-data/05-web-publishing/
 
 
 schedule:
