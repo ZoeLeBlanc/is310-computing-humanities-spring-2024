@@ -7,9 +7,10 @@ class_date: 2024-04-25
 
 ## In-Class Agenda
 
-- [ ] Finish presentations of Cultural Data Principles
+- [ ] Finish [lesson on static sites]({{site.baseurl}}materials/interpreting-communicating-humanities-data/05-web-publishing/#publishing-your-site-with-github-pages).
+- [ ] Answer any questions on final projects or remaining assignments
 - [ ] Discuss the assigned readings
-- [ ] Finish lesson on static sites
+- [ ] Finish presentations of Cultural Data Principles (time permitting)
 
 ## Assigned Materials
 

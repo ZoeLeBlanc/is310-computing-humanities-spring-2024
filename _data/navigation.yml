@@ -22,6 +22,8 @@ assessments:
         url: /assessments/03-semester-project
       - title: "Example Project"
         url: /assessments/04-example-project
+      - title: "Demo Day"
+        url: /assessments/05-demo-day
         
 materials:
   - title: Introductions & Installations

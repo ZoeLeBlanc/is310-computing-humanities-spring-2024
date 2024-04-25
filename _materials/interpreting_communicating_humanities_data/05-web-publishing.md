@@ -428,19 +428,35 @@ You'll notice I'm using a different theme (this one is called alchemy), and that
 
 If you click on the `data analysis` page, you'll notice I've also included some interactive Altair charts. The way I did that was by altering the theme slightly so that it could include the necessary JavaScript and CSS files for Altair.
 
-That involved opening the main HTML file for that theme (in this case was `base.html`, though it might be `index.html` for other themes) and adding the following lines to the head of the document, where the theme is loading in the required CSS and JavaScript files:
+First, I needed to save the Altair charts as json files, using the following code:
 
-```markdown
-{% if article and 'altair' in article.metadata %}
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-{% endif %}
+```python
+# Chart is the variable containing the Altair chart and the string is the file name and path for saving the json file.
+chart.save('humanist_top_terms.json')
 ```
 
-You'll recognize the script tags, but the rest of the code is a Jinja2 template tag that checks if the article has a metadata field called `altair`. This is a way to tell Pelican to only load the Altair JavaScript files for articles that have an `altair` metadata field.
+You can read more about saving Altair charts as json files [https://altair-viz.github.io/user_guide/saving_charts.html#json-format](https://altair-viz.github.io/user_guide/saving_charts.html#json-format).
 
-Then in the Markdown file for the page, I added the following metadata to tell Pelican to load the Altair JavaScript files:
+I then added my files to the `files` folder in the `content` directory of Pelican, similar to how we added images. This is crucial to make sure that Pelican can find the files when it builds the site.
+
+Now that we have our charts saved and ready to display, we also need to alter the theme to include the necessary JavaScript files for Altair. This involves editing our theme files to be customized for our tasks. This requires a bit more HTML knowledge, but you can always ask the instructors or GitHub Co-Pilot for help.
+
+The first step is making sure that we can load the required JavaScript files for Altair. If you remember back to our Introduction to the Web, we learned how to load external JavaScript files in the head of an HTML document. We can do the same thing in our theme to load the Altair JavaScript files.
+
+To do this, we need to open the main HTML file for that theme (in this case was `base.html`, though it might be `index.html` for other themes) and adding the following lines to the head of the document, where the theme is loading in the required JavaScript files:
+
+<figure>
+    <a href="{{site.baseurl}}/assets/images/altair_head.png">
+    <img src="{{site.baseurl}}/assets/images/altair_head.png" class="image-popup">
+    </a>
+</figure>
+
+You can see an example of this here, in the example project files repository [https://github.com/ZoeLeBlanc/is310-example-project-files/blob/main/themes/alchemy/templates/base.html](https://github.com/ZoeLeBlanc/is310-example-project-files/blob/main/themes/alchemy/templates/base.html):
+
+
+You'll recognize the script tags, but the rest of the code is in a new format called Jinja2. Jinja2 is a templating language that allows us to embed Python-like code in our HTML files. Templating languages are a way to programmatically generate HTML files, which can be useful for creating dynamic websites. In this case, we are using Jinja2 to check if the page or article has a metadata field called `altair`. If it does, we load the Altair JavaScript files. This is a way to tell Pelican to only load the Altair JavaScript files for articles that have an `altair` metadata field.
+
+Then in the Markdown file for the page (in this case `data_analysis.md`), we add the following metadata to tell Pelican to load the Altair JavaScript files:
 
 ```markdown
 Title: Data Analysis and Visualization
@@ -451,29 +467,46 @@ sortorder: 3
 altair: True
 ```
 
-I then added my files to the `assets/files` folder and linked to them in the Markdown file. I also added the following code block to the Markdown file to create the Altair chart:
+This will now load the Altair JavaScript files for this page. The next step is to get our files loading in the page. To do this, we need to add some divs to the Markdown file where we want the charts to appear. This involves adding the following code block to the Markdown file:
 
 ```html
 <div id="humanist_top_terms"></div>
 <div id="humanist_top_terms_by_period"></div>
 <div id="humanist_top_terms_by_coefficient"></div>
-
-<script>
-    var json_file = "/assets/files/humanist_top_terms.json";
-    vegaEmbed('#humanist_top_terms', json_file);
-
-    var json_file2 = "/assets/files/humanist_top_terms_by_period.json";
-    vegaEmbed('#humanist_top_terms_by_period', json_file2);
-
-    var json_file3 = "/assets/files/humanist_top_terms_by_coefficient.json";
-    vegaEmbed('#humanist_top_terms_by_coefficient', json_file3);
-</script>
 ```
 
-Because Altair is a wrapper around the Vega and Vega-Lite libraries, we need to load those libraries first, and then we can write a little bit of HTML to create the divs for showing the graphs, and a little bit of JavaScript to use the built-in `vegaEmbed` function to embed the chart in the page. To create those json files, all I did was simply save my Altair charts using the following code:
+You'll notice I gave each div a unique id that corresponds to the name of the json file I saved when I created the Altair chart. This is important because we need to tell Pelican which json files to load for each div. We can do this by adding a metadata field to the Markdown file that tells Pelican which json files to load. This involves adding the following code block to the Markdown file:
 
-```python
-chart.save('humanist_top_terms.json')
+```markdown
+Title: Data Analysis and Visualization
+Date: 2024-04-17
+Slug: data-analysis
+Authors: Zoe LeBlanc
+sortorder: 3
+altair: True
+scripts: humanist_top_terms, humanist_top_terms_by_period, humanist_top_terms_by_coefficient
 ```
 
-You can read more about saving Altair charts as json files [https://altair-viz.github.io/user_guide/saving_charts.html#json-format](https://altair-viz.github.io/user_guide/saving_charts.html#json-format) and the Vega-Embed function [https://github.com/vega/vega-embed](https://github.com/vega/vega-embed) in the Vega Repository.
+Now we have two custom metadata fields: `altair` and `scripts`. We could have named these anything we wanted, but in our case we wanted to indicate that the page should load the Altair JavaScript files and which json files to load for the Altair charts. The `scripts` metadata field is a comma-separated list of the names of the json files we saved when we created the Altair charts. This is a way to tell Pelican which json files to load for each div.
+
+The final piece of this puzzle is to use the `vegaEmbed` library to embed the Altair charts in the page. The `vegaEmbed` library is a JavaScript library that allows us to embed Altair visualizations, which are wrappers around Vega and Vega-Lite visualizations, in a web page. You can read more about the `vegaEmbed` library [https://github.com/vega/vega-embed](https://github.com/vega/vega-embed). 
+
+To use this library, I once again need to add some HTML, JavaScript, and Jinja2 code to the theme. I added the following code to the bottom of the `article.html`:
+
+<figure>
+    <a href="{{site.baseurl}}/assets/images/altair_article.png">
+    <img src="{{site.baseurl}}/assets/images/altair_article.png" class="image-popup">
+    </a>
+</figure>
+
+In this code, we ware using Jinja2 to first check if the article has a metadata field called `scripts`. If it does, we loop through the `scripts` metadata field and load the json files for the Altair charts, using each of the values that are common separated in that field. We then use the `vegaEmbed` function to embed the Altair charts in the page. This is a way to programmatically load the json files for the Altair charts and embed them in the page. You can explore the files in the repository, here [https://github.com/ZoeLeBlanc/is310-example-project-files/blob/main/themes/alchemy/templates/article.html](https://github.com/ZoeLeBlanc/is310-example-project-files/blob/main/themes/alchemy/templates/article.html)
+
+And the end result is a page with interactive Altair charts that are generated from the json files we saved when we created the charts, which you can view here [https://zoeleblanc.com/is310-example-project/data-analysis.html](https://zoeleblanc.com/is310-example-project/data-analysis.html):
+
+<figure>
+    <a href="{{site.baseurl}}/assets/images/example_altair.png">
+    <img src="{{site.baseurl}}/assets/images/example_altair.png" class="image-popup">
+    </a>
+</figure>
+
+Now the choice of adding this to the `article.html` file is partially because of how this theme was built, where each page is an article. So depending on the theme you're using this might look slightly differently. But the key to thing to know is that we cannot add JavaScript directly to a Markdown file, so we need to add it to the HTML file that Pelican generates. This distinction might seem confusing, but again ask for help if you get stuck and feel free to use these files as a template for your own projects.
