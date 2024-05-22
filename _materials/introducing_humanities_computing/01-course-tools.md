@@ -121,16 +121,22 @@ If for whatever reason you cannot get access, please let the instructor know and
 
 ## VS Code
 
-We will be using Visual Studio Code (VS Code) as our primary code editor for this course. You can download VS Code here [https://code.visualstudio.com/](https://code.visualstudio.com/), though I would highly recommend you download the `Insiders Edition` [https://code.visualstudio.com/insiders/](https://code.visualstudio.com/insiders/). You should be able to use the link above to download VS Code for Windows, Mac, and Linux.
+We will be using Visual Studio Code (VS Code) as our primary code editor for this course. You can download VS Code here [https://code.visualstudio.com/](https://code.visualstudio.com/) ~~though I would highly recommend you download the `Insiders Edition` [https://code.visualstudio.com/insiders/](https://code.visualstudio.com/insiders/)~~. You should be able to use the link above to download VS Code for Windows, Mac, and Linux.
 
 Like GitHub and Co-Pilot, VS Code is also owned by Microsoft, which is why all three work relatively well together. VS Code is something called a Integrated Development Environment (IDE), which is a fancy way of saying it is a program for writing code. You can read more about IDEs here [https://en.wikipedia.org/wiki/Integrated_development_environment](https://en.wikipedia.org/wiki/Integrated_development_environment). Other popular IDEs include Atom, Sublime Text, and PyCharm. While you are welcome to use any IDE you want, I will be using VS Code in this course and I'm not sure that Co-Pilot works with other IDEs, so would highly encourage you to at least test it out.
 
+<figure>
+   <a href="https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png">
+      <img src="https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png" alt="Visual Studio Code" style="width:100%" class="image-popup">
+   </a>
+   <figcaption>An example of Visual Studio Code</figcaption>
+</figure>
 
 <figure>
-   <a href="https://i.stack.imgur.com/2xI4w.png">
-      <img src="https://i.stack.imgur.com/2xI4w.png" alt="Visual Studio Code" style="width:100%" class="image-popup">
+   <a href="https://static.thechief.io/prod/images/IDE.width-1024.format-webp-lossless.webp">
+      <img src="https://static.thechief.io/prod/images/IDE.width-1024.format-webp-lossless.webp" alt="Visual Studio Code" style="width:100%" class="image-popup">
    </a>
-   <figcaption>Visual Studio Code</figcaption>
+   <figcaption>Comparison of Most Popular IDEs from the annual Stack Overflow Survey</figcaption>
 </figure>
 
 Another benefit of getting used to VS Code is that you can use it in the browser for any Github repository by changing `.com` to `.dev`. So for example if you took the link to our reposition, `https://github.com/ZoeLeBlanc/is310-computing-humanities-2024` and switched it to `https://github.dev/ZoeLeBlanc/is310-computing-humanities-2024`, you would see the VS Code version of our repository in the browser.
